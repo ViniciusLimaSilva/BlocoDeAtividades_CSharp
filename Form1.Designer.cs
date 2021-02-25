@@ -47,7 +47,6 @@ namespace Notas
             this.Nota16 = new System.Windows.Forms.TextBox();
             this.Nota29 = new System.Windows.Forms.TextBox();
             this.Nota19 = new System.Windows.Forms.TextBox();
-            this.Nota18 = new System.Windows.Forms.TextBox();
             this.Nota23 = new System.Windows.Forms.TextBox();
             this.Nota22 = new System.Windows.Forms.TextBox();
             this.Nota17 = new System.Windows.Forms.TextBox();
@@ -56,7 +55,6 @@ namespace Notas
             this.Nota31 = new System.Windows.Forms.TextBox();
             this.Nota33 = new System.Windows.Forms.TextBox();
             this.Nota26 = new System.Windows.Forms.TextBox();
-            this.Nota35 = new System.Windows.Forms.TextBox();
             this.Nota28 = new System.Windows.Forms.TextBox();
             this.Nota25 = new System.Windows.Forms.TextBox();
             this.Nota24 = new System.Windows.Forms.TextBox();
@@ -64,7 +62,6 @@ namespace Notas
             this.Nota27 = new System.Windows.Forms.TextBox();
             this.Nota32 = new System.Windows.Forms.TextBox();
             this.Nota30 = new System.Windows.Forms.TextBox();
-            this.Nota1 = new System.Windows.Forms.TextBox();
             this.btnAlerta = new System.Windows.Forms.Button();
             this.lbl_texto = new System.Windows.Forms.Label();
             this.lbl_textadd = new System.Windows.Forms.Label();
@@ -85,7 +82,6 @@ namespace Notas
             this.button14 = new System.Windows.Forms.Button();
             this.button16 = new System.Windows.Forms.Button();
             this.button17 = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
             this.button19 = new System.Windows.Forms.Button();
             this.button20 = new System.Windows.Forms.Button();
             this.button22 = new System.Windows.Forms.Button();
@@ -101,12 +97,9 @@ namespace Notas
             this.button29 = new System.Windows.Forms.Button();
             this.button28 = new System.Windows.Forms.Button();
             this.button27 = new System.Windows.Forms.Button();
-            this.button35 = new System.Windows.Forms.Button();
             this.button34 = new System.Windows.Forms.Button();
             this.lbltextRemove = new System.Windows.Forms.Label();
             this.btnAlerta2 = new System.Windows.Forms.Button();
-            this.buttonStart = new System.Windows.Forms.Button();
-            this.buttonExcluirStart = new System.Windows.Forms.Button();
             this.buttonExcluir2 = new System.Windows.Forms.Button();
             this.buttonExcluir3 = new System.Windows.Forms.Button();
             this.buttonExcluir4 = new System.Windows.Forms.Button();
@@ -122,7 +115,6 @@ namespace Notas
             this.buttonExcluir14 = new System.Windows.Forms.Button();
             this.buttonExcluir15 = new System.Windows.Forms.Button();
             this.buttonExcluir16 = new System.Windows.Forms.Button();
-            this.buttonExcluir18 = new System.Windows.Forms.Button();
             this.buttonExcluir17 = new System.Windows.Forms.Button();
             this.buttonExcluir19 = new System.Windows.Forms.Button();
             this.buttonExcluir20 = new System.Windows.Forms.Button();
@@ -139,8 +131,17 @@ namespace Notas
             this.buttonExcluir31 = new System.Windows.Forms.Button();
             this.buttonExcluir32 = new System.Windows.Forms.Button();
             this.buttonExcluir33 = new System.Windows.Forms.Button();
-            this.buttonExcluir35 = new System.Windows.Forms.Button();
             this.buttonExcluir34 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.btnSair = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.Nota0 = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.buttonExcluirStart = new System.Windows.Forms.Button();
+            this.Nota18 = new System.Windows.Forms.TextBox();
+            this.button18 = new System.Windows.Forms.Button();
+            this.buttonExcluir18 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -154,6 +155,7 @@ namespace Notas
             this.Nota2.Size = new System.Drawing.Size(313, 22);
             this.Nota2.TabIndex = 4;
             this.Nota2.Visible = false;
+            this.Nota2.TextChanged += new System.EventHandler(this.Nota2_TextChanged);
             // 
             // Nota3
             // 
@@ -317,7 +319,7 @@ namespace Notas
             this.Nota29.BackColor = System.Drawing.Color.Orange;
             this.Nota29.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nota29.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.Nota29.Location = new System.Drawing.Point(28, 865);
+            this.Nota29.Location = new System.Drawing.Point(405, 425);
             this.Nota29.Name = "Nota29";
             this.Nota29.Size = new System.Drawing.Size(313, 22);
             this.Nota29.TabIndex = 20;
@@ -328,29 +330,18 @@ namespace Notas
             this.Nota19.BackColor = System.Drawing.Color.Orange;
             this.Nota19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nota19.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.Nota19.Location = new System.Drawing.Point(28, 605);
+            this.Nota19.Location = new System.Drawing.Point(405, 161);
             this.Nota19.Name = "Nota19";
             this.Nota19.Size = new System.Drawing.Size(313, 22);
             this.Nota19.TabIndex = 21;
             this.Nota19.Visible = false;
-            // 
-            // Nota18
-            // 
-            this.Nota18.BackColor = System.Drawing.Color.Orange;
-            this.Nota18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Nota18.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.Nota18.Location = new System.Drawing.Point(28, 579);
-            this.Nota18.Name = "Nota18";
-            this.Nota18.Size = new System.Drawing.Size(313, 22);
-            this.Nota18.TabIndex = 22;
-            this.Nota18.Visible = false;
             // 
             // Nota23
             // 
             this.Nota23.BackColor = System.Drawing.Color.Orange;
             this.Nota23.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nota23.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.Nota23.Location = new System.Drawing.Point(28, 709);
+            this.Nota23.Location = new System.Drawing.Point(405, 267);
             this.Nota23.Name = "Nota23";
             this.Nota23.Size = new System.Drawing.Size(313, 22);
             this.Nota23.TabIndex = 23;
@@ -361,7 +352,7 @@ namespace Notas
             this.Nota22.BackColor = System.Drawing.Color.Orange;
             this.Nota22.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nota22.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.Nota22.Location = new System.Drawing.Point(28, 683);
+            this.Nota22.Location = new System.Drawing.Point(405, 241);
             this.Nota22.Name = "Nota22";
             this.Nota22.Size = new System.Drawing.Size(313, 22);
             this.Nota22.TabIndex = 25;
@@ -383,7 +374,7 @@ namespace Notas
             this.Nota21.BackColor = System.Drawing.Color.Orange;
             this.Nota21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nota21.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.Nota21.Location = new System.Drawing.Point(28, 657);
+            this.Nota21.Location = new System.Drawing.Point(405, 215);
             this.Nota21.Name = "Nota21";
             this.Nota21.Size = new System.Drawing.Size(313, 22);
             this.Nota21.TabIndex = 27;
@@ -394,7 +385,7 @@ namespace Notas
             this.Nota34.BackColor = System.Drawing.Color.Orange;
             this.Nota34.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nota34.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.Nota34.Location = new System.Drawing.Point(28, 995);
+            this.Nota34.Location = new System.Drawing.Point(405, 551);
             this.Nota34.Name = "Nota34";
             this.Nota34.Size = new System.Drawing.Size(313, 22);
             this.Nota34.TabIndex = 28;
@@ -405,7 +396,7 @@ namespace Notas
             this.Nota31.BackColor = System.Drawing.Color.Orange;
             this.Nota31.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nota31.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.Nota31.Location = new System.Drawing.Point(28, 918);
+            this.Nota31.Location = new System.Drawing.Point(405, 475);
             this.Nota31.Name = "Nota31";
             this.Nota31.Size = new System.Drawing.Size(313, 22);
             this.Nota31.TabIndex = 29;
@@ -416,7 +407,7 @@ namespace Notas
             this.Nota33.BackColor = System.Drawing.Color.Orange;
             this.Nota33.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nota33.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.Nota33.Location = new System.Drawing.Point(28, 969);
+            this.Nota33.Location = new System.Drawing.Point(405, 526);
             this.Nota33.Name = "Nota33";
             this.Nota33.Size = new System.Drawing.Size(313, 22);
             this.Nota33.TabIndex = 30;
@@ -427,29 +418,18 @@ namespace Notas
             this.Nota26.BackColor = System.Drawing.Color.Orange;
             this.Nota26.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nota26.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.Nota26.Location = new System.Drawing.Point(28, 787);
+            this.Nota26.Location = new System.Drawing.Point(405, 346);
             this.Nota26.Name = "Nota26";
             this.Nota26.Size = new System.Drawing.Size(313, 22);
             this.Nota26.TabIndex = 31;
             this.Nota26.Visible = false;
-            // 
-            // Nota35
-            // 
-            this.Nota35.BackColor = System.Drawing.Color.Orange;
-            this.Nota35.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Nota35.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.Nota35.Location = new System.Drawing.Point(28, 1021);
-            this.Nota35.Name = "Nota35";
-            this.Nota35.Size = new System.Drawing.Size(313, 22);
-            this.Nota35.TabIndex = 32;
-            this.Nota35.Visible = false;
             // 
             // Nota28
             // 
             this.Nota28.BackColor = System.Drawing.Color.Orange;
             this.Nota28.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nota28.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.Nota28.Location = new System.Drawing.Point(28, 839);
+            this.Nota28.Location = new System.Drawing.Point(405, 398);
             this.Nota28.Name = "Nota28";
             this.Nota28.Size = new System.Drawing.Size(313, 22);
             this.Nota28.TabIndex = 33;
@@ -460,7 +440,7 @@ namespace Notas
             this.Nota25.BackColor = System.Drawing.Color.Orange;
             this.Nota25.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nota25.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.Nota25.Location = new System.Drawing.Point(28, 761);
+            this.Nota25.Location = new System.Drawing.Point(405, 319);
             this.Nota25.Name = "Nota25";
             this.Nota25.Size = new System.Drawing.Size(313, 22);
             this.Nota25.TabIndex = 34;
@@ -471,7 +451,7 @@ namespace Notas
             this.Nota24.BackColor = System.Drawing.Color.Orange;
             this.Nota24.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nota24.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.Nota24.Location = new System.Drawing.Point(28, 735);
+            this.Nota24.Location = new System.Drawing.Point(405, 294);
             this.Nota24.Name = "Nota24";
             this.Nota24.Size = new System.Drawing.Size(313, 22);
             this.Nota24.TabIndex = 36;
@@ -482,7 +462,7 @@ namespace Notas
             this.Nota20.BackColor = System.Drawing.Color.Orange;
             this.Nota20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nota20.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.Nota20.Location = new System.Drawing.Point(28, 631);
+            this.Nota20.Location = new System.Drawing.Point(405, 187);
             this.Nota20.Name = "Nota20";
             this.Nota20.Size = new System.Drawing.Size(313, 22);
             this.Nota20.TabIndex = 37;
@@ -493,7 +473,7 @@ namespace Notas
             this.Nota27.BackColor = System.Drawing.Color.Orange;
             this.Nota27.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nota27.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.Nota27.Location = new System.Drawing.Point(28, 813);
+            this.Nota27.Location = new System.Drawing.Point(405, 372);
             this.Nota27.Name = "Nota27";
             this.Nota27.Size = new System.Drawing.Size(313, 22);
             this.Nota27.TabIndex = 38;
@@ -504,7 +484,7 @@ namespace Notas
             this.Nota32.BackColor = System.Drawing.Color.Orange;
             this.Nota32.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nota32.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.Nota32.Location = new System.Drawing.Point(28, 943);
+            this.Nota32.Location = new System.Drawing.Point(405, 501);
             this.Nota32.Name = "Nota32";
             this.Nota32.Size = new System.Drawing.Size(313, 22);
             this.Nota32.TabIndex = 39;
@@ -515,29 +495,17 @@ namespace Notas
             this.Nota30.BackColor = System.Drawing.Color.Orange;
             this.Nota30.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nota30.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.Nota30.Location = new System.Drawing.Point(28, 891);
+            this.Nota30.Location = new System.Drawing.Point(405, 451);
             this.Nota30.Name = "Nota30";
             this.Nota30.Size = new System.Drawing.Size(313, 22);
             this.Nota30.TabIndex = 42;
             this.Nota30.Visible = false;
             // 
-            // Nota1
-            // 
-            this.Nota1.BackColor = System.Drawing.Color.Orange;
-            this.Nota1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Nota1.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.Nota1.Location = new System.Drawing.Point(28, 136);
-            this.Nota1.Name = "Nota1";
-            this.Nota1.Size = new System.Drawing.Size(313, 22);
-            this.Nota1.TabIndex = 13;
-            this.Nota1.Visible = false;
-            this.Nota1.TextChanged += new System.EventHandler(this.textBox10_TextChanged);
-            // 
             // btnAlerta
             // 
             this.btnAlerta.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnAlerta.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAlerta.Location = new System.Drawing.Point(28, 86);
+            this.btnAlerta.Location = new System.Drawing.Point(55, 61);
             this.btnAlerta.Name = "btnAlerta";
             this.btnAlerta.Size = new System.Drawing.Size(34, 33);
             this.btnAlerta.TabIndex = 0;
@@ -549,7 +517,7 @@ namespace Notas
             // 
             this.lbl_texto.AutoSize = true;
             this.lbl_texto.Font = new System.Drawing.Font("Allura", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_texto.Location = new System.Drawing.Point(130, 9);
+            this.lbl_texto.Location = new System.Drawing.Point(327, 9);
             this.lbl_texto.Name = "lbl_texto";
             this.lbl_texto.Size = new System.Drawing.Size(98, 44);
             this.lbl_texto.TabIndex = 1;
@@ -559,7 +527,7 @@ namespace Notas
             // 
             this.lbl_textadd.AutoSize = true;
             this.lbl_textadd.Font = new System.Drawing.Font("Bahnschrift Condensed", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_textadd.Location = new System.Drawing.Point(2, 60);
+            this.lbl_textadd.Location = new System.Drawing.Point(24, 35);
             this.lbl_textadd.Name = "lbl_textadd";
             this.lbl_textadd.Size = new System.Drawing.Size(102, 23);
             this.lbl_textadd.TabIndex = 2;
@@ -568,7 +536,7 @@ namespace Notas
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(267, 35);
+            this.pictureBox1.Location = new System.Drawing.Point(322, 46);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(94, 84);
             this.pictureBox1.TabIndex = 3;
@@ -751,21 +719,10 @@ namespace Notas
             this.button17.UseVisualStyleBackColor = true;
             this.button17.Click += new System.EventHandler(this.button17_Click);
             // 
-            // button18
-            // 
-            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button18.Location = new System.Drawing.Point(6, 579);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(16, 21);
-            this.button18.TabIndex = 60;
-            this.button18.Text = "+";
-            this.button18.UseVisualStyleBackColor = true;
-            this.button18.Click += new System.EventHandler(this.button18_Click);
-            // 
             // button19
             // 
             this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button19.Location = new System.Drawing.Point(6, 604);
+            this.button19.Location = new System.Drawing.Point(383, 163);
             this.button19.Name = "button19";
             this.button19.Size = new System.Drawing.Size(16, 21);
             this.button19.TabIndex = 61;
@@ -776,7 +733,7 @@ namespace Notas
             // button20
             // 
             this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button20.Location = new System.Drawing.Point(6, 631);
+            this.button20.Location = new System.Drawing.Point(383, 188);
             this.button20.Name = "button20";
             this.button20.Size = new System.Drawing.Size(16, 21);
             this.button20.TabIndex = 62;
@@ -787,7 +744,7 @@ namespace Notas
             // button22
             // 
             this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button22.Location = new System.Drawing.Point(6, 682);
+            this.button22.Location = new System.Drawing.Point(383, 241);
             this.button22.Name = "button22";
             this.button22.Size = new System.Drawing.Size(16, 21);
             this.button22.TabIndex = 63;
@@ -798,7 +755,7 @@ namespace Notas
             // button21
             // 
             this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button21.Location = new System.Drawing.Point(6, 658);
+            this.button21.Location = new System.Drawing.Point(383, 215);
             this.button21.Name = "button21";
             this.button21.Size = new System.Drawing.Size(16, 21);
             this.button21.TabIndex = 64;
@@ -809,7 +766,7 @@ namespace Notas
             // button23
             // 
             this.button23.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button23.Location = new System.Drawing.Point(6, 708);
+            this.button23.Location = new System.Drawing.Point(383, 267);
             this.button23.Name = "button23";
             this.button23.Size = new System.Drawing.Size(16, 21);
             this.button23.TabIndex = 65;
@@ -820,7 +777,7 @@ namespace Notas
             // button24
             // 
             this.button24.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button24.Location = new System.Drawing.Point(6, 735);
+            this.button24.Location = new System.Drawing.Point(383, 294);
             this.button24.Name = "button24";
             this.button24.Size = new System.Drawing.Size(16, 21);
             this.button24.TabIndex = 66;
@@ -831,7 +788,7 @@ namespace Notas
             // button25
             // 
             this.button25.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button25.Location = new System.Drawing.Point(6, 762);
+            this.button25.Location = new System.Drawing.Point(383, 319);
             this.button25.Name = "button25";
             this.button25.Size = new System.Drawing.Size(16, 21);
             this.button25.TabIndex = 67;
@@ -842,7 +799,7 @@ namespace Notas
             // button33
             // 
             this.button33.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button33.Location = new System.Drawing.Point(6, 969);
+            this.button33.Location = new System.Drawing.Point(383, 528);
             this.button33.Name = "button33";
             this.button33.Size = new System.Drawing.Size(16, 21);
             this.button33.TabIndex = 68;
@@ -853,7 +810,7 @@ namespace Notas
             // button32
             // 
             this.button32.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button32.Location = new System.Drawing.Point(6, 944);
+            this.button32.Location = new System.Drawing.Point(383, 501);
             this.button32.Name = "button32";
             this.button32.Size = new System.Drawing.Size(16, 21);
             this.button32.TabIndex = 69;
@@ -864,7 +821,7 @@ namespace Notas
             // button26
             // 
             this.button26.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button26.Location = new System.Drawing.Point(6, 787);
+            this.button26.Location = new System.Drawing.Point(383, 345);
             this.button26.Name = "button26";
             this.button26.Size = new System.Drawing.Size(16, 21);
             this.button26.TabIndex = 70;
@@ -875,7 +832,7 @@ namespace Notas
             // button31
             // 
             this.button31.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button31.Location = new System.Drawing.Point(6, 917);
+            this.button31.Location = new System.Drawing.Point(383, 475);
             this.button31.Name = "button31";
             this.button31.Size = new System.Drawing.Size(16, 21);
             this.button31.TabIndex = 71;
@@ -886,7 +843,7 @@ namespace Notas
             // button30
             // 
             this.button30.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button30.Location = new System.Drawing.Point(6, 891);
+            this.button30.Location = new System.Drawing.Point(383, 451);
             this.button30.Name = "button30";
             this.button30.Size = new System.Drawing.Size(16, 21);
             this.button30.TabIndex = 72;
@@ -897,7 +854,7 @@ namespace Notas
             // button29
             // 
             this.button29.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button29.Location = new System.Drawing.Point(6, 864);
+            this.button29.Location = new System.Drawing.Point(383, 425);
             this.button29.Name = "button29";
             this.button29.Size = new System.Drawing.Size(16, 21);
             this.button29.TabIndex = 73;
@@ -908,7 +865,7 @@ namespace Notas
             // button28
             // 
             this.button28.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button28.Location = new System.Drawing.Point(6, 840);
+            this.button28.Location = new System.Drawing.Point(383, 397);
             this.button28.Name = "button28";
             this.button28.Size = new System.Drawing.Size(16, 21);
             this.button28.TabIndex = 74;
@@ -919,7 +876,7 @@ namespace Notas
             // button27
             // 
             this.button27.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button27.Location = new System.Drawing.Point(6, 813);
+            this.button27.Location = new System.Drawing.Point(383, 372);
             this.button27.Name = "button27";
             this.button27.Size = new System.Drawing.Size(16, 21);
             this.button27.TabIndex = 75;
@@ -927,21 +884,10 @@ namespace Notas
             this.button27.UseVisualStyleBackColor = true;
             this.button27.Click += new System.EventHandler(this.button27_Click);
             // 
-            // button35
-            // 
-            this.button35.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button35.Location = new System.Drawing.Point(6, 1021);
-            this.button35.Name = "button35";
-            this.button35.Size = new System.Drawing.Size(16, 21);
-            this.button35.TabIndex = 76;
-            this.button35.Text = "+";
-            this.button35.UseVisualStyleBackColor = true;
-            this.button35.Click += new System.EventHandler(this.button35_Click);
-            // 
             // button34
             // 
             this.button34.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button34.Location = new System.Drawing.Point(6, 995);
+            this.button34.Location = new System.Drawing.Point(383, 553);
             this.button34.Name = "button34";
             this.button34.Size = new System.Drawing.Size(16, 21);
             this.button34.TabIndex = 77;
@@ -953,7 +899,7 @@ namespace Notas
             // 
             this.lbltextRemove.AutoSize = true;
             this.lbltextRemove.Font = new System.Drawing.Font("Bahnschrift Condensed", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbltextRemove.Location = new System.Drawing.Point(110, 60);
+            this.lbltextRemove.Location = new System.Drawing.Point(162, 35);
             this.lbltextRemove.Name = "lbltextRemove";
             this.lbltextRemove.Size = new System.Drawing.Size(97, 23);
             this.lbltextRemove.TabIndex = 78;
@@ -963,36 +909,13 @@ namespace Notas
             // 
             this.btnAlerta2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnAlerta2.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAlerta2.Location = new System.Drawing.Point(138, 86);
+            this.btnAlerta2.Location = new System.Drawing.Point(190, 61);
             this.btnAlerta2.Name = "btnAlerta2";
             this.btnAlerta2.Size = new System.Drawing.Size(34, 33);
             this.btnAlerta2.TabIndex = 79;
             this.btnAlerta2.Text = "-";
             this.btnAlerta2.UseVisualStyleBackColor = true;
             this.btnAlerta2.Click += new System.EventHandler(this.btnAlerta2_Click);
-            // 
-            // buttonStart
-            // 
-            this.buttonStart.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonStart.Location = new System.Drawing.Point(6, 134);
-            this.buttonStart.Name = "buttonStart";
-            this.buttonStart.Size = new System.Drawing.Size(16, 23);
-            this.buttonStart.TabIndex = 81;
-            this.buttonStart.Text = "+";
-            this.buttonStart.UseVisualStyleBackColor = true;
-            this.buttonStart.Click += new System.EventHandler(this.button36_Click);
-            // 
-            // buttonExcluirStart
-            // 
-            this.buttonExcluirStart.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonExcluirStart.Location = new System.Drawing.Point(347, 136);
-            this.buttonExcluirStart.Name = "buttonExcluirStart";
-            this.buttonExcluirStart.Size = new System.Drawing.Size(16, 21);
-            this.buttonExcluirStart.TabIndex = 82;
-            this.buttonExcluirStart.Text = "--";
-            this.buttonExcluirStart.UseVisualStyleBackColor = true;
-            this.buttonExcluirStart.Visible = false;
-            this.buttonExcluirStart.Click += new System.EventHandler(this.buttonExcluirStart_Click);
             // 
             // buttonExcluir2
             // 
@@ -1174,18 +1097,6 @@ namespace Notas
             this.buttonExcluir16.Visible = false;
             this.buttonExcluir16.Click += new System.EventHandler(this.buttonExcluir16_Click);
             // 
-            // buttonExcluir18
-            // 
-            this.buttonExcluir18.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonExcluir18.Location = new System.Drawing.Point(347, 579);
-            this.buttonExcluir18.Name = "buttonExcluir18";
-            this.buttonExcluir18.Size = new System.Drawing.Size(16, 21);
-            this.buttonExcluir18.TabIndex = 98;
-            this.buttonExcluir18.Text = "--";
-            this.buttonExcluir18.UseVisualStyleBackColor = true;
-            this.buttonExcluir18.Visible = false;
-            this.buttonExcluir18.Click += new System.EventHandler(this.buttonExcluir18_Click);
-            // 
             // buttonExcluir17
             // 
             this.buttonExcluir17.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
@@ -1201,7 +1112,7 @@ namespace Notas
             // buttonExcluir19
             // 
             this.buttonExcluir19.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonExcluir19.Location = new System.Drawing.Point(347, 605);
+            this.buttonExcluir19.Location = new System.Drawing.Point(724, 161);
             this.buttonExcluir19.Name = "buttonExcluir19";
             this.buttonExcluir19.Size = new System.Drawing.Size(16, 21);
             this.buttonExcluir19.TabIndex = 100;
@@ -1213,7 +1124,7 @@ namespace Notas
             // buttonExcluir20
             // 
             this.buttonExcluir20.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonExcluir20.Location = new System.Drawing.Point(347, 632);
+            this.buttonExcluir20.Location = new System.Drawing.Point(724, 187);
             this.buttonExcluir20.Name = "buttonExcluir20";
             this.buttonExcluir20.Size = new System.Drawing.Size(16, 21);
             this.buttonExcluir20.TabIndex = 101;
@@ -1225,7 +1136,7 @@ namespace Notas
             // buttonExcluir21
             // 
             this.buttonExcluir21.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonExcluir21.Location = new System.Drawing.Point(347, 656);
+            this.buttonExcluir21.Location = new System.Drawing.Point(724, 214);
             this.buttonExcluir21.Name = "buttonExcluir21";
             this.buttonExcluir21.Size = new System.Drawing.Size(16, 21);
             this.buttonExcluir21.TabIndex = 102;
@@ -1237,7 +1148,7 @@ namespace Notas
             // buttonExcluir22
             // 
             this.buttonExcluir22.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonExcluir22.Location = new System.Drawing.Point(347, 683);
+            this.buttonExcluir22.Location = new System.Drawing.Point(724, 242);
             this.buttonExcluir22.Name = "buttonExcluir22";
             this.buttonExcluir22.Size = new System.Drawing.Size(16, 21);
             this.buttonExcluir22.TabIndex = 103;
@@ -1249,7 +1160,7 @@ namespace Notas
             // buttonExcluir23
             // 
             this.buttonExcluir23.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonExcluir23.Location = new System.Drawing.Point(347, 708);
+            this.buttonExcluir23.Location = new System.Drawing.Point(724, 267);
             this.buttonExcluir23.Name = "buttonExcluir23";
             this.buttonExcluir23.Size = new System.Drawing.Size(16, 21);
             this.buttonExcluir23.TabIndex = 104;
@@ -1261,7 +1172,7 @@ namespace Notas
             // buttonExcluir24
             // 
             this.buttonExcluir24.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonExcluir24.Location = new System.Drawing.Point(347, 735);
+            this.buttonExcluir24.Location = new System.Drawing.Point(724, 295);
             this.buttonExcluir24.Name = "buttonExcluir24";
             this.buttonExcluir24.Size = new System.Drawing.Size(16, 21);
             this.buttonExcluir24.TabIndex = 105;
@@ -1273,7 +1184,7 @@ namespace Notas
             // buttonExcluir25
             // 
             this.buttonExcluir25.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonExcluir25.Location = new System.Drawing.Point(347, 761);
+            this.buttonExcluir25.Location = new System.Drawing.Point(724, 322);
             this.buttonExcluir25.Name = "buttonExcluir25";
             this.buttonExcluir25.Size = new System.Drawing.Size(16, 21);
             this.buttonExcluir25.TabIndex = 106;
@@ -1285,7 +1196,7 @@ namespace Notas
             // buttonExcluir26
             // 
             this.buttonExcluir26.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonExcluir26.Location = new System.Drawing.Point(347, 788);
+            this.buttonExcluir26.Location = new System.Drawing.Point(724, 345);
             this.buttonExcluir26.Name = "buttonExcluir26";
             this.buttonExcluir26.Size = new System.Drawing.Size(16, 21);
             this.buttonExcluir26.TabIndex = 107;
@@ -1297,7 +1208,7 @@ namespace Notas
             // buttonExcluir27
             // 
             this.buttonExcluir27.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonExcluir27.Location = new System.Drawing.Point(347, 812);
+            this.buttonExcluir27.Location = new System.Drawing.Point(724, 373);
             this.buttonExcluir27.Name = "buttonExcluir27";
             this.buttonExcluir27.Size = new System.Drawing.Size(16, 21);
             this.buttonExcluir27.TabIndex = 108;
@@ -1309,7 +1220,7 @@ namespace Notas
             // buttonExcluir28
             // 
             this.buttonExcluir28.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonExcluir28.Location = new System.Drawing.Point(347, 839);
+            this.buttonExcluir28.Location = new System.Drawing.Point(724, 398);
             this.buttonExcluir28.Name = "buttonExcluir28";
             this.buttonExcluir28.Size = new System.Drawing.Size(16, 21);
             this.buttonExcluir28.TabIndex = 109;
@@ -1321,7 +1232,7 @@ namespace Notas
             // buttonExcluir29
             // 
             this.buttonExcluir29.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonExcluir29.Location = new System.Drawing.Point(347, 866);
+            this.buttonExcluir29.Location = new System.Drawing.Point(724, 424);
             this.buttonExcluir29.Name = "buttonExcluir29";
             this.buttonExcluir29.Size = new System.Drawing.Size(16, 21);
             this.buttonExcluir29.TabIndex = 110;
@@ -1333,7 +1244,7 @@ namespace Notas
             // buttonExcluir30
             // 
             this.buttonExcluir30.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonExcluir30.Location = new System.Drawing.Point(347, 891);
+            this.buttonExcluir30.Location = new System.Drawing.Point(724, 452);
             this.buttonExcluir30.Name = "buttonExcluir30";
             this.buttonExcluir30.Size = new System.Drawing.Size(16, 21);
             this.buttonExcluir30.TabIndex = 111;
@@ -1345,7 +1256,7 @@ namespace Notas
             // buttonExcluir31
             // 
             this.buttonExcluir31.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonExcluir31.Location = new System.Drawing.Point(347, 917);
+            this.buttonExcluir31.Location = new System.Drawing.Point(724, 476);
             this.buttonExcluir31.Name = "buttonExcluir31";
             this.buttonExcluir31.Size = new System.Drawing.Size(16, 21);
             this.buttonExcluir31.TabIndex = 112;
@@ -1357,7 +1268,7 @@ namespace Notas
             // buttonExcluir32
             // 
             this.buttonExcluir32.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonExcluir32.Location = new System.Drawing.Point(347, 942);
+            this.buttonExcluir32.Location = new System.Drawing.Point(724, 501);
             this.buttonExcluir32.Name = "buttonExcluir32";
             this.buttonExcluir32.Size = new System.Drawing.Size(16, 21);
             this.buttonExcluir32.TabIndex = 113;
@@ -1369,7 +1280,7 @@ namespace Notas
             // buttonExcluir33
             // 
             this.buttonExcluir33.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonExcluir33.Location = new System.Drawing.Point(347, 969);
+            this.buttonExcluir33.Location = new System.Drawing.Point(724, 527);
             this.buttonExcluir33.Name = "buttonExcluir33";
             this.buttonExcluir33.Size = new System.Drawing.Size(16, 21);
             this.buttonExcluir33.TabIndex = 114;
@@ -1378,22 +1289,10 @@ namespace Notas
             this.buttonExcluir33.Visible = false;
             this.buttonExcluir33.Click += new System.EventHandler(this.buttonExcluir33_Click);
             // 
-            // buttonExcluir35
-            // 
-            this.buttonExcluir35.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonExcluir35.Location = new System.Drawing.Point(347, 1020);
-            this.buttonExcluir35.Name = "buttonExcluir35";
-            this.buttonExcluir35.Size = new System.Drawing.Size(16, 21);
-            this.buttonExcluir35.TabIndex = 115;
-            this.buttonExcluir35.Text = "--";
-            this.buttonExcluir35.UseVisualStyleBackColor = true;
-            this.buttonExcluir35.Visible = false;
-            this.buttonExcluir35.Click += new System.EventHandler(this.buttonExcluir35_Click);
-            // 
             // buttonExcluir34
             // 
             this.buttonExcluir34.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonExcluir34.Location = new System.Drawing.Point(347, 996);
+            this.buttonExcluir34.Location = new System.Drawing.Point(724, 551);
             this.buttonExcluir34.Name = "buttonExcluir34";
             this.buttonExcluir34.Size = new System.Drawing.Size(16, 21);
             this.buttonExcluir34.TabIndex = 116;
@@ -1402,15 +1301,137 @@ namespace Notas
             this.buttonExcluir34.Visible = false;
             this.buttonExcluir34.Click += new System.EventHandler(this.buttonExcluir34_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Bahnschrift Condensed", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(554, 35);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(36, 23);
+            this.label1.TabIndex = 117;
+            this.label1.Text = "Sair";
+            // 
+            // btnSair
+            // 
+            this.btnSair.BackColor = System.Drawing.Color.Firebrick;
+            this.btnSair.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnSair.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSair.Location = new System.Drawing.Point(545, 61);
+            this.btnSair.Name = "btnSair";
+            this.btnSair.Size = new System.Drawing.Size(55, 33);
+            this.btnSair.TabIndex = 118;
+            this.btnSair.Text = "Sair";
+            this.btnSair.UseVisualStyleBackColor = false;
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(555, 1);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(121, 15);
+            this.label2.TabIndex = 119;
+            this.label2.Text = "Desenvolvido por:";
+            // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel1.Location = new System.Drawing.Point(672, 3);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(81, 13);
+            this.linkLabel1.TabIndex = 120;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "Vinicius Lima";
+            this.linkLabel1.Click += new System.EventHandler(this.GitHub_Click);
+            // 
+            // Nota0
+            // 
+            this.Nota0.BackColor = System.Drawing.Color.Orange;
+            this.Nota0.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Nota0.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.Nota0.Location = new System.Drawing.Point(28, 136);
+            this.Nota0.Name = "Nota0";
+            this.Nota0.Size = new System.Drawing.Size(313, 22);
+            this.Nota0.TabIndex = 121;
+            this.Nota0.Visible = false;
+            // 
+            // button1
+            // 
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.Location = new System.Drawing.Point(6, 136);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(16, 21);
+            this.button1.TabIndex = 122;
+            this.button1.Text = "+";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.buttonStart_Click);
+            // 
+            // buttonExcluirStart
+            // 
+            this.buttonExcluirStart.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonExcluirStart.Location = new System.Drawing.Point(347, 137);
+            this.buttonExcluirStart.Name = "buttonExcluirStart";
+            this.buttonExcluirStart.Size = new System.Drawing.Size(16, 21);
+            this.buttonExcluirStart.TabIndex = 123;
+            this.buttonExcluirStart.Text = "--";
+            this.buttonExcluirStart.UseVisualStyleBackColor = true;
+            this.buttonExcluirStart.Visible = false;
+            this.buttonExcluirStart.Click += new System.EventHandler(this.buttonExcluirStart_Click);
+            // 
+            // Nota18
+            // 
+            this.Nota18.BackColor = System.Drawing.Color.Orange;
+            this.Nota18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Nota18.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.Nota18.Location = new System.Drawing.Point(405, 137);
+            this.Nota18.Name = "Nota18";
+            this.Nota18.Size = new System.Drawing.Size(313, 22);
+            this.Nota18.TabIndex = 124;
+            this.Nota18.Visible = false;
+            // 
+            // button18
+            // 
+            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button18.Location = new System.Drawing.Point(383, 138);
+            this.button18.Name = "button18";
+            this.button18.Size = new System.Drawing.Size(16, 21);
+            this.button18.TabIndex = 125;
+            this.button18.Text = "+";
+            this.button18.UseVisualStyleBackColor = true;
+            this.button18.Click += new System.EventHandler(this.button18_Click);
+            // 
+            // buttonExcluir18
+            // 
+            this.buttonExcluir18.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonExcluir18.Location = new System.Drawing.Point(724, 137);
+            this.buttonExcluir18.Name = "buttonExcluir18";
+            this.buttonExcluir18.Size = new System.Drawing.Size(16, 21);
+            this.buttonExcluir18.TabIndex = 126;
+            this.buttonExcluir18.Text = "--";
+            this.buttonExcluir18.UseVisualStyleBackColor = true;
+            this.buttonExcluir18.Visible = false;
+            this.buttonExcluir18.Click += new System.EventHandler(this.buttonExcluir18_Click);
+            // 
             // Notas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.Orange;
-            this.ClientSize = new System.Drawing.Size(395, 397);
+            this.ClientSize = new System.Drawing.Size(770, 584);
+            this.Controls.Add(this.buttonExcluir18);
+            this.Controls.Add(this.button18);
+            this.Controls.Add(this.Nota18);
+            this.Controls.Add(this.buttonExcluirStart);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.Nota0);
+            this.Controls.Add(this.linkLabel1);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.btnSair);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.buttonExcluir34);
-            this.Controls.Add(this.buttonExcluir35);
             this.Controls.Add(this.buttonExcluir33);
             this.Controls.Add(this.buttonExcluir32);
             this.Controls.Add(this.buttonExcluir31);
@@ -1427,7 +1448,6 @@ namespace Notas
             this.Controls.Add(this.buttonExcluir20);
             this.Controls.Add(this.buttonExcluir19);
             this.Controls.Add(this.buttonExcluir17);
-            this.Controls.Add(this.buttonExcluir18);
             this.Controls.Add(this.buttonExcluir16);
             this.Controls.Add(this.buttonExcluir15);
             this.Controls.Add(this.buttonExcluir14);
@@ -1443,12 +1463,9 @@ namespace Notas
             this.Controls.Add(this.buttonExcluir4);
             this.Controls.Add(this.buttonExcluir3);
             this.Controls.Add(this.buttonExcluir2);
-            this.Controls.Add(this.buttonExcluirStart);
-            this.Controls.Add(this.buttonStart);
             this.Controls.Add(this.btnAlerta2);
             this.Controls.Add(this.lbltextRemove);
             this.Controls.Add(this.button34);
-            this.Controls.Add(this.button35);
             this.Controls.Add(this.button27);
             this.Controls.Add(this.button28);
             this.Controls.Add(this.button29);
@@ -1464,7 +1481,6 @@ namespace Notas
             this.Controls.Add(this.button22);
             this.Controls.Add(this.button20);
             this.Controls.Add(this.button19);
-            this.Controls.Add(this.button18);
             this.Controls.Add(this.button17);
             this.Controls.Add(this.button16);
             this.Controls.Add(this.button14);
@@ -1488,7 +1504,6 @@ namespace Notas
             this.Controls.Add(this.Nota24);
             this.Controls.Add(this.Nota25);
             this.Controls.Add(this.Nota28);
-            this.Controls.Add(this.Nota35);
             this.Controls.Add(this.Nota26);
             this.Controls.Add(this.Nota33);
             this.Controls.Add(this.Nota31);
@@ -1497,7 +1512,6 @@ namespace Notas
             this.Controls.Add(this.Nota17);
             this.Controls.Add(this.Nota22);
             this.Controls.Add(this.Nota23);
-            this.Controls.Add(this.Nota18);
             this.Controls.Add(this.Nota19);
             this.Controls.Add(this.Nota29);
             this.Controls.Add(this.Nota16);
@@ -1506,7 +1520,6 @@ namespace Notas
             this.Controls.Add(this.Nota11);
             this.Controls.Add(this.Nota12);
             this.Controls.Add(this.Nota13);
-            this.Controls.Add(this.Nota1);
             this.Controls.Add(this.Nota9);
             this.Controls.Add(this.Nota7);
             this.Controls.Add(this.Nota8);
@@ -1554,7 +1567,6 @@ namespace Notas
         private System.Windows.Forms.Button button14;
         private System.Windows.Forms.Button button16;
         private System.Windows.Forms.Button button17;
-        private System.Windows.Forms.Button button18;
         private System.Windows.Forms.Button button19;
         private System.Windows.Forms.Button button20;
         private System.Windows.Forms.Button button22;
@@ -1570,12 +1582,9 @@ namespace Notas
         private System.Windows.Forms.Button button29;
         private System.Windows.Forms.Button button28;
         private System.Windows.Forms.Button button27;
-        private System.Windows.Forms.Button button35;
         private System.Windows.Forms.Button button34;
         private System.Windows.Forms.Label lbltextRemove;
         private System.Windows.Forms.Button btnAlerta2;
-        private System.Windows.Forms.TextBox Nota1;
-        private System.Windows.Forms.Button buttonStart;
         private System.Windows.Forms.TextBox Nota2;
         private System.Windows.Forms.TextBox Nota3;
         private System.Windows.Forms.TextBox Nota4;
@@ -1593,7 +1602,6 @@ namespace Notas
         private System.Windows.Forms.TextBox Nota16;
         private System.Windows.Forms.TextBox Nota29;
         private System.Windows.Forms.TextBox Nota19;
-        private System.Windows.Forms.TextBox Nota18;
         private System.Windows.Forms.TextBox Nota23;
         private System.Windows.Forms.TextBox Nota22;
         private System.Windows.Forms.TextBox Nota17;
@@ -1602,7 +1610,6 @@ namespace Notas
         private System.Windows.Forms.TextBox Nota31;
         private System.Windows.Forms.TextBox Nota33;
         private System.Windows.Forms.TextBox Nota26;
-        private System.Windows.Forms.TextBox Nota35;
         private System.Windows.Forms.TextBox Nota28;
         private System.Windows.Forms.TextBox Nota25;
         private System.Windows.Forms.TextBox Nota24;
@@ -1610,7 +1617,6 @@ namespace Notas
         private System.Windows.Forms.TextBox Nota27;
         private System.Windows.Forms.TextBox Nota32;
         private System.Windows.Forms.TextBox Nota30;
-        private System.Windows.Forms.Button buttonExcluirStart;
         private System.Windows.Forms.Button buttonExcluir2;
         private System.Windows.Forms.Button buttonExcluir3;
         private System.Windows.Forms.Button buttonExcluir4;
@@ -1626,7 +1632,6 @@ namespace Notas
         private System.Windows.Forms.Button buttonExcluir14;
         private System.Windows.Forms.Button buttonExcluir15;
         private System.Windows.Forms.Button buttonExcluir16;
-        private System.Windows.Forms.Button buttonExcluir18;
         private System.Windows.Forms.Button buttonExcluir17;
         private System.Windows.Forms.Button buttonExcluir19;
         private System.Windows.Forms.Button buttonExcluir20;
@@ -1643,8 +1648,17 @@ namespace Notas
         private System.Windows.Forms.Button buttonExcluir31;
         private System.Windows.Forms.Button buttonExcluir32;
         private System.Windows.Forms.Button buttonExcluir33;
-        private System.Windows.Forms.Button buttonExcluir35;
         private System.Windows.Forms.Button buttonExcluir34;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnSair;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.TextBox Nota0;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button buttonExcluirStart;
+        private System.Windows.Forms.TextBox Nota18;
+        private System.Windows.Forms.Button button18;
+        private System.Windows.Forms.Button buttonExcluir18;
     }
 }
 
