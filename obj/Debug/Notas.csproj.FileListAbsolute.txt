@@ -1,0 +1,10 @@
+C:\Users\vini-\Desktop\exercicios c#\Notas\bin\Debug\Notas.exe.config
+C:\Users\vini-\Desktop\exercicios c#\Notas\bin\Debug\Notas.exe
+C:\Users\vini-\Desktop\exercicios c#\Notas\bin\Debug\Notas.pdb
+C:\Users\vini-\Desktop\exercicios c#\Notas\obj\Debug\Notas.csprojAssemblyReference.cache
+C:\Users\vini-\Desktop\exercicios c#\Notas\obj\Debug\Notas.Properties.Resources.resources
+C:\Users\vini-\Desktop\exercicios c#\Notas\obj\Debug\Notas.csproj.GenerateResource.cache
+C:\Users\vini-\Desktop\exercicios c#\Notas\obj\Debug\Notas.csproj.CoreCompileInputs.cache
+C:\Users\vini-\Desktop\exercicios c#\Notas\obj\Debug\Notas.exe
+C:\Users\vini-\Desktop\exercicios c#\Notas\obj\Debug\Notas.pdb
+C:\Users\vini-\Desktop\exercicios c#\Notas\obj\Debug\Notas.Notas.resources
