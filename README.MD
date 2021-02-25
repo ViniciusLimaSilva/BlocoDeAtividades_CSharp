@@ -1,18 +1,24 @@
-## **Bloco de Anotações Diversas ** :cowboy_hat_face::desktop_computer:
+## **Bloco de Atividades Diversas ** :cowboy_hat_face::desktop_computer:
 
-![tela](https://user-images.githubusercontent.com/45276630/109110223-7839bb00-7715-11eb-8f49-b2736f177756.png)
-
-
+![tela](https://user-images.githubusercontent.com/45276630/109216968-f76dd400-7793-11eb-991a-5f7f5c1791f1.png)
 
 
 
-## *:warning: Em Desenvolvimento*:warning: 
 
-## *Código sendo feito totalmente em C# com WindowsForm*
+
+## *:heavy_check_mark: Completa para uso* :heavy_check_mark:
+
+## *Código feito totalmente em C# com WindowsForm*
+
+### Resumo ###
+
+Bloco de Atividades cotidianas, com salvamento automático das atividades após fechamento
+
+do aplicativo, para adicionar uma nota deve-se clicar no botão + e para remover clicar no botão -, posteriormente irei adicionar uma checkbox para apontar a realização das atividades.
 
 ### Funções a serem implementadas
 
-- [ ] Salvamento das notas após fechamento do aplicativo
+- [ ] Marcamento das atividades Realizadas
 
 ## *Para se Inspirar:*
 
