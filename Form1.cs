@@ -19,6 +19,256 @@ namespace Notas
             InitializeComponent();
         }
 
+        public void MarcaCheckBox(TextBox Nota, Button buttonExcluir, CheckBox checknota)
+        {
+            if (checknota.CheckState == CheckState.Checked)
+            {
+
+
+                Nota.BackColor = Color.SpringGreen;
+
+                MessageBox.Show("Tarefa Concluida!!!", "Parabens", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                DialogResult confirmar = MessageBox.Show("Deseja excluir a tarefa?", "Escolha", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+                if (confirmar.ToString().ToUpper() == "YES")
+                {
+                    Nota.Text = "";
+                    Nota.Visible = false;
+                    Nota.BackColor = Color.Orange;
+                    buttonExcluir.Visible = false;
+                    checknota.Visible = false;
+                    checknota.CheckState = CheckState.Unchecked;
+
+
+                }
+            }
+
+        }
+
+        public void AcoesButtonAdd(TextBox nota, Button buttonExcluir, CheckBox checknota)
+        {
+            nota.Visible = true;
+            buttonExcluir.Visible = true;
+            checknota.Visible = true;
+            nota.BackColor = Color.Orange;
+        }
+        
+        public void AcoesButtonRemove(TextBox nota, Button buttonExcluir, CheckBox checknota)
+        {
+            nota.Text = "";
+            nota.Visible = false;
+            buttonExcluir.Visible = false;
+            checknota.CheckState = CheckState.Unchecked;
+            checknota.Visible = false;
+        }
+
+        public void VerificaVazio()
+        {
+            if (Nota0.Text != "")
+            {
+                Nota0.Visible = true;
+                buttonExcluirStart.Visible = true;
+                checknota1.Visible = true;
+            }
+
+            if (Nota2.Text != "")
+            {
+                Nota2.Visible = true;
+                buttonExcluir2.Visible = true;
+                checknota2.Visible = true;
+            }
+            if (Nota3.Text != "")
+            {
+                Nota3.Visible = true;
+                buttonExcluir3.Visible = true;
+                checknota3.Visible = true;
+            }
+            if (Nota4.Text != "")
+            {
+                Nota4.Visible = true;
+                buttonExcluir4.Visible = true;
+                checknota4.Visible = true;
+            }
+            if (Nota5.Text != "")
+            {
+                Nota5.Visible = true;
+                buttonExcluir5.Visible = true;
+                checknota5.Visible = true;
+            }
+            if (Nota6.Text != "")
+            {
+                Nota6.Visible = true;
+                buttonExcluir6.Visible = true;
+                checknota6.Visible = true;
+            }
+            if (Nota7.Text != "")
+            {
+                Nota7.Visible = true;
+                buttonExcluir7.Visible = true;
+                checknota7.Visible = true;
+            }
+            if (Nota8.Text != "")
+            {
+                Nota8.Visible = true;
+                buttonExcluir8.Visible = true;
+                checknota8.Visible = true;
+            }
+            if (Nota9.Text != "")
+            {
+                Nota9.Visible = true;
+                buttonExcluir9.Visible = true;
+                checknota9.Visible = true;
+            }
+            if (Nota10.Text != "")
+            {
+                Nota10.Visible = true;
+                buttonExcluir10.Visible = true;
+                checknota10.Visible = true;
+            }
+            if (Nota11.Text != "")
+            {
+                Nota11.Visible = true;
+                buttonExcluir11.Visible = true;
+            }
+            if (Nota12.Text != "")
+            {
+                Nota12.Visible = true;
+                buttonExcluir12.Visible = true;
+                checknota12.Visible = true;
+            }
+            if (Nota13.Text != "")
+            {
+                Nota13.Visible = true;
+                buttonExcluir13.Visible = true;
+                checknota13.Visible = true;
+            }
+            if (Nota14.Text != "")
+            {
+                Nota14.Visible = true;
+                buttonExcluir14.Visible = true;
+                checknota14.Visible = true;
+            }
+            if (Nota15.Text != "")
+            {
+                Nota15.Visible = true;
+                buttonExcluir15.Visible = true;
+                checknota15.Visible = true;
+            }
+            if (Nota16.Text != "")
+            {
+                Nota16.Visible = true;
+                buttonExcluir16.Visible = true;
+                checknota16.Visible = true;
+            }
+            if (Nota17.Text != "")
+            {
+                Nota17.Visible = true;
+                buttonExcluir17.Visible = true;
+                checknota17.Visible = true;
+            }
+            if (Nota18.Text != "")
+            {
+                Nota18.Visible = true;
+                buttonExcluir18.Visible = true;
+                checknota18.Visible = true;
+            }
+            if (Nota19.Text != "")
+            {
+                Nota19.Visible = true;
+                buttonExcluir19.Visible = true;
+                checknota19.Visible = true;
+            }
+            if (Nota20.Text != "")
+            {
+                Nota20.Visible = true;
+                buttonExcluir20.Visible = true;
+                checknota20.Visible = true;
+            }
+            if (Nota21.Text != "")
+            {
+                Nota21.Visible = true;
+                buttonExcluir21.Visible = true;
+                checknota21.Visible = true;
+            }
+            if (Nota22.Text != "")
+            {
+                Nota22.Visible = true;
+                buttonExcluir22.Visible = true;
+                checknota22.Visible = true;
+            }
+            if (Nota23.Text != "")
+            {
+                Nota23.Visible = true;
+                buttonExcluir23.Visible = true;
+                checknota23.Visible = true;
+            }
+            if (Nota24.Text != "")
+            {
+                Nota24.Visible = true;
+                buttonExcluir24.Visible = true;
+                checknota24.Visible = true;
+            }
+            if (Nota25.Text != "")
+            {
+                Nota25.Visible = true;
+                buttonExcluir25.Visible = true;
+                checknota25.Visible = true;
+            }
+            if (Nota26.Text != "")
+            {
+                Nota26.Visible = true;
+                buttonExcluir26.Visible = true;
+                checknota26.Visible = true;
+            }
+            if (Nota27.Text != "")
+            {
+                Nota27.Visible = true;
+                buttonExcluir27.Visible = true;
+                checknota27.Visible = true;
+            }
+            if (Nota28.Text != "")
+            {
+                Nota28.Visible = true;
+                buttonExcluir28.Visible = true;
+                checknota28.Visible = true;
+            }
+            if (Nota29.Text != "")
+            {
+                Nota29.Visible = true;
+                buttonExcluir29.Visible = true;
+                checknota29.Visible = true;
+            }
+            if (Nota30.Text != "")
+            {
+                Nota30.Visible = true;
+                buttonExcluir30.Visible = true;
+                checknota30.Visible = true;
+            }
+            if (Nota31.Text != "")
+            {
+                Nota31.Visible = true;
+                buttonExcluir31.Visible = true;
+                checknota31.Visible = true;
+            }
+            if (Nota32.Text != "")
+            {
+                Nota32.Visible = true;
+                buttonExcluir32.Visible = true;
+                checknota32.Visible = true;
+            }
+            if (Nota33.Text != "")
+            {
+                Nota33.Visible = true;
+                buttonExcluir33.Visible = true;
+                checknota33.Visible = true;
+            }
+            if (Nota34.Text != "")
+            {
+                Nota34.Visible = true;
+                buttonExcluir34.Visible = true;
+                checknota34.Visible = true;
+            }
+        }
 
         private void salva_texto() //SALVA O TEXTO NO TXT
         {
@@ -935,209 +1185,14 @@ namespace Notas
 
             ler_texto_salvo();
 
-            if(Nota0.Text != "")
-            {
-                Nota0.Visible = true;
-                buttonExcluirStart.Visible = true;
-            }
-
-            if (Nota2.Text != "")
-            {
-                Nota2.Visible = true;
-                buttonExcluir2.Visible = true;
-            }
-            if (Nota3.Text != "")
-            {
-                Nota3.Visible = true;
-                buttonExcluir3.Visible = true;
-            }
-            if (Nota4.Text != "")
-            {
-                Nota4.Visible = true;
-                buttonExcluir4.Visible = true;
-            }
-            if (Nota5.Text != "")
-            {
-                Nota5.Visible = true;
-                buttonExcluir5.Visible = true;
-            }
-            if (Nota6.Text != "")
-            {
-                Nota6.Visible = true;
-                buttonExcluir6.Visible = true;
-            }
-            if (Nota7.Text != "")
-            {
-                Nota7.Visible = true;
-                buttonExcluir7.Visible = true;
-            }
-            if (Nota8.Text != "")
-            {
-                Nota8.Visible = true;
-                buttonExcluir8.Visible = true;
-            }
-            if (Nota9.Text != "")
-            {
-                Nota9.Visible = true;
-                buttonExcluir9.Visible = true;
-            }
-            if (Nota10.Text != "")
-            {
-                Nota10.Visible = true;
-                buttonExcluir10.Visible = true;
-            }
-            if (Nota11.Text != "")
-            {
-                Nota11.Visible = true;
-                buttonExcluir11.Visible = true;
-            }
-            if (Nota12.Text != "")
-            {
-                Nota12.Visible = true;
-                buttonExcluir12.Visible = true;
-            }
-            if (Nota13.Text != "")
-            {
-                Nota13.Visible = true;
-                buttonExcluir13.Visible = true;
-            }
-            if (Nota14.Text != "")
-            {
-                Nota14.Visible = true;
-                buttonExcluir14.Visible = true;
-            }
-            if (Nota15.Text != "")
-            {
-                Nota15.Visible = true;
-                buttonExcluir15.Visible = true;
-            }
-            if (Nota16.Text != "")
-            {
-                Nota16.Visible = true;
-                buttonExcluir16.Visible = true;
-            }
-            if (Nota17.Text != "")
-            {
-                Nota17.Visible = true;
-                buttonExcluir17.Visible = true;
-            }
-            if (Nota18.Text != "")
-            {
-                Nota18.Visible = true;
-                buttonExcluir18.Visible = true;
-            }
-            if (Nota19.Text != "")
-            {
-                Nota19.Visible = true;
-                buttonExcluir19.Visible = true;
-            }
-            if (Nota20.Text != "")
-            {
-                Nota20.Visible = true;
-                buttonExcluir20.Visible = true;
-            }
-            if (Nota21.Text != "")
-            {
-                Nota21.Visible = true;
-                buttonExcluir21.Visible = true;
-            }
-            if (Nota22.Text != "")
-            {
-                Nota22.Visible = true;
-                buttonExcluir22.Visible = true;
-            }
-            if (Nota23.Text != "")
-            {
-                Nota23.Visible = true;
-                buttonExcluir23.Visible = true;
-            }
-            if (Nota24.Text != "")
-            {
-                Nota24.Visible = true;
-                buttonExcluir24.Visible = true;
-            }
-            if (Nota25.Text != "")
-            {
-                Nota25.Visible = true;
-                buttonExcluir25.Visible = true;
-            }
-            if (Nota26.Text != "")
-            {
-                Nota26.Visible = true;
-                buttonExcluir26.Visible = true;
-            }
-            if (Nota27.Text != "")
-            {
-                Nota27.Visible = true;
-                buttonExcluir27.Visible = true;
-            }
-            if (Nota28.Text != "")
-            {
-                Nota28.Visible = true;
-                buttonExcluir28.Visible = true;
-            }
-            if (Nota29.Text != "")
-            {
-                Nota29.Visible = true;
-                buttonExcluir29.Visible = true;
-            }
-            if (Nota30.Text != "")
-            {
-                Nota30.Visible = true;
-                buttonExcluir30.Visible = true;
-            }
-            if (Nota31.Text != "")
-            {
-                Nota31.Visible = true;
-                buttonExcluir31.Visible = true;
-            }
-            if (Nota32.Text != "")
-            {
-                Nota32.Visible = true;
-                buttonExcluir32.Visible = true;
-            }
-            if (Nota33.Text != "")
-            {
-                Nota33.Visible = true;
-                buttonExcluir33.Visible = true;
-            }
-            if (Nota34.Text != "")
-            {
-                Nota34.Visible = true;
-                buttonExcluir34.Visible = true;
-            }
-           
-
-
+            VerificaVazio();
 
 
         }
 
-        
-
-
-        private void textBox10_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Srcoll_Click(object sender, ScrollEventArgs e)
-        {
-
-        }
-
-        private void textBox4_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
 
        
-
+        // botões de alerta
         private void btnAlerta_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Para adicionar uma Nota clique no Botão esquerdo abaixo!!!!", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -1148,484 +1203,391 @@ namespace Notas
             MessageBox.Show("Para remover uma Nota clique no Botão direito abaixo!!!!", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
-        private void Nota3_TextChanged(object sender, EventArgs e)
+        private void btnAlerta3_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Para marcar uma Atividade como concluida clique no Botão de check à direita da nota!!!!", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
-        private void button19_Click(object sender, EventArgs e)
+
+        //botões de ADD
+
+
+        private void buttonStart_Click(object sender, EventArgs e)
         {
-            Nota19.Visible = true;
-            buttonExcluir19.Visible = true;
+
+            AcoesButtonAdd(Nota0, buttonExcluirStart, checknota1);
+
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Nota2.Visible = true;
-            buttonExcluir2.Visible = true;
+            AcoesButtonAdd(Nota2, buttonExcluir2, checknota2);
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Nota3.Visible = true;
-            buttonExcluir3.Visible = true;
-        }
-
-        private void buttonStart_Click(object sender, EventArgs e)
-        {
-            Nota0.Visible = true;
-            buttonExcluirStart.Visible = true;
-        }
+            AcoesButtonAdd(Nota3, buttonExcluir3, checknota3);
+        }      
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Nota4.Visible = true;
-            buttonExcluir4.Visible = true;
+            AcoesButtonAdd(Nota4, buttonExcluir4, checknota4);
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            Nota5.Visible = true;
-            buttonExcluir5.Visible = true;
+            AcoesButtonAdd(Nota5, buttonExcluir5, checknota5);
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            Nota6.Visible = true;
-            buttonExcluir6.Visible = true;
+            AcoesButtonAdd(Nota6, buttonExcluir6, checknota6);
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            AcoesButtonAdd(Nota7, buttonExcluir7, checknota7);
+
         }
 
         private void button8_Click_1(object sender, EventArgs e)
         {
-            Nota8.Visible = true;
-            buttonExcluir8.Visible = true;
+            AcoesButtonAdd(Nota8, buttonExcluir8, checknota8);
         }
 
         private void button9_Click(object sender, EventArgs e)
         {
-            Nota9.Visible = true;
-            buttonExcluir9.Visible = true;
+            AcoesButtonAdd(Nota9, buttonExcluir9, checknota9);
         }
 
         private void button10_Click(object sender, EventArgs e)
         {
-            Nota10.Visible = true;
-            buttonExcluir10.Visible = true;
+            AcoesButtonAdd(Nota10, buttonExcluir10, checknota10);
         }
 
         private void button11_Click(object sender, EventArgs e)
         {
-            Nota11.Visible = true;
-            buttonExcluir11.Visible = true;
+            AcoesButtonAdd(Nota11, buttonExcluir11, checknota11);
         }
 
         private void button12_Click(object sender, EventArgs e)
         {
-            Nota12.Visible = true;
-            buttonExcluir12.Visible = true;
+            AcoesButtonAdd(Nota12, buttonExcluir12, checknota12);
         }
 
         private void button13_Click(object sender, EventArgs e)
         {
-            Nota13.Visible = true;
-            buttonExcluir13.Visible = true;
+            AcoesButtonAdd(Nota13, buttonExcluir13, checknota13);
         }
 
         private void button14_Click(object sender, EventArgs e)
         {
-            Nota14.Visible = true;
-            buttonExcluir14.Visible = true;
+            AcoesButtonAdd(Nota14, buttonExcluir14, checknota14);
         }
 
         private void button15_Click(object sender, EventArgs e)
         {
-            Nota15.Visible = true;
-            buttonExcluir15.Visible = true;
+            AcoesButtonAdd(Nota15, buttonExcluir15, checknota15);
         }
 
         private void button16_Click(object sender, EventArgs e)
         {
-            Nota16.Visible = true;
-            buttonExcluir16.Visible = true;
+            AcoesButtonAdd(Nota16, buttonExcluir16, checknota16);
         }
 
         private void button17_Click(object sender, EventArgs e)
         {
-            Nota17.Visible = true;
-            buttonExcluir17.Visible = true;
+            AcoesButtonAdd(Nota17, buttonExcluir17, checknota17);
         }
 
         private void button18_Click(object sender, EventArgs e)
         {
-            Nota18.Visible = true;
-            buttonExcluir18.Visible = true;
+            AcoesButtonAdd(Nota18, buttonExcluir18, checknota18);
+        }
+
+        private void button19_Click(object sender, EventArgs e)
+        {
+            AcoesButtonAdd(Nota19, buttonExcluir19, checknota19);
         }
 
         private void button20_Click(object sender, EventArgs e)
         {
-            Nota20.Visible = true;
-            buttonExcluir20.Visible = true;
+            AcoesButtonAdd(Nota20, buttonExcluir20, checknota20);
         }
 
         private void button21_Click(object sender, EventArgs e)
         {
-            Nota21.Visible = true;
-            buttonExcluir21.Visible = true;
+            AcoesButtonAdd(Nota21, buttonExcluir21, checknota21);
         }
 
         private void button22_Click(object sender, EventArgs e)
         {
-            Nota22.Visible = true;
-            buttonExcluir22.Visible = true;
+            AcoesButtonAdd(Nota22, buttonExcluir22, checknota22);
         }
 
         private void button23_Click(object sender, EventArgs e)
         {
-            Nota23.Visible = true;
-            buttonExcluir23.Visible = true;
+            AcoesButtonAdd(Nota23, buttonExcluir23, checknota23);
         }
 
         private void button24_Click(object sender, EventArgs e)
         {
-            Nota24.Visible = true;
-            buttonExcluir24.Visible = true;
+            AcoesButtonAdd(Nota24, buttonExcluir24, checknota24);
         }
 
         private void button25_Click(object sender, EventArgs e)
         {
-            Nota25.Visible = true;
-            buttonExcluir25.Visible = true;
+            AcoesButtonAdd(Nota25, buttonExcluir25, checknota25);
         }
 
         private void button26_Click(object sender, EventArgs e)
         {
-            Nota26.Visible = true;
-            buttonExcluir26.Visible = true;
+            AcoesButtonAdd(Nota26, buttonExcluir26, checknota26);
+
         }
 
         private void button27_Click(object sender, EventArgs e)
         {
-            Nota27.Visible = true;
-            buttonExcluir27.Visible = true;
+            AcoesButtonAdd(Nota27, buttonExcluir27, checknota27);
         }
 
         private void button28_Click(object sender, EventArgs e)
         {
-            Nota28.Visible = true;
-            buttonExcluir28.Visible = true;
+            AcoesButtonAdd(Nota28, buttonExcluir28, checknota28);
         }
 
         private void button29_Click(object sender, EventArgs e)
         {
-            Nota29.Visible = true;
-            buttonExcluir29.Visible = true;
+            AcoesButtonAdd(Nota29, buttonExcluir29, checknota29);
         }
 
         private void button30_Click(object sender, EventArgs e)
         {
-            Nota30.Visible = true;
-            buttonExcluir30.Visible = true;
+            AcoesButtonAdd(Nota30, buttonExcluir30, checknota30);
         }
 
         private void button31_Click(object sender, EventArgs e)
         {
-            Nota31.Visible = true;
-            buttonExcluir31.Visible = true;
+            AcoesButtonAdd(Nota31, buttonExcluir31, checknota31);
         }
 
         private void button32_Click(object sender, EventArgs e)
         {
-            Nota32.Visible = true;
-            buttonExcluir32.Visible = true;
+            AcoesButtonAdd(Nota32, buttonExcluir32, checknota32);
         }
 
         private void button33_Click(object sender, EventArgs e)
         {
-            Nota33.Visible = true;
-            buttonExcluir33.Visible = true;
+            AcoesButtonAdd(Nota33, buttonExcluir33, checknota33);
 
         }
 
         private void button34_Click(object sender, EventArgs e)
         {
-            Nota34.Visible = true;
-            buttonExcluir34.Visible = true;
+            AcoesButtonAdd(Nota34, buttonExcluir34, checknota34);
         }
 
        
 
-        private void button7_Click(object sender, EventArgs e)
+       // Botões de Exclusão
+
+      
+
+        private void buttonExcluirStart_Click(object sender, EventArgs e)
         {
-            Nota7.Visible = true;
-            buttonExcluir7.Visible = true;
+
+            AcoesButtonRemove(Nota0, buttonExcluirStart, checknota1);
+
 
         }
 
         private void buttonExcluir2_Click(object sender, EventArgs e)
         {
-            Nota2.Text = "";
-            Nota2.Visible = false;
-            buttonExcluir2.Visible = false;
-
-        }
-
-        private void buttonExcluirStart_Click(object sender, EventArgs e)
-        {
-            Nota0.Text = "";
-            Nota0.Visible = false;
-            buttonExcluirStart.Visible = false;
-
+            AcoesButtonRemove(Nota2, buttonExcluir2, checknota2);
 
         }
 
         private void buttonExcluir3_Click(object sender, EventArgs e)
         {
 
-            Nota3.Text = "";
-            Nota3.Visible = false;
-            buttonExcluir3.Visible = false;
+            AcoesButtonRemove(Nota3, buttonExcluir3, checknota3);
 
         }
 
         private void buttonExcluir4_Click(object sender, EventArgs e)
         {
-            Nota4.Text = "";
-            Nota4.Visible = false;
-            buttonExcluir4.Visible = false;
+            AcoesButtonRemove(Nota4, buttonExcluir4, checknota4);
 
         }
 
         private void buttonExcluir5_Click(object sender, EventArgs e)
         {
-            Nota5.Text = "";
-            Nota5.Visible = false;
-            buttonExcluir5.Visible = false;
+            AcoesButtonRemove(Nota5, buttonExcluir5, checknota5);
 
         }
 
         private void buttonExcluir6_Click(object sender, EventArgs e)
         {
 
-            Nota6.Text = "";
-            Nota6.Visible = false;
-            buttonExcluir6.Visible = false;
+            AcoesButtonRemove(Nota6, buttonExcluir6, checknota6);
 
         }
 
         private void buttonExcluir7_Click(object sender, EventArgs e)
         {
-            Nota7.Text = "";
-            Nota7.Visible = false;
-            buttonExcluir7.Visible = false;
+            AcoesButtonRemove(Nota7, buttonExcluir7, checknota7);
 
         }
 
         private void buttonExcluir8_Click(object sender, EventArgs e)
         {
 
-            Nota8.Text = "";
-            Nota8.Visible = false;
-            buttonExcluir8.Visible = false;
+            AcoesButtonRemove(Nota8, buttonExcluir8, checknota8);
 
         }
 
         private void buttonExcluir9_Click(object sender, EventArgs e)
         {
 
-            Nota9.Text = "";
-            Nota9.Visible = false;
-            buttonExcluir9.Visible = false;
+            AcoesButtonRemove(Nota9, buttonExcluir9, checknota9);
 
         }
 
         private void buttonExcluir10_Click(object sender, EventArgs e)
         {
-
-            Nota10.Text = "";
-            Nota10.Visible = false;
-            buttonExcluir10.Visible = false;
+            AcoesButtonRemove(Nota10, buttonExcluir10, checknota10);
 
         }
 
         private void buttonExcluir11_Click(object sender, EventArgs e)
         {
-            Nota11.Text = "";
-            Nota11.Visible = false;
-            buttonExcluir11.Visible = false;
+            AcoesButtonRemove(Nota11, buttonExcluir11, checknota11);
 
         }
 
         private void buttonExcluir12_Click(object sender, EventArgs e)
         {
-            Nota12.Text = "";
-            Nota12.Visible = false;
-            buttonExcluir12.Visible = false;
+            AcoesButtonRemove(Nota12, buttonExcluir12, checknota12);
+            
         }
 
         private void buttonExcluir13_Click(object sender, EventArgs e)
         {
-            Nota13.Text = "";
-            Nota13.Visible = false;
-            buttonExcluir13.Visible = false;
+            AcoesButtonRemove(Nota13, buttonExcluir13, checknota13);
         }
 
         private void buttonExcluir14_Click(object sender, EventArgs e)
         {
-            Nota14.Text = "";
-            Nota14.Visible = false;
-            buttonExcluir14.Visible = false;
+            AcoesButtonRemove(Nota14, buttonExcluir14, checknota14);
         }
 
         private void buttonExcluir15_Click(object sender, EventArgs e)
         {
-            Nota15.Text = "";
-            Nota15.Visible = false;
-            buttonExcluir15.Visible = false;
+            AcoesButtonRemove(Nota15, buttonExcluir15, checknota15);
         }
 
         private void buttonExcluir16_Click(object sender, EventArgs e)
         {
-            Nota16.Text = "";
-            Nota16.Visible = false;
-            buttonExcluir16.Visible = false;
+            AcoesButtonRemove(Nota16, buttonExcluir16, checknota16);
 
         }
 
         private void buttonExcluir17_Click(object sender, EventArgs e)
         {
 
-            Nota17.Text = "";
-            Nota17.Visible = false;
-            buttonExcluir17.Visible = false;
+            AcoesButtonRemove(Nota17, buttonExcluir17, checknota17);
 
         }
 
         private void buttonExcluir18_Click(object sender, EventArgs e)
         {
-            Nota18.Text = "";
-            Nota18.Visible = false;
-            buttonExcluir18.Visible = false;
+            AcoesButtonRemove(Nota18, buttonExcluir18, checknota18);
         }
 
         private void buttonExcluir19_Click(object sender, EventArgs e)
         {
-            Nota19.Text = "";
-            Nota19.Visible = false;
-            buttonExcluir19.Visible = false;
+            AcoesButtonRemove(Nota19, buttonExcluir19, checknota19);
         }
 
         private void buttonExcluir20_Click(object sender, EventArgs e)
         {
-            Nota20.Text = "";
-            Nota20.Visible = false;
-            buttonExcluir20.Visible = false;
+            AcoesButtonRemove(Nota20, buttonExcluir20, checknota20);
 
         }
 
         private void buttonExcluir21_Click(object sender, EventArgs e)
         {
-            Nota21.Text = "";
-            Nota21.Visible = false;
-            buttonExcluir21.Visible = false;
+            AcoesButtonRemove(Nota21, buttonExcluir21, checknota21);
 
         }
 
         private void buttonExcluir22_Click(object sender, EventArgs e)
         {
-            Nota22.Text = "";
-            Nota22.Visible = false;
-            buttonExcluir22.Visible = false;
+            AcoesButtonRemove(Nota22, buttonExcluir22, checknota22);
         }
 
         private void buttonExcluir23_Click(object sender, EventArgs e)
         {
-            Nota23.Text = "";
-            Nota23.Visible = false;
-            buttonExcluir23.Visible = false;
+            AcoesButtonRemove(Nota23, buttonExcluir23, checknota23);
         }
 
         private void buttonExcluir24_Click(object sender, EventArgs e)
         {
-            Nota24.Text = "";
-            Nota24.Visible = false;
-            buttonExcluir24.Visible = false;
+            AcoesButtonRemove(Nota24, buttonExcluir24, checknota24);
         }
 
         private void buttonExcluir25_Click(object sender, EventArgs e)
         {
-            Nota25.Text = "";
-            Nota25.Visible = false;
-            buttonExcluir25.Visible = false;
+            AcoesButtonRemove(Nota25, buttonExcluir25, checknota25);
         }
 
         private void buttonExcluir26_Click(object sender, EventArgs e)
         {
-            Nota26.Text = "";
-            Nota26.Visible = false;
-            buttonExcluir26.Visible = false;
+            AcoesButtonRemove(Nota26, buttonExcluir26, checknota26);
         }
 
         private void buttonExcluir27_Click(object sender, EventArgs e)
         {
-            Nota27.Text = "";
-            Nota27.Visible = false;
-            buttonExcluir27.Visible = false;
+            AcoesButtonRemove(Nota27, buttonExcluir27, checknota27);
         }
 
         private void buttonExcluir28_Click(object sender, EventArgs e)
         {
-            Nota28.Text = "";
-            Nota28.Visible = false;
-            buttonExcluir28.Visible = false;
+            AcoesButtonRemove(Nota28, buttonExcluir28, checknota28);
         }
 
         private void buttonExcluir29_Click(object sender, EventArgs e)
         {
-            Nota29.Text = "";
-            Nota29.Visible = false;
-            buttonExcluir29.Visible = false;
+            AcoesButtonRemove(Nota29, buttonExcluir29, checknota29);
         }
 
         private void buttonExcluir30_Click(object sender, EventArgs e)
         {
-            Nota30.Text = "";
-            Nota30.Visible = false;
-            buttonExcluir30.Visible = false;
+            AcoesButtonRemove(Nota30, buttonExcluir30, checknota30);
         }
 
         private void buttonExcluir31_Click(object sender, EventArgs e)
         {
-            Nota31.Text = "";
-            Nota31.Visible = false;
-            buttonExcluir31.Visible = false;
+            AcoesButtonRemove(Nota31, buttonExcluir31, checknota31);
         }
 
         private void buttonExcluir32_Click(object sender, EventArgs e)
         {
-            Nota32.Text = "";
-            Nota32.Visible = false;
-            buttonExcluir32.Visible = false;
+            AcoesButtonRemove(Nota32, buttonExcluir32, checknota32);
         }
 
         private void buttonExcluir33_Click(object sender, EventArgs e)
         {
-            Nota33.Text = "";
-            Nota33.Visible = false;
-            buttonExcluir33.Visible = false;
+            AcoesButtonRemove(Nota33, buttonExcluir33, checknota33);
         }
 
         private void buttonExcluir34_Click(object sender, EventArgs e)
         {
-            Nota34.Text = "";
-            Nota34.Visible = false;
-            buttonExcluir34.Visible = false;
+            AcoesButtonRemove(Nota34, buttonExcluir34, checknota34);
         }
 
        
-        private void vScrollBar1_Scroll(object sender, ScrollEventArgs e)
-        {
-
-        }
+       // Link para o gihub
 
 
         private void GitHub_Click(object sender, EventArgs e)
@@ -1635,6 +1597,8 @@ namespace Notas
             System.Diagnostics.Process.Start("https://github.com/ViniciusLimaSilva");
 
         }
+
+        // botão para sair
 
         private void btnSair_Click(object sender, EventArgs e)
         {
@@ -1663,6 +1627,183 @@ namespace Notas
         private void button1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Nota19_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+             // Botões para check de conclusão das atividades
+
+        private void checknota1_CheckedChanged(object sender, EventArgs e)
+        {
+            MarcaCheckBox(Nota0, buttonExcluirStart, checknota1);
+        }
+           
+        private void checknota2_CheckedChanged(object sender, EventArgs e)
+        {
+            MarcaCheckBox(Nota2, buttonExcluir2, checknota2);
+        }      
+
+        private void checknota3_CheckedChanged(object sender, EventArgs e)
+        {
+            MarcaCheckBox(Nota3, buttonExcluir3, checknota3);
+        }
+
+        private void checknota4_CheckedChanged(object sender, EventArgs e)
+        {
+            MarcaCheckBox(Nota4, buttonExcluir4, checknota4);
+        }
+
+        private void checknota5_CheckedChanged(object sender, EventArgs e)
+        {
+            MarcaCheckBox(Nota5, buttonExcluir5, checknota5);
+        }
+
+        private void checknota6_CheckedChanged(object sender, EventArgs e)
+        {
+            MarcaCheckBox(Nota6, buttonExcluir6, checknota6);
+        }
+
+        private void checknota7_CheckedChanged(object sender, EventArgs e)
+        {
+            MarcaCheckBox(Nota7, buttonExcluir7, checknota7);
+        }
+
+        private void checknota8_CheckedChanged(object sender, EventArgs e)
+        {
+            MarcaCheckBox(Nota8, buttonExcluir8, checknota8);
+        }
+
+        private void checknota9_CheckedChanged(object sender, EventArgs e)
+        {
+            MarcaCheckBox(Nota9, buttonExcluir9, checknota9);
+        }
+
+        private void checknota10_CheckedChanged(object sender, EventArgs e)
+        {
+            MarcaCheckBox(Nota10, buttonExcluir10, checknota10);
+        }
+
+        private void checknota11_CheckedChanged(object sender, EventArgs e)
+        {
+            MarcaCheckBox(Nota11, buttonExcluir11, checknota11);
+        }
+
+        private void checknota12_CheckedChanged(object sender, EventArgs e)
+        {
+            MarcaCheckBox(Nota12, buttonExcluir12, checknota12);
+        }
+
+        private void checknota13_CheckedChanged(object sender, EventArgs e)
+        {
+            MarcaCheckBox(Nota13, buttonExcluir13, checknota13);
+        }
+
+        private void checknota14_CheckedChanged(object sender, EventArgs e)
+        {
+            MarcaCheckBox(Nota14, buttonExcluir14, checknota14);
+        }
+
+        private void checknota15_CheckedChanged(object sender, EventArgs e)
+        {
+            MarcaCheckBox(Nota15, buttonExcluir15, checknota15);
+        }
+
+        private void checknota16_CheckedChanged(object sender, EventArgs e)
+        {
+            MarcaCheckBox(Nota16, buttonExcluir16, checknota16);
+        }
+
+        private void checknota17_CheckedChanged(object sender, EventArgs e)
+        {
+            MarcaCheckBox(Nota17, buttonExcluir17, checknota17);
+        }
+
+        private void checknota18_CheckedChanged(object sender, EventArgs e)
+        {
+            MarcaCheckBox(Nota18, buttonExcluir18, checknota18);
+        }
+
+        private void checknota19_CheckedChanged(object sender, EventArgs e)
+        {
+            MarcaCheckBox(Nota19, buttonExcluir19, checknota19);
+        }
+
+        private void checknota20_CheckedChanged(object sender, EventArgs e)
+        {
+            MarcaCheckBox(Nota20, buttonExcluir20, checknota20);
+        }
+
+        private void checknota21_CheckedChanged(object sender, EventArgs e)
+        {
+            MarcaCheckBox(Nota21, buttonExcluir21, checknota21);
+        }
+
+        private void checknota22_CheckedChanged(object sender, EventArgs e)
+        {
+            MarcaCheckBox(Nota22, buttonExcluir22, checknota22);
+        }
+
+        private void checknota23_CheckedChanged(object sender, EventArgs e)
+        {
+            MarcaCheckBox(Nota23, buttonExcluir23, checknota23);
+        }
+
+        private void checknota24_CheckedChanged(object sender, EventArgs e)
+        {
+            MarcaCheckBox(Nota24, buttonExcluir24, checknota24);
+        }
+
+        private void checknota25_CheckedChanged(object sender, EventArgs e)
+        {
+            MarcaCheckBox(Nota25, buttonExcluir25, checknota25);
+        }
+
+        private void checknota26_CheckedChanged(object sender, EventArgs e)
+        {
+            MarcaCheckBox(Nota26, buttonExcluir26, checknota26);
+        }
+
+        private void checknota27_CheckedChanged(object sender, EventArgs e)
+        {
+            MarcaCheckBox(Nota27, buttonExcluir27, checknota27);
+        }
+
+        private void checknota28_CheckedChanged(object sender, EventArgs e)
+        {
+            MarcaCheckBox(Nota28, buttonExcluir28, checknota28);
+        }
+
+        private void checknota29_CheckedChanged(object sender, EventArgs e)
+        {
+            MarcaCheckBox(Nota29, buttonExcluir29, checknota29);
+        }
+
+        private void checknota30_CheckedChanged(object sender, EventArgs e)
+        {
+            MarcaCheckBox(Nota30, buttonExcluir30, checknota30);
+        }
+
+        private void checknota31_CheckedChanged(object sender, EventArgs e)
+        {
+            MarcaCheckBox(Nota31, buttonExcluir31, checknota31);
+        }
+
+        private void checknota32_CheckedChanged(object sender, EventArgs e)
+        {
+            MarcaCheckBox(Nota32, buttonExcluir32, checknota32);
+        }
+
+        private void checknota33_CheckedChanged(object sender, EventArgs e)
+        {
+            MarcaCheckBox(Nota33, buttonExcluir33, checknota33);
+        }
+
+        private void checknota34_CheckedChanged(object sender, EventArgs e)
+        {
+            MarcaCheckBox(Nota34, buttonExcluir34, checknota34);
         }
     }
 }

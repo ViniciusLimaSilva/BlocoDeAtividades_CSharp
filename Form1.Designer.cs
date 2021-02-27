@@ -142,6 +142,42 @@ namespace Notas
             this.Nota18 = new System.Windows.Forms.TextBox();
             this.button18 = new System.Windows.Forms.Button();
             this.buttonExcluir18 = new System.Windows.Forms.Button();
+            this.checknota1 = new System.Windows.Forms.CheckBox();
+            this.checknota2 = new System.Windows.Forms.CheckBox();
+            this.checknota3 = new System.Windows.Forms.CheckBox();
+            this.checknota4 = new System.Windows.Forms.CheckBox();
+            this.checknota5 = new System.Windows.Forms.CheckBox();
+            this.checknota6 = new System.Windows.Forms.CheckBox();
+            this.checknota7 = new System.Windows.Forms.CheckBox();
+            this.checknota8 = new System.Windows.Forms.CheckBox();
+            this.checknota9 = new System.Windows.Forms.CheckBox();
+            this.checknota10 = new System.Windows.Forms.CheckBox();
+            this.checknota11 = new System.Windows.Forms.CheckBox();
+            this.checknota12 = new System.Windows.Forms.CheckBox();
+            this.checknota13 = new System.Windows.Forms.CheckBox();
+            this.checknota14 = new System.Windows.Forms.CheckBox();
+            this.checknota15 = new System.Windows.Forms.CheckBox();
+            this.checknota16 = new System.Windows.Forms.CheckBox();
+            this.checknota17 = new System.Windows.Forms.CheckBox();
+            this.checknota18 = new System.Windows.Forms.CheckBox();
+            this.checknota19 = new System.Windows.Forms.CheckBox();
+            this.checknota20 = new System.Windows.Forms.CheckBox();
+            this.checknota21 = new System.Windows.Forms.CheckBox();
+            this.checknota22 = new System.Windows.Forms.CheckBox();
+            this.checknota23 = new System.Windows.Forms.CheckBox();
+            this.checknota24 = new System.Windows.Forms.CheckBox();
+            this.checknota25 = new System.Windows.Forms.CheckBox();
+            this.checknota26 = new System.Windows.Forms.CheckBox();
+            this.checknota27 = new System.Windows.Forms.CheckBox();
+            this.checknota28 = new System.Windows.Forms.CheckBox();
+            this.checknota29 = new System.Windows.Forms.CheckBox();
+            this.checknota30 = new System.Windows.Forms.CheckBox();
+            this.checknota31 = new System.Windows.Forms.CheckBox();
+            this.checknota32 = new System.Windows.Forms.CheckBox();
+            this.checknota33 = new System.Windows.Forms.CheckBox();
+            this.checknota34 = new System.Windows.Forms.CheckBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.btnAlerta3 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -155,7 +191,6 @@ namespace Notas
             this.Nota2.Size = new System.Drawing.Size(313, 22);
             this.Nota2.TabIndex = 4;
             this.Nota2.Visible = false;
-            this.Nota2.TextChanged += new System.EventHandler(this.Nota2_TextChanged);
             // 
             // Nota3
             // 
@@ -167,7 +202,6 @@ namespace Notas
             this.Nota3.Size = new System.Drawing.Size(313, 22);
             this.Nota3.TabIndex = 5;
             this.Nota3.Visible = false;
-            this.Nota3.TextChanged += new System.EventHandler(this.Nota3_TextChanged);
             // 
             // Nota4
             // 
@@ -190,7 +224,6 @@ namespace Notas
             this.Nota5.Size = new System.Drawing.Size(313, 22);
             this.Nota5.TabIndex = 7;
             this.Nota5.Visible = false;
-            this.Nota5.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
             // Nota6
             // 
@@ -301,7 +334,6 @@ namespace Notas
             this.Nota15.Size = new System.Drawing.Size(313, 22);
             this.Nota15.TabIndex = 18;
             this.Nota15.Visible = false;
-            this.Nota15.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // Nota16
             // 
@@ -319,7 +351,7 @@ namespace Notas
             this.Nota29.BackColor = System.Drawing.Color.Orange;
             this.Nota29.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nota29.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.Nota29.Location = new System.Drawing.Point(405, 425);
+            this.Nota29.Location = new System.Drawing.Point(418, 426);
             this.Nota29.Name = "Nota29";
             this.Nota29.Size = new System.Drawing.Size(313, 22);
             this.Nota29.TabIndex = 20;
@@ -330,7 +362,7 @@ namespace Notas
             this.Nota19.BackColor = System.Drawing.Color.Orange;
             this.Nota19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nota19.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.Nota19.Location = new System.Drawing.Point(405, 161);
+            this.Nota19.Location = new System.Drawing.Point(418, 162);
             this.Nota19.Name = "Nota19";
             this.Nota19.Size = new System.Drawing.Size(313, 22);
             this.Nota19.TabIndex = 21;
@@ -341,7 +373,7 @@ namespace Notas
             this.Nota23.BackColor = System.Drawing.Color.Orange;
             this.Nota23.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nota23.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.Nota23.Location = new System.Drawing.Point(405, 267);
+            this.Nota23.Location = new System.Drawing.Point(418, 269);
             this.Nota23.Name = "Nota23";
             this.Nota23.Size = new System.Drawing.Size(313, 22);
             this.Nota23.TabIndex = 23;
@@ -352,7 +384,7 @@ namespace Notas
             this.Nota22.BackColor = System.Drawing.Color.Orange;
             this.Nota22.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nota22.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.Nota22.Location = new System.Drawing.Point(405, 241);
+            this.Nota22.Location = new System.Drawing.Point(418, 241);
             this.Nota22.Name = "Nota22";
             this.Nota22.Size = new System.Drawing.Size(313, 22);
             this.Nota22.TabIndex = 25;
@@ -374,7 +406,7 @@ namespace Notas
             this.Nota21.BackColor = System.Drawing.Color.Orange;
             this.Nota21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nota21.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.Nota21.Location = new System.Drawing.Point(405, 215);
+            this.Nota21.Location = new System.Drawing.Point(418, 215);
             this.Nota21.Name = "Nota21";
             this.Nota21.Size = new System.Drawing.Size(313, 22);
             this.Nota21.TabIndex = 27;
@@ -385,7 +417,7 @@ namespace Notas
             this.Nota34.BackColor = System.Drawing.Color.Orange;
             this.Nota34.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nota34.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.Nota34.Location = new System.Drawing.Point(405, 551);
+            this.Nota34.Location = new System.Drawing.Point(418, 552);
             this.Nota34.Name = "Nota34";
             this.Nota34.Size = new System.Drawing.Size(313, 22);
             this.Nota34.TabIndex = 28;
@@ -396,7 +428,7 @@ namespace Notas
             this.Nota31.BackColor = System.Drawing.Color.Orange;
             this.Nota31.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nota31.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.Nota31.Location = new System.Drawing.Point(405, 475);
+            this.Nota31.Location = new System.Drawing.Point(418, 475);
             this.Nota31.Name = "Nota31";
             this.Nota31.Size = new System.Drawing.Size(313, 22);
             this.Nota31.TabIndex = 29;
@@ -407,7 +439,7 @@ namespace Notas
             this.Nota33.BackColor = System.Drawing.Color.Orange;
             this.Nota33.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nota33.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.Nota33.Location = new System.Drawing.Point(405, 526);
+            this.Nota33.Location = new System.Drawing.Point(418, 526);
             this.Nota33.Name = "Nota33";
             this.Nota33.Size = new System.Drawing.Size(313, 22);
             this.Nota33.TabIndex = 30;
@@ -418,7 +450,7 @@ namespace Notas
             this.Nota26.BackColor = System.Drawing.Color.Orange;
             this.Nota26.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nota26.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.Nota26.Location = new System.Drawing.Point(405, 346);
+            this.Nota26.Location = new System.Drawing.Point(418, 346);
             this.Nota26.Name = "Nota26";
             this.Nota26.Size = new System.Drawing.Size(313, 22);
             this.Nota26.TabIndex = 31;
@@ -429,7 +461,7 @@ namespace Notas
             this.Nota28.BackColor = System.Drawing.Color.Orange;
             this.Nota28.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nota28.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.Nota28.Location = new System.Drawing.Point(405, 398);
+            this.Nota28.Location = new System.Drawing.Point(418, 399);
             this.Nota28.Name = "Nota28";
             this.Nota28.Size = new System.Drawing.Size(313, 22);
             this.Nota28.TabIndex = 33;
@@ -440,7 +472,7 @@ namespace Notas
             this.Nota25.BackColor = System.Drawing.Color.Orange;
             this.Nota25.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nota25.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.Nota25.Location = new System.Drawing.Point(405, 319);
+            this.Nota25.Location = new System.Drawing.Point(418, 319);
             this.Nota25.Name = "Nota25";
             this.Nota25.Size = new System.Drawing.Size(313, 22);
             this.Nota25.TabIndex = 34;
@@ -451,7 +483,7 @@ namespace Notas
             this.Nota24.BackColor = System.Drawing.Color.Orange;
             this.Nota24.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nota24.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.Nota24.Location = new System.Drawing.Point(405, 294);
+            this.Nota24.Location = new System.Drawing.Point(418, 294);
             this.Nota24.Name = "Nota24";
             this.Nota24.Size = new System.Drawing.Size(313, 22);
             this.Nota24.TabIndex = 36;
@@ -462,7 +494,7 @@ namespace Notas
             this.Nota20.BackColor = System.Drawing.Color.Orange;
             this.Nota20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nota20.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.Nota20.Location = new System.Drawing.Point(405, 187);
+            this.Nota20.Location = new System.Drawing.Point(418, 187);
             this.Nota20.Name = "Nota20";
             this.Nota20.Size = new System.Drawing.Size(313, 22);
             this.Nota20.TabIndex = 37;
@@ -473,7 +505,7 @@ namespace Notas
             this.Nota27.BackColor = System.Drawing.Color.Orange;
             this.Nota27.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nota27.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.Nota27.Location = new System.Drawing.Point(405, 372);
+            this.Nota27.Location = new System.Drawing.Point(418, 373);
             this.Nota27.Name = "Nota27";
             this.Nota27.Size = new System.Drawing.Size(313, 22);
             this.Nota27.TabIndex = 38;
@@ -484,7 +516,7 @@ namespace Notas
             this.Nota32.BackColor = System.Drawing.Color.Orange;
             this.Nota32.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nota32.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.Nota32.Location = new System.Drawing.Point(405, 501);
+            this.Nota32.Location = new System.Drawing.Point(418, 501);
             this.Nota32.Name = "Nota32";
             this.Nota32.Size = new System.Drawing.Size(313, 22);
             this.Nota32.TabIndex = 39;
@@ -495,7 +527,7 @@ namespace Notas
             this.Nota30.BackColor = System.Drawing.Color.Orange;
             this.Nota30.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nota30.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.Nota30.Location = new System.Drawing.Point(405, 451);
+            this.Nota30.Location = new System.Drawing.Point(418, 451);
             this.Nota30.Name = "Nota30";
             this.Nota30.Size = new System.Drawing.Size(313, 22);
             this.Nota30.TabIndex = 42;
@@ -722,7 +754,7 @@ namespace Notas
             // button19
             // 
             this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button19.Location = new System.Drawing.Point(383, 163);
+            this.button19.Location = new System.Drawing.Point(396, 163);
             this.button19.Name = "button19";
             this.button19.Size = new System.Drawing.Size(16, 21);
             this.button19.TabIndex = 61;
@@ -733,7 +765,7 @@ namespace Notas
             // button20
             // 
             this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button20.Location = new System.Drawing.Point(383, 188);
+            this.button20.Location = new System.Drawing.Point(396, 188);
             this.button20.Name = "button20";
             this.button20.Size = new System.Drawing.Size(16, 21);
             this.button20.TabIndex = 62;
@@ -744,7 +776,7 @@ namespace Notas
             // button22
             // 
             this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button22.Location = new System.Drawing.Point(383, 241);
+            this.button22.Location = new System.Drawing.Point(396, 243);
             this.button22.Name = "button22";
             this.button22.Size = new System.Drawing.Size(16, 21);
             this.button22.TabIndex = 63;
@@ -755,7 +787,7 @@ namespace Notas
             // button21
             // 
             this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button21.Location = new System.Drawing.Point(383, 215);
+            this.button21.Location = new System.Drawing.Point(396, 216);
             this.button21.Name = "button21";
             this.button21.Size = new System.Drawing.Size(16, 21);
             this.button21.TabIndex = 64;
@@ -766,7 +798,7 @@ namespace Notas
             // button23
             // 
             this.button23.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button23.Location = new System.Drawing.Point(383, 267);
+            this.button23.Location = new System.Drawing.Point(396, 269);
             this.button23.Name = "button23";
             this.button23.Size = new System.Drawing.Size(16, 21);
             this.button23.TabIndex = 65;
@@ -777,7 +809,7 @@ namespace Notas
             // button24
             // 
             this.button24.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button24.Location = new System.Drawing.Point(383, 294);
+            this.button24.Location = new System.Drawing.Point(396, 294);
             this.button24.Name = "button24";
             this.button24.Size = new System.Drawing.Size(16, 21);
             this.button24.TabIndex = 66;
@@ -788,7 +820,7 @@ namespace Notas
             // button25
             // 
             this.button25.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button25.Location = new System.Drawing.Point(383, 319);
+            this.button25.Location = new System.Drawing.Point(396, 320);
             this.button25.Name = "button25";
             this.button25.Size = new System.Drawing.Size(16, 21);
             this.button25.TabIndex = 67;
@@ -799,7 +831,7 @@ namespace Notas
             // button33
             // 
             this.button33.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button33.Location = new System.Drawing.Point(383, 528);
+            this.button33.Location = new System.Drawing.Point(396, 528);
             this.button33.Name = "button33";
             this.button33.Size = new System.Drawing.Size(16, 21);
             this.button33.TabIndex = 68;
@@ -810,7 +842,7 @@ namespace Notas
             // button32
             // 
             this.button32.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button32.Location = new System.Drawing.Point(383, 501);
+            this.button32.Location = new System.Drawing.Point(396, 500);
             this.button32.Name = "button32";
             this.button32.Size = new System.Drawing.Size(16, 21);
             this.button32.TabIndex = 69;
@@ -821,7 +853,7 @@ namespace Notas
             // button26
             // 
             this.button26.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button26.Location = new System.Drawing.Point(383, 345);
+            this.button26.Location = new System.Drawing.Point(396, 346);
             this.button26.Name = "button26";
             this.button26.Size = new System.Drawing.Size(16, 21);
             this.button26.TabIndex = 70;
@@ -832,7 +864,7 @@ namespace Notas
             // button31
             // 
             this.button31.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button31.Location = new System.Drawing.Point(383, 475);
+            this.button31.Location = new System.Drawing.Point(396, 474);
             this.button31.Name = "button31";
             this.button31.Size = new System.Drawing.Size(16, 21);
             this.button31.TabIndex = 71;
@@ -843,7 +875,7 @@ namespace Notas
             // button30
             // 
             this.button30.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button30.Location = new System.Drawing.Point(383, 451);
+            this.button30.Location = new System.Drawing.Point(396, 451);
             this.button30.Name = "button30";
             this.button30.Size = new System.Drawing.Size(16, 21);
             this.button30.TabIndex = 72;
@@ -854,7 +886,7 @@ namespace Notas
             // button29
             // 
             this.button29.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button29.Location = new System.Drawing.Point(383, 425);
+            this.button29.Location = new System.Drawing.Point(396, 428);
             this.button29.Name = "button29";
             this.button29.Size = new System.Drawing.Size(16, 21);
             this.button29.TabIndex = 73;
@@ -865,7 +897,7 @@ namespace Notas
             // button28
             // 
             this.button28.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button28.Location = new System.Drawing.Point(383, 397);
+            this.button28.Location = new System.Drawing.Point(396, 401);
             this.button28.Name = "button28";
             this.button28.Size = new System.Drawing.Size(16, 21);
             this.button28.TabIndex = 74;
@@ -876,7 +908,7 @@ namespace Notas
             // button27
             // 
             this.button27.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button27.Location = new System.Drawing.Point(383, 372);
+            this.button27.Location = new System.Drawing.Point(396, 374);
             this.button27.Name = "button27";
             this.button27.Size = new System.Drawing.Size(16, 21);
             this.button27.TabIndex = 75;
@@ -887,7 +919,7 @@ namespace Notas
             // button34
             // 
             this.button34.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button34.Location = new System.Drawing.Point(383, 553);
+            this.button34.Location = new System.Drawing.Point(396, 553);
             this.button34.Name = "button34";
             this.button34.Size = new System.Drawing.Size(16, 21);
             this.button34.TabIndex = 77;
@@ -899,7 +931,7 @@ namespace Notas
             // 
             this.lbltextRemove.AutoSize = true;
             this.lbltextRemove.Font = new System.Drawing.Font("Bahnschrift Condensed", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbltextRemove.Location = new System.Drawing.Point(162, 35);
+            this.lbltextRemove.Location = new System.Drawing.Point(121, 35);
             this.lbltextRemove.Name = "lbltextRemove";
             this.lbltextRemove.Size = new System.Drawing.Size(97, 23);
             this.lbltextRemove.TabIndex = 78;
@@ -909,7 +941,7 @@ namespace Notas
             // 
             this.btnAlerta2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnAlerta2.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAlerta2.Location = new System.Drawing.Point(190, 61);
+            this.btnAlerta2.Location = new System.Drawing.Point(153, 61);
             this.btnAlerta2.Name = "btnAlerta2";
             this.btnAlerta2.Size = new System.Drawing.Size(34, 33);
             this.btnAlerta2.TabIndex = 79;
@@ -1112,7 +1144,7 @@ namespace Notas
             // buttonExcluir19
             // 
             this.buttonExcluir19.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonExcluir19.Location = new System.Drawing.Point(724, 161);
+            this.buttonExcluir19.Location = new System.Drawing.Point(737, 161);
             this.buttonExcluir19.Name = "buttonExcluir19";
             this.buttonExcluir19.Size = new System.Drawing.Size(16, 21);
             this.buttonExcluir19.TabIndex = 100;
@@ -1124,7 +1156,7 @@ namespace Notas
             // buttonExcluir20
             // 
             this.buttonExcluir20.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonExcluir20.Location = new System.Drawing.Point(724, 187);
+            this.buttonExcluir20.Location = new System.Drawing.Point(737, 187);
             this.buttonExcluir20.Name = "buttonExcluir20";
             this.buttonExcluir20.Size = new System.Drawing.Size(16, 21);
             this.buttonExcluir20.TabIndex = 101;
@@ -1136,7 +1168,7 @@ namespace Notas
             // buttonExcluir21
             // 
             this.buttonExcluir21.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonExcluir21.Location = new System.Drawing.Point(724, 214);
+            this.buttonExcluir21.Location = new System.Drawing.Point(737, 214);
             this.buttonExcluir21.Name = "buttonExcluir21";
             this.buttonExcluir21.Size = new System.Drawing.Size(16, 21);
             this.buttonExcluir21.TabIndex = 102;
@@ -1148,7 +1180,7 @@ namespace Notas
             // buttonExcluir22
             // 
             this.buttonExcluir22.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonExcluir22.Location = new System.Drawing.Point(724, 242);
+            this.buttonExcluir22.Location = new System.Drawing.Point(737, 242);
             this.buttonExcluir22.Name = "buttonExcluir22";
             this.buttonExcluir22.Size = new System.Drawing.Size(16, 21);
             this.buttonExcluir22.TabIndex = 103;
@@ -1160,7 +1192,7 @@ namespace Notas
             // buttonExcluir23
             // 
             this.buttonExcluir23.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonExcluir23.Location = new System.Drawing.Point(724, 267);
+            this.buttonExcluir23.Location = new System.Drawing.Point(737, 267);
             this.buttonExcluir23.Name = "buttonExcluir23";
             this.buttonExcluir23.Size = new System.Drawing.Size(16, 21);
             this.buttonExcluir23.TabIndex = 104;
@@ -1172,7 +1204,7 @@ namespace Notas
             // buttonExcluir24
             // 
             this.buttonExcluir24.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonExcluir24.Location = new System.Drawing.Point(724, 295);
+            this.buttonExcluir24.Location = new System.Drawing.Point(737, 295);
             this.buttonExcluir24.Name = "buttonExcluir24";
             this.buttonExcluir24.Size = new System.Drawing.Size(16, 21);
             this.buttonExcluir24.TabIndex = 105;
@@ -1184,7 +1216,7 @@ namespace Notas
             // buttonExcluir25
             // 
             this.buttonExcluir25.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonExcluir25.Location = new System.Drawing.Point(724, 322);
+            this.buttonExcluir25.Location = new System.Drawing.Point(737, 319);
             this.buttonExcluir25.Name = "buttonExcluir25";
             this.buttonExcluir25.Size = new System.Drawing.Size(16, 21);
             this.buttonExcluir25.TabIndex = 106;
@@ -1196,7 +1228,7 @@ namespace Notas
             // buttonExcluir26
             // 
             this.buttonExcluir26.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonExcluir26.Location = new System.Drawing.Point(724, 345);
+            this.buttonExcluir26.Location = new System.Drawing.Point(737, 346);
             this.buttonExcluir26.Name = "buttonExcluir26";
             this.buttonExcluir26.Size = new System.Drawing.Size(16, 21);
             this.buttonExcluir26.TabIndex = 107;
@@ -1208,7 +1240,7 @@ namespace Notas
             // buttonExcluir27
             // 
             this.buttonExcluir27.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonExcluir27.Location = new System.Drawing.Point(724, 373);
+            this.buttonExcluir27.Location = new System.Drawing.Point(737, 373);
             this.buttonExcluir27.Name = "buttonExcluir27";
             this.buttonExcluir27.Size = new System.Drawing.Size(16, 21);
             this.buttonExcluir27.TabIndex = 108;
@@ -1220,7 +1252,7 @@ namespace Notas
             // buttonExcluir28
             // 
             this.buttonExcluir28.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonExcluir28.Location = new System.Drawing.Point(724, 398);
+            this.buttonExcluir28.Location = new System.Drawing.Point(737, 400);
             this.buttonExcluir28.Name = "buttonExcluir28";
             this.buttonExcluir28.Size = new System.Drawing.Size(16, 21);
             this.buttonExcluir28.TabIndex = 109;
@@ -1232,7 +1264,7 @@ namespace Notas
             // buttonExcluir29
             // 
             this.buttonExcluir29.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonExcluir29.Location = new System.Drawing.Point(724, 424);
+            this.buttonExcluir29.Location = new System.Drawing.Point(737, 426);
             this.buttonExcluir29.Name = "buttonExcluir29";
             this.buttonExcluir29.Size = new System.Drawing.Size(16, 21);
             this.buttonExcluir29.TabIndex = 110;
@@ -1244,7 +1276,7 @@ namespace Notas
             // buttonExcluir30
             // 
             this.buttonExcluir30.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonExcluir30.Location = new System.Drawing.Point(724, 452);
+            this.buttonExcluir30.Location = new System.Drawing.Point(737, 453);
             this.buttonExcluir30.Name = "buttonExcluir30";
             this.buttonExcluir30.Size = new System.Drawing.Size(16, 21);
             this.buttonExcluir30.TabIndex = 111;
@@ -1256,7 +1288,7 @@ namespace Notas
             // buttonExcluir31
             // 
             this.buttonExcluir31.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonExcluir31.Location = new System.Drawing.Point(724, 476);
+            this.buttonExcluir31.Location = new System.Drawing.Point(737, 480);
             this.buttonExcluir31.Name = "buttonExcluir31";
             this.buttonExcluir31.Size = new System.Drawing.Size(16, 21);
             this.buttonExcluir31.TabIndex = 112;
@@ -1268,7 +1300,7 @@ namespace Notas
             // buttonExcluir32
             // 
             this.buttonExcluir32.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonExcluir32.Location = new System.Drawing.Point(724, 501);
+            this.buttonExcluir32.Location = new System.Drawing.Point(737, 502);
             this.buttonExcluir32.Name = "buttonExcluir32";
             this.buttonExcluir32.Size = new System.Drawing.Size(16, 21);
             this.buttonExcluir32.TabIndex = 113;
@@ -1280,7 +1312,7 @@ namespace Notas
             // buttonExcluir33
             // 
             this.buttonExcluir33.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonExcluir33.Location = new System.Drawing.Point(724, 527);
+            this.buttonExcluir33.Location = new System.Drawing.Point(737, 526);
             this.buttonExcluir33.Name = "buttonExcluir33";
             this.buttonExcluir33.Size = new System.Drawing.Size(16, 21);
             this.buttonExcluir33.TabIndex = 114;
@@ -1292,7 +1324,7 @@ namespace Notas
             // buttonExcluir34
             // 
             this.buttonExcluir34.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonExcluir34.Location = new System.Drawing.Point(724, 551);
+            this.buttonExcluir34.Location = new System.Drawing.Point(737, 551);
             this.buttonExcluir34.Name = "buttonExcluir34";
             this.buttonExcluir34.Size = new System.Drawing.Size(16, 21);
             this.buttonExcluir34.TabIndex = 116;
@@ -1385,7 +1417,7 @@ namespace Notas
             this.Nota18.BackColor = System.Drawing.Color.Orange;
             this.Nota18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nota18.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.Nota18.Location = new System.Drawing.Point(405, 137);
+            this.Nota18.Location = new System.Drawing.Point(418, 138);
             this.Nota18.Name = "Nota18";
             this.Nota18.Size = new System.Drawing.Size(313, 22);
             this.Nota18.TabIndex = 124;
@@ -1394,7 +1426,7 @@ namespace Notas
             // button18
             // 
             this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button18.Location = new System.Drawing.Point(383, 138);
+            this.button18.Location = new System.Drawing.Point(396, 138);
             this.button18.Name = "button18";
             this.button18.Size = new System.Drawing.Size(16, 21);
             this.button18.TabIndex = 125;
@@ -1405,7 +1437,7 @@ namespace Notas
             // buttonExcluir18
             // 
             this.buttonExcluir18.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonExcluir18.Location = new System.Drawing.Point(724, 137);
+            this.buttonExcluir18.Location = new System.Drawing.Point(737, 136);
             this.buttonExcluir18.Name = "buttonExcluir18";
             this.buttonExcluir18.Size = new System.Drawing.Size(16, 21);
             this.buttonExcluir18.TabIndex = 126;
@@ -1414,13 +1446,444 @@ namespace Notas
             this.buttonExcluir18.Visible = false;
             this.buttonExcluir18.Click += new System.EventHandler(this.buttonExcluir18_Click);
             // 
+            // checknota1
+            // 
+            this.checknota1.AutoSize = true;
+            this.checknota1.Location = new System.Drawing.Point(369, 141);
+            this.checknota1.Name = "checknota1";
+            this.checknota1.Size = new System.Drawing.Size(15, 14);
+            this.checknota1.TabIndex = 127;
+            this.checknota1.UseVisualStyleBackColor = true;
+            this.checknota1.Visible = false;
+            this.checknota1.CheckedChanged += new System.EventHandler(this.checknota1_CheckedChanged);
+            // 
+            // checknota2
+            // 
+            this.checknota2.AutoSize = true;
+            this.checknota2.Location = new System.Drawing.Point(369, 168);
+            this.checknota2.Name = "checknota2";
+            this.checknota2.Size = new System.Drawing.Size(15, 14);
+            this.checknota2.TabIndex = 128;
+            this.checknota2.UseVisualStyleBackColor = true;
+            this.checknota2.Visible = false;
+            this.checknota2.CheckedChanged += new System.EventHandler(this.checknota2_CheckedChanged);
+            // 
+            // checknota3
+            // 
+            this.checknota3.AutoSize = true;
+            this.checknota3.Location = new System.Drawing.Point(369, 193);
+            this.checknota3.Name = "checknota3";
+            this.checknota3.Size = new System.Drawing.Size(15, 14);
+            this.checknota3.TabIndex = 129;
+            this.checknota3.UseVisualStyleBackColor = true;
+            this.checknota3.Visible = false;
+            this.checknota3.CheckedChanged += new System.EventHandler(this.checknota3_CheckedChanged);
+            // 
+            // checknota4
+            // 
+            this.checknota4.AutoSize = true;
+            this.checknota4.Location = new System.Drawing.Point(369, 218);
+            this.checknota4.Name = "checknota4";
+            this.checknota4.Size = new System.Drawing.Size(15, 14);
+            this.checknota4.TabIndex = 130;
+            this.checknota4.UseVisualStyleBackColor = true;
+            this.checknota4.Visible = false;
+            this.checknota4.CheckedChanged += new System.EventHandler(this.checknota4_CheckedChanged);
+            // 
+            // checknota5
+            // 
+            this.checknota5.AutoSize = true;
+            this.checknota5.Location = new System.Drawing.Point(369, 245);
+            this.checknota5.Name = "checknota5";
+            this.checknota5.Size = new System.Drawing.Size(15, 14);
+            this.checknota5.TabIndex = 131;
+            this.checknota5.UseVisualStyleBackColor = true;
+            this.checknota5.Visible = false;
+            this.checknota5.CheckedChanged += new System.EventHandler(this.checknota5_CheckedChanged);
+            // 
+            // checknota6
+            // 
+            this.checknota6.AutoSize = true;
+            this.checknota6.Location = new System.Drawing.Point(369, 272);
+            this.checknota6.Name = "checknota6";
+            this.checknota6.Size = new System.Drawing.Size(15, 14);
+            this.checknota6.TabIndex = 132;
+            this.checknota6.UseVisualStyleBackColor = true;
+            this.checknota6.Visible = false;
+            this.checknota6.CheckedChanged += new System.EventHandler(this.checknota6_CheckedChanged);
+            // 
+            // checknota7
+            // 
+            this.checknota7.AutoSize = true;
+            this.checknota7.Location = new System.Drawing.Point(369, 296);
+            this.checknota7.Name = "checknota7";
+            this.checknota7.Size = new System.Drawing.Size(15, 14);
+            this.checknota7.TabIndex = 133;
+            this.checknota7.UseVisualStyleBackColor = true;
+            this.checknota7.Visible = false;
+            this.checknota7.CheckedChanged += new System.EventHandler(this.checknota7_CheckedChanged);
+            // 
+            // checknota8
+            // 
+            this.checknota8.AutoSize = true;
+            this.checknota8.Location = new System.Drawing.Point(369, 323);
+            this.checknota8.Name = "checknota8";
+            this.checknota8.Size = new System.Drawing.Size(15, 14);
+            this.checknota8.TabIndex = 134;
+            this.checknota8.UseVisualStyleBackColor = true;
+            this.checknota8.Visible = false;
+            this.checknota8.CheckedChanged += new System.EventHandler(this.checknota8_CheckedChanged);
+            // 
+            // checknota9
+            // 
+            this.checknota9.AutoSize = true;
+            this.checknota9.Location = new System.Drawing.Point(369, 350);
+            this.checknota9.Name = "checknota9";
+            this.checknota9.Size = new System.Drawing.Size(15, 14);
+            this.checknota9.TabIndex = 135;
+            this.checknota9.UseVisualStyleBackColor = true;
+            this.checknota9.Visible = false;
+            this.checknota9.CheckedChanged += new System.EventHandler(this.checknota9_CheckedChanged);
+            // 
+            // checknota10
+            // 
+            this.checknota10.AutoSize = true;
+            this.checknota10.Location = new System.Drawing.Point(369, 376);
+            this.checknota10.Name = "checknota10";
+            this.checknota10.Size = new System.Drawing.Size(15, 14);
+            this.checknota10.TabIndex = 136;
+            this.checknota10.UseVisualStyleBackColor = true;
+            this.checknota10.Visible = false;
+            this.checknota10.CheckedChanged += new System.EventHandler(this.checknota10_CheckedChanged);
+            // 
+            // checknota11
+            // 
+            this.checknota11.AutoSize = true;
+            this.checknota11.Location = new System.Drawing.Point(369, 400);
+            this.checknota11.Name = "checknota11";
+            this.checknota11.Size = new System.Drawing.Size(15, 14);
+            this.checknota11.TabIndex = 137;
+            this.checknota11.UseVisualStyleBackColor = true;
+            this.checknota11.Visible = false;
+            this.checknota11.CheckedChanged += new System.EventHandler(this.checknota11_CheckedChanged);
+            // 
+            // checknota12
+            // 
+            this.checknota12.AutoSize = true;
+            this.checknota12.Location = new System.Drawing.Point(369, 425);
+            this.checknota12.Name = "checknota12";
+            this.checknota12.Size = new System.Drawing.Size(15, 14);
+            this.checknota12.TabIndex = 138;
+            this.checknota12.UseVisualStyleBackColor = true;
+            this.checknota12.Visible = false;
+            this.checknota12.CheckedChanged += new System.EventHandler(this.checknota12_CheckedChanged);
+            // 
+            // checknota13
+            // 
+            this.checknota13.AutoSize = true;
+            this.checknota13.Location = new System.Drawing.Point(369, 451);
+            this.checknota13.Name = "checknota13";
+            this.checknota13.Size = new System.Drawing.Size(15, 14);
+            this.checknota13.TabIndex = 139;
+            this.checknota13.UseVisualStyleBackColor = true;
+            this.checknota13.Visible = false;
+            this.checknota13.CheckedChanged += new System.EventHandler(this.checknota13_CheckedChanged);
+            // 
+            // checknota14
+            // 
+            this.checknota14.AutoSize = true;
+            this.checknota14.Location = new System.Drawing.Point(369, 478);
+            this.checknota14.Name = "checknota14";
+            this.checknota14.Size = new System.Drawing.Size(15, 14);
+            this.checknota14.TabIndex = 140;
+            this.checknota14.UseVisualStyleBackColor = true;
+            this.checknota14.Visible = false;
+            this.checknota14.CheckedChanged += new System.EventHandler(this.checknota14_CheckedChanged);
+            // 
+            // checknota15
+            // 
+            this.checknota15.AutoSize = true;
+            this.checknota15.Location = new System.Drawing.Point(369, 504);
+            this.checknota15.Name = "checknota15";
+            this.checknota15.Size = new System.Drawing.Size(15, 14);
+            this.checknota15.TabIndex = 141;
+            this.checknota15.UseVisualStyleBackColor = true;
+            this.checknota15.Visible = false;
+            this.checknota15.CheckedChanged += new System.EventHandler(this.checknota15_CheckedChanged);
+            // 
+            // checknota16
+            // 
+            this.checknota16.AutoSize = true;
+            this.checknota16.Location = new System.Drawing.Point(369, 530);
+            this.checknota16.Name = "checknota16";
+            this.checknota16.Size = new System.Drawing.Size(15, 14);
+            this.checknota16.TabIndex = 142;
+            this.checknota16.UseVisualStyleBackColor = true;
+            this.checknota16.Visible = false;
+            this.checknota16.CheckedChanged += new System.EventHandler(this.checknota16_CheckedChanged);
+            // 
+            // checknota17
+            // 
+            this.checknota17.AutoSize = true;
+            this.checknota17.Location = new System.Drawing.Point(369, 556);
+            this.checknota17.Name = "checknota17";
+            this.checknota17.Size = new System.Drawing.Size(15, 14);
+            this.checknota17.TabIndex = 143;
+            this.checknota17.UseVisualStyleBackColor = true;
+            this.checknota17.Visible = false;
+            this.checknota17.CheckedChanged += new System.EventHandler(this.checknota17_CheckedChanged);
+            // 
+            // checknota18
+            // 
+            this.checknota18.AutoSize = true;
+            this.checknota18.Location = new System.Drawing.Point(759, 140);
+            this.checknota18.Name = "checknota18";
+            this.checknota18.Size = new System.Drawing.Size(15, 14);
+            this.checknota18.TabIndex = 144;
+            this.checknota18.UseVisualStyleBackColor = true;
+            this.checknota18.Visible = false;
+            this.checknota18.CheckedChanged += new System.EventHandler(this.checknota18_CheckedChanged);
+            // 
+            // checknota19
+            // 
+            this.checknota19.AutoSize = true;
+            this.checknota19.Location = new System.Drawing.Point(759, 165);
+            this.checknota19.Name = "checknota19";
+            this.checknota19.Size = new System.Drawing.Size(15, 14);
+            this.checknota19.TabIndex = 145;
+            this.checknota19.UseVisualStyleBackColor = true;
+            this.checknota19.Visible = false;
+            this.checknota19.CheckedChanged += new System.EventHandler(this.checknota19_CheckedChanged);
+            // 
+            // checknota20
+            // 
+            this.checknota20.AutoSize = true;
+            this.checknota20.Location = new System.Drawing.Point(759, 192);
+            this.checknota20.Name = "checknota20";
+            this.checknota20.Size = new System.Drawing.Size(15, 14);
+            this.checknota20.TabIndex = 146;
+            this.checknota20.UseVisualStyleBackColor = true;
+            this.checknota20.Visible = false;
+            this.checknota20.CheckedChanged += new System.EventHandler(this.checknota20_CheckedChanged);
+            // 
+            // checknota21
+            // 
+            this.checknota21.AutoSize = true;
+            this.checknota21.Location = new System.Drawing.Point(759, 218);
+            this.checknota21.Name = "checknota21";
+            this.checknota21.Size = new System.Drawing.Size(15, 14);
+            this.checknota21.TabIndex = 147;
+            this.checknota21.UseVisualStyleBackColor = true;
+            this.checknota21.Visible = false;
+            this.checknota21.CheckedChanged += new System.EventHandler(this.checknota21_CheckedChanged);
+            // 
+            // checknota22
+            // 
+            this.checknota22.AutoSize = true;
+            this.checknota22.Location = new System.Drawing.Point(759, 245);
+            this.checknota22.Name = "checknota22";
+            this.checknota22.Size = new System.Drawing.Size(15, 14);
+            this.checknota22.TabIndex = 148;
+            this.checknota22.UseVisualStyleBackColor = true;
+            this.checknota22.Visible = false;
+            this.checknota22.CheckedChanged += new System.EventHandler(this.checknota22_CheckedChanged);
+            // 
+            // checknota23
+            // 
+            this.checknota23.AutoSize = true;
+            this.checknota23.Location = new System.Drawing.Point(759, 269);
+            this.checknota23.Name = "checknota23";
+            this.checknota23.Size = new System.Drawing.Size(15, 14);
+            this.checknota23.TabIndex = 149;
+            this.checknota23.UseVisualStyleBackColor = true;
+            this.checknota23.Visible = false;
+            this.checknota23.CheckedChanged += new System.EventHandler(this.checknota23_CheckedChanged);
+            // 
+            // checknota24
+            // 
+            this.checknota24.AutoSize = true;
+            this.checknota24.Location = new System.Drawing.Point(759, 298);
+            this.checknota24.Name = "checknota24";
+            this.checknota24.Size = new System.Drawing.Size(15, 14);
+            this.checknota24.TabIndex = 150;
+            this.checknota24.UseVisualStyleBackColor = true;
+            this.checknota24.Visible = false;
+            this.checknota24.CheckedChanged += new System.EventHandler(this.checknota24_CheckedChanged);
+            // 
+            // checknota25
+            // 
+            this.checknota25.AutoSize = true;
+            this.checknota25.Location = new System.Drawing.Point(759, 322);
+            this.checknota25.Name = "checknota25";
+            this.checknota25.Size = new System.Drawing.Size(15, 14);
+            this.checknota25.TabIndex = 151;
+            this.checknota25.UseVisualStyleBackColor = true;
+            this.checknota25.Visible = false;
+            this.checknota25.CheckedChanged += new System.EventHandler(this.checknota25_CheckedChanged);
+            // 
+            // checknota26
+            // 
+            this.checknota26.AutoSize = true;
+            this.checknota26.Location = new System.Drawing.Point(759, 349);
+            this.checknota26.Name = "checknota26";
+            this.checknota26.Size = new System.Drawing.Size(15, 14);
+            this.checknota26.TabIndex = 152;
+            this.checknota26.UseVisualStyleBackColor = true;
+            this.checknota26.Visible = false;
+            this.checknota26.CheckedChanged += new System.EventHandler(this.checknota26_CheckedChanged);
+            // 
+            // checknota27
+            // 
+            this.checknota27.AutoSize = true;
+            this.checknota27.Location = new System.Drawing.Point(759, 376);
+            this.checknota27.Name = "checknota27";
+            this.checknota27.Size = new System.Drawing.Size(15, 14);
+            this.checknota27.TabIndex = 153;
+            this.checknota27.UseVisualStyleBackColor = true;
+            this.checknota27.Visible = false;
+            this.checknota27.CheckedChanged += new System.EventHandler(this.checknota27_CheckedChanged);
+            // 
+            // checknota28
+            // 
+            this.checknota28.AutoSize = true;
+            this.checknota28.Location = new System.Drawing.Point(759, 402);
+            this.checknota28.Name = "checknota28";
+            this.checknota28.Size = new System.Drawing.Size(15, 14);
+            this.checknota28.TabIndex = 154;
+            this.checknota28.UseVisualStyleBackColor = true;
+            this.checknota28.Visible = false;
+            this.checknota28.CheckedChanged += new System.EventHandler(this.checknota28_CheckedChanged);
+            // 
+            // checknota29
+            // 
+            this.checknota29.AutoSize = true;
+            this.checknota29.Location = new System.Drawing.Point(759, 429);
+            this.checknota29.Name = "checknota29";
+            this.checknota29.Size = new System.Drawing.Size(15, 14);
+            this.checknota29.TabIndex = 155;
+            this.checknota29.UseVisualStyleBackColor = true;
+            this.checknota29.Visible = false;
+            this.checknota29.CheckedChanged += new System.EventHandler(this.checknota29_CheckedChanged);
+            // 
+            // checknota30
+            // 
+            this.checknota30.AutoSize = true;
+            this.checknota30.Location = new System.Drawing.Point(759, 457);
+            this.checknota30.Name = "checknota30";
+            this.checknota30.Size = new System.Drawing.Size(15, 14);
+            this.checknota30.TabIndex = 156;
+            this.checknota30.UseVisualStyleBackColor = true;
+            this.checknota30.Visible = false;
+            this.checknota30.CheckedChanged += new System.EventHandler(this.checknota30_CheckedChanged);
+            // 
+            // checknota31
+            // 
+            this.checknota31.AutoSize = true;
+            this.checknota31.Location = new System.Drawing.Point(759, 483);
+            this.checknota31.Name = "checknota31";
+            this.checknota31.Size = new System.Drawing.Size(15, 14);
+            this.checknota31.TabIndex = 157;
+            this.checknota31.UseVisualStyleBackColor = true;
+            this.checknota31.Visible = false;
+            this.checknota31.CheckedChanged += new System.EventHandler(this.checknota31_CheckedChanged);
+            // 
+            // checknota32
+            // 
+            this.checknota32.AutoSize = true;
+            this.checknota32.Location = new System.Drawing.Point(759, 506);
+            this.checknota32.Name = "checknota32";
+            this.checknota32.Size = new System.Drawing.Size(15, 14);
+            this.checknota32.TabIndex = 158;
+            this.checknota32.UseVisualStyleBackColor = true;
+            this.checknota32.Visible = false;
+            this.checknota32.CheckedChanged += new System.EventHandler(this.checknota32_CheckedChanged);
+            // 
+            // checknota33
+            // 
+            this.checknota33.AutoSize = true;
+            this.checknota33.Location = new System.Drawing.Point(759, 528);
+            this.checknota33.Name = "checknota33";
+            this.checknota33.Size = new System.Drawing.Size(15, 14);
+            this.checknota33.TabIndex = 159;
+            this.checknota33.UseVisualStyleBackColor = true;
+            this.checknota33.Visible = false;
+            this.checknota33.CheckedChanged += new System.EventHandler(this.checknota33_CheckedChanged);
+            // 
+            // checknota34
+            // 
+            this.checknota34.AutoSize = true;
+            this.checknota34.Location = new System.Drawing.Point(759, 553);
+            this.checknota34.Name = "checknota34";
+            this.checknota34.Size = new System.Drawing.Size(15, 14);
+            this.checknota34.TabIndex = 160;
+            this.checknota34.UseVisualStyleBackColor = true;
+            this.checknota34.Visible = false;
+            this.checknota34.CheckedChanged += new System.EventHandler(this.checknota34_CheckedChanged);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Bahnschrift Condensed", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(213, 35);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(94, 23);
+            this.label3.TabIndex = 161;
+            this.label3.Text = "Concluir Nota";
+            // 
+            // btnAlerta3
+            // 
+            this.btnAlerta3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnAlerta3.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAlerta3.Location = new System.Drawing.Point(242, 61);
+            this.btnAlerta3.Name = "btnAlerta3";
+            this.btnAlerta3.Size = new System.Drawing.Size(34, 33);
+            this.btnAlerta3.TabIndex = 162;
+            this.btnAlerta3.UseVisualStyleBackColor = true;
+            this.btnAlerta3.Click += new System.EventHandler(this.btnAlerta3_Click);
+            // 
             // Notas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.Orange;
-            this.ClientSize = new System.Drawing.Size(770, 584);
+            this.ClientSize = new System.Drawing.Size(788, 584);
+            this.Controls.Add(this.btnAlerta3);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.checknota34);
+            this.Controls.Add(this.checknota33);
+            this.Controls.Add(this.checknota32);
+            this.Controls.Add(this.checknota31);
+            this.Controls.Add(this.checknota30);
+            this.Controls.Add(this.checknota29);
+            this.Controls.Add(this.checknota28);
+            this.Controls.Add(this.checknota27);
+            this.Controls.Add(this.checknota26);
+            this.Controls.Add(this.checknota25);
+            this.Controls.Add(this.checknota24);
+            this.Controls.Add(this.checknota23);
+            this.Controls.Add(this.checknota22);
+            this.Controls.Add(this.checknota21);
+            this.Controls.Add(this.checknota20);
+            this.Controls.Add(this.checknota19);
+            this.Controls.Add(this.checknota18);
+            this.Controls.Add(this.checknota17);
+            this.Controls.Add(this.checknota16);
+            this.Controls.Add(this.checknota15);
+            this.Controls.Add(this.checknota14);
+            this.Controls.Add(this.checknota13);
+            this.Controls.Add(this.checknota12);
+            this.Controls.Add(this.checknota11);
+            this.Controls.Add(this.checknota10);
+            this.Controls.Add(this.checknota9);
+            this.Controls.Add(this.checknota8);
+            this.Controls.Add(this.checknota7);
+            this.Controls.Add(this.checknota6);
+            this.Controls.Add(this.checknota5);
+            this.Controls.Add(this.checknota4);
+            this.Controls.Add(this.checknota3);
+            this.Controls.Add(this.checknota2);
+            this.Controls.Add(this.checknota1);
             this.Controls.Add(this.buttonExcluir18);
             this.Controls.Add(this.button18);
             this.Controls.Add(this.Nota18);
@@ -1659,6 +2122,42 @@ namespace Notas
         private System.Windows.Forms.TextBox Nota18;
         private System.Windows.Forms.Button button18;
         private System.Windows.Forms.Button buttonExcluir18;
+        private System.Windows.Forms.CheckBox checknota1;
+        private System.Windows.Forms.CheckBox checknota2;
+        private System.Windows.Forms.CheckBox checknota3;
+        private System.Windows.Forms.CheckBox checknota4;
+        private System.Windows.Forms.CheckBox checknota5;
+        private System.Windows.Forms.CheckBox checknota6;
+        private System.Windows.Forms.CheckBox checknota7;
+        private System.Windows.Forms.CheckBox checknota8;
+        private System.Windows.Forms.CheckBox checknota9;
+        private System.Windows.Forms.CheckBox checknota10;
+        private System.Windows.Forms.CheckBox checknota11;
+        private System.Windows.Forms.CheckBox checknota12;
+        private System.Windows.Forms.CheckBox checknota13;
+        private System.Windows.Forms.CheckBox checknota14;
+        private System.Windows.Forms.CheckBox checknota15;
+        private System.Windows.Forms.CheckBox checknota16;
+        private System.Windows.Forms.CheckBox checknota17;
+        private System.Windows.Forms.CheckBox checknota18;
+        private System.Windows.Forms.CheckBox checknota19;
+        private System.Windows.Forms.CheckBox checknota20;
+        private System.Windows.Forms.CheckBox checknota21;
+        private System.Windows.Forms.CheckBox checknota22;
+        private System.Windows.Forms.CheckBox checknota23;
+        private System.Windows.Forms.CheckBox checknota24;
+        private System.Windows.Forms.CheckBox checknota25;
+        private System.Windows.Forms.CheckBox checknota26;
+        private System.Windows.Forms.CheckBox checknota27;
+        private System.Windows.Forms.CheckBox checknota28;
+        private System.Windows.Forms.CheckBox checknota29;
+        private System.Windows.Forms.CheckBox checknota30;
+        private System.Windows.Forms.CheckBox checknota31;
+        private System.Windows.Forms.CheckBox checknota32;
+        private System.Windows.Forms.CheckBox checknota33;
+        private System.Windows.Forms.CheckBox checknota34;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button btnAlerta3;
     }
 }
 
