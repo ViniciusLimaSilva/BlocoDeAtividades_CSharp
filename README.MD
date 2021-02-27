@@ -1,6 +1,6 @@
 ## **Bloco de Atividades Diversas ** :cowboy_hat_face::desktop_computer:
 
-![tela](https://user-images.githubusercontent.com/45276630/109216968-f76dd400-7793-11eb-991a-5f7f5c1791f1.png)
+![tela](https://user-images.githubusercontent.com/45276630/109367662-76870900-7875-11eb-8d36-23454c353d45.png)
 
 
 
@@ -14,11 +14,11 @@
 
 Bloco de Atividades cotidianas, com salvamento automático das atividades após fechamento
 
-do aplicativo, para adicionar uma nota deve-se clicar no botão + e para remover clicar no botão -, posteriormente irei adicionar uma checkbox para apontar a realização das atividades.
+do aplicativo, para adicionar uma nota deve-se clicar no botão + e para remover clicar no botão -, para apontar a conclusão da atividade apenas deve-se marcar a checkbox do lado direito a atividade.
 
 ### Funções a serem implementadas
 
-- [ ] Marcamento das atividades Realizadas
+- [ ] Marcação com dia e horário com aviso de popup perto da chegada da atividade
 
 ## *Para se Inspirar:*
 
