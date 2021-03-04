@@ -1495,7 +1495,7 @@ namespace Notas
 
         private void btnAlerta2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Para remover uma Nota clique no Botão direito abaixo!!!!", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Para remover uma Nota clique no Botão direito abaixo!!!!!!", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void btnAlerta3_Click(object sender, EventArgs e)
@@ -2085,7 +2085,7 @@ namespace Notas
         // botão para marcar time
         private void btnMarcar1_Click(object sender, EventArgs e)
         {
-            if(Timer1.Value.Hour < DateTime.Now.Hour && Timer1.Value.Minute < DateTime.Now.Minute && Timer1.Value.Second <= DateTime.Now.Second)
+            if(Timer1.Value.Hour < DateTime.Now.Hour || Timer1.Value.Minute < DateTime.Now.Minute || Timer1.Value.Second <= DateTime.Now.Second)
             {
                 MessageBox.Show("Horario Inválido, Tente novamente!!", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -2105,7 +2105,7 @@ namespace Notas
         private void btnMarcar2_Click(object sender, EventArgs e)
         {
 
-            if (Timer1.Value.Hour < DateTime.Now.Hour && Timer1.Value.Minute < DateTime.Now.Minute && Timer1.Value.Second <= DateTime.Now.Second)
+            if (Timer2.Value.Hour < DateTime.Now.Hour || Timer2.Value.Minute < DateTime.Now.Minute || Timer2.Value.Second <= DateTime.Now.Second)
             {
                 MessageBox.Show("Horario Inválido, Tente novamente!!", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -2120,7 +2120,7 @@ namespace Notas
         }
         private void btnMarcar3_Click(object sender, EventArgs e)
         {
-            if (Timer1.Value.Hour < DateTime.Now.Hour && Timer1.Value.Minute < DateTime.Now.Minute && Timer1.Value.Second <= DateTime.Now.Second)
+            if (Timer3.Value.Hour < DateTime.Now.Hour || Timer3.Value.Minute < DateTime.Now.Minute || Timer3.Value.Second <= DateTime.Now.Second)
             {
                 MessageBox.Show("Horario Inválido, Tente novamente!!", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -2135,7 +2135,7 @@ namespace Notas
         }
         private void btnMarcar4_Click(object sender, EventArgs e)
         {
-            if (Timer1.Value.Hour < DateTime.Now.Hour && Timer1.Value.Minute < DateTime.Now.Minute && Timer1.Value.Second <= DateTime.Now.Second)
+            if (Timer4.Value.Hour < DateTime.Now.Hour || Timer4.Value.Minute < DateTime.Now.Minute || Timer4.Value.Second <= DateTime.Now.Second)
             {
                 MessageBox.Show("Horario Inválido, Tente novamente!!", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -2150,7 +2150,7 @@ namespace Notas
         }
         private void btnMarcar5_Click(object sender, EventArgs e)
         {
-            if (Timer1.Value.Hour < DateTime.Now.Hour && Timer1.Value.Minute < DateTime.Now.Minute && Timer1.Value.Second <= DateTime.Now.Second)
+            if (Timer5.Value.Hour < DateTime.Now.Hour || Timer5.Value.Minute < DateTime.Now.Minute || Timer5.Value.Second <= DateTime.Now.Second)
             {
                 MessageBox.Show("Horario Inválido, Tente novamente!!", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -2165,7 +2165,7 @@ namespace Notas
         }
         private void btnMarcar6_Click(object sender, EventArgs e)
         {
-            if (Timer1.Value.Hour < DateTime.Now.Hour && Timer1.Value.Minute < DateTime.Now.Minute && Timer1.Value.Second <= DateTime.Now.Second)
+            if (Timer6.Value.Hour < DateTime.Now.Hour || Timer6.Value.Minute < DateTime.Now.Minute || Timer6.Value.Second <= DateTime.Now.Second)
             {
                 MessageBox.Show("Horario Inválido, Tente novamente!!", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -2180,7 +2180,7 @@ namespace Notas
         }
         private void btnMarcar7_Click(object sender, EventArgs e)
         {
-            if (Timer1.Value.Hour < DateTime.Now.Hour && Timer1.Value.Minute < DateTime.Now.Minute && Timer1.Value.Second <= DateTime.Now.Second)
+            if (Timer7.Value.Hour < DateTime.Now.Hour || Timer7.Value.Minute < DateTime.Now.Minute || Timer7.Value.Second <= DateTime.Now.Second)
             {
                 MessageBox.Show("Horario Inválido, Tente novamente!!", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -2195,7 +2195,7 @@ namespace Notas
         }
         private void btnMarcar8_Click(object sender, EventArgs e)
         {
-            if (Timer1.Value.Hour < DateTime.Now.Hour && Timer1.Value.Minute < DateTime.Now.Minute && Timer1.Value.Second <= DateTime.Now.Second)
+            if (Timer8.Value.Hour < DateTime.Now.Hour || Timer8.Value.Minute < DateTime.Now.Minute || Timer8.Value.Second <= DateTime.Now.Second)
             {
                 MessageBox.Show("Horario Inválido, Tente novamente!!", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -2210,7 +2210,7 @@ namespace Notas
         }
         private void btnMarcar9_Click(object sender, EventArgs e)
         {
-            if (Timer1.Value.Hour < DateTime.Now.Hour && Timer1.Value.Minute < DateTime.Now.Minute && Timer1.Value.Second <= DateTime.Now.Second)
+            if (Timer9.Value.Hour < DateTime.Now.Hour || Timer9.Value.Minute < DateTime.Now.Minute || Timer9.Value.Second <= DateTime.Now.Second)
             {
                 MessageBox.Show("Horario Inválido, Tente novamente!!", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -2225,7 +2225,7 @@ namespace Notas
         }
         private void btnMarcar10_Click(object sender, EventArgs e)
         {
-            if (Timer1.Value.Hour < DateTime.Now.Hour && Timer1.Value.Minute < DateTime.Now.Minute && Timer1.Value.Second <= DateTime.Now.Second)
+            if (Timer10.Value.Hour < DateTime.Now.Hour || Timer10.Value.Minute < DateTime.Now.Minute || Timer10.Value.Second <= DateTime.Now.Second)
             {
                 MessageBox.Show("Horario Inválido, Tente novamente!!", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -2240,7 +2240,7 @@ namespace Notas
         }
         private void btnMarcar11_Click(object sender, EventArgs e)
         {
-            if (Timer1.Value.Hour < DateTime.Now.Hour && Timer1.Value.Minute < DateTime.Now.Minute && Timer1.Value.Second <= DateTime.Now.Second)
+            if (Timer11.Value.Hour < DateTime.Now.Hour || Timer11.Value.Minute < DateTime.Now.Minute || Timer11.Value.Second <= DateTime.Now.Second)
             {
                 MessageBox.Show("Horario Inválido, Tente novamente!!", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -2255,7 +2255,7 @@ namespace Notas
         }
         private void btnMarcar12_Click(object sender, EventArgs e)
         {
-            if (Timer1.Value.Hour < DateTime.Now.Hour && Timer1.Value.Minute < DateTime.Now.Minute && Timer1.Value.Second <= DateTime.Now.Second)
+            if (Timer12.Value.Hour < DateTime.Now.Hour || Timer12.Value.Minute < DateTime.Now.Minute || Timer12.Value.Second <= DateTime.Now.Second)
             {
                 MessageBox.Show("Horario Inválido, Tente novamente!!", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -2270,7 +2270,7 @@ namespace Notas
         }
         private void btnMarcar13_Click(object sender, EventArgs e)
         {
-            if (Timer1.Value.Hour < DateTime.Now.Hour && Timer1.Value.Minute < DateTime.Now.Minute && Timer1.Value.Second <= DateTime.Now.Second)
+            if (Timer13.Value.Hour < DateTime.Now.Hour || Timer13.Value.Minute < DateTime.Now.Minute || Timer13.Value.Second <= DateTime.Now.Second)
             {
                 MessageBox.Show("Horario Inválido, Tente novamente!!", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -2285,7 +2285,7 @@ namespace Notas
         }
         private void btnMarcar14_Click(object sender, EventArgs e)
         {
-            if (Timer1.Value.Hour < DateTime.Now.Hour && Timer1.Value.Minute < DateTime.Now.Minute && Timer1.Value.Second <= DateTime.Now.Second)
+            if (Timer14.Value.Hour < DateTime.Now.Hour || Timer14.Value.Minute < DateTime.Now.Minute || Timer14.Value.Second <= DateTime.Now.Second)
             {
                 MessageBox.Show("Horario Inválido, Tente novamente!!", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -2300,7 +2300,7 @@ namespace Notas
         }
         private void btnMarcar15_Click(object sender, EventArgs e)
         {
-            if (Timer1.Value.Hour < DateTime.Now.Hour && Timer1.Value.Minute < DateTime.Now.Minute && Timer1.Value.Second <= DateTime.Now.Second)
+            if (Timer15.Value.Hour < DateTime.Now.Hour || Timer15.Value.Minute < DateTime.Now.Minute || Timer15.Value.Second <= DateTime.Now.Second)
             {
                 MessageBox.Show("Horario Inválido, Tente novamente!!", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -2315,7 +2315,7 @@ namespace Notas
         }
         private void btnMarcar16_Click(object sender, EventArgs e)
         {
-            if (Timer1.Value.Hour < DateTime.Now.Hour && Timer1.Value.Minute < DateTime.Now.Minute && Timer1.Value.Second <= DateTime.Now.Second)
+            if (Timer16.Value.Hour < DateTime.Now.Hour || Timer16.Value.Minute < DateTime.Now.Minute || Timer16.Value.Second <= DateTime.Now.Second)
             {
                 MessageBox.Show("Horario Inválido, Tente novamente!!", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -2330,7 +2330,7 @@ namespace Notas
         }
         private void btnMarcar17_Click(object sender, EventArgs e)
         {
-            if (Timer1.Value.Hour < DateTime.Now.Hour && Timer1.Value.Minute < DateTime.Now.Minute && Timer1.Value.Second <= DateTime.Now.Second)
+            if (Timer17.Value.Hour < DateTime.Now.Hour || Timer17.Value.Minute < DateTime.Now.Minute || Timer17.Value.Second <= DateTime.Now.Second)
             {
                 MessageBox.Show("Horario Inválido, Tente novamente!!", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -2345,7 +2345,7 @@ namespace Notas
         }
         private void btnMarcar18_Click(object sender, EventArgs e)
         {
-            if (Timer1.Value.Hour < DateTime.Now.Hour && Timer1.Value.Minute < DateTime.Now.Minute && Timer1.Value.Second <= DateTime.Now.Second)
+            if (Timer18.Value.Hour < DateTime.Now.Hour || Timer18.Value.Minute < DateTime.Now.Minute || Timer18.Value.Second <= DateTime.Now.Second)
             {
                 MessageBox.Show("Horario Inválido, Tente novamente!!", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -2360,7 +2360,7 @@ namespace Notas
         }
         private void btnMarcar19_Click(object sender, EventArgs e)
         {
-            if (Timer1.Value.Hour < DateTime.Now.Hour && Timer1.Value.Minute < DateTime.Now.Minute && Timer1.Value.Second <= DateTime.Now.Second)
+            if (Timer19.Value.Hour < DateTime.Now.Hour || Timer19.Value.Minute < DateTime.Now.Minute || Timer19.Value.Second <= DateTime.Now.Second)
             {
                 MessageBox.Show("Horario Inválido, Tente novamente!!", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -2375,15 +2375,24 @@ namespace Notas
         }
         private void btnMarcar20_Click(object sender, EventArgs e)
         {
-            contador20.Start();
-            Timer20.Enabled = false;
-            btnMarcar20.Enabled = false;
-            MessageBox.Show("Horário Marcado", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            MessageBox.Show("Caso tenha concluido a tarefa lembre-se de dar o Check!!!!", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
+            if (Timer20.Value.Hour < DateTime.Now.Hour || Timer20.Value.Minute < DateTime.Now.Minute || Timer20.Value.Second <= DateTime.Now.Second)
+            {
+                MessageBox.Show("Horario Inválido, Tente novamente!!", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                contador20.Start();
+                Timer20.Enabled = false;
+                btnMarcar20.Enabled = false;
+                MessageBox.Show("Horário Marcado", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Caso tenha concluido a tarefa lembre-se de dar o Check!!!!", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            
         }
         private void btnMarcar21_Click(object sender, EventArgs e)
         {
-            if (Timer1.Value.Hour < DateTime.Now.Hour && Timer1.Value.Minute < DateTime.Now.Minute && Timer1.Value.Second <= DateTime.Now.Second)
+            if (Timer21.Value.Hour < DateTime.Now.Hour || Timer21.Value.Minute < DateTime.Now.Minute || Timer21.Value.Second <= DateTime.Now.Second)
             {
                 MessageBox.Show("Horario Inválido, Tente novamente!!", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -2398,7 +2407,7 @@ namespace Notas
         }
         private void btnMarcar22_Click(object sender, EventArgs e)
         {
-            if (Timer1.Value.Hour < DateTime.Now.Hour && Timer1.Value.Minute < DateTime.Now.Minute && Timer1.Value.Second <= DateTime.Now.Second)
+            if (Timer22.Value.Hour < DateTime.Now.Hour || Timer22.Value.Minute < DateTime.Now.Minute || Timer22.Value.Second <= DateTime.Now.Second)
             {
                 MessageBox.Show("Horario Inválido, Tente novamente!!", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -2413,7 +2422,7 @@ namespace Notas
         }
         private void btnMarcar23_Click(object sender, EventArgs e)
         {
-            if (Timer1.Value.Hour < DateTime.Now.Hour && Timer1.Value.Minute < DateTime.Now.Minute && Timer1.Value.Second <= DateTime.Now.Second)
+            if (Timer23.Value.Hour < DateTime.Now.Hour || Timer23.Value.Minute < DateTime.Now.Minute || Timer23.Value.Second <= DateTime.Now.Second)
             {
                 MessageBox.Show("Horario Inválido, Tente novamente!!", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -2428,7 +2437,7 @@ namespace Notas
         }
         private void btnMarcar24_Click(object sender, EventArgs e)
         {
-            if (Timer1.Value.Hour < DateTime.Now.Hour && Timer1.Value.Minute < DateTime.Now.Minute && Timer1.Value.Second <= DateTime.Now.Second)
+            if (Timer24.Value.Hour < DateTime.Now.Hour || Timer24.Value.Minute < DateTime.Now.Minute || Timer24.Value.Second <= DateTime.Now.Second)
             {
                 MessageBox.Show("Horario Inválido, Tente novamente!!", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -2443,7 +2452,7 @@ namespace Notas
         }
         private void btnMarcar25_Click(object sender, EventArgs e)
         {
-            if (Timer1.Value.Hour < DateTime.Now.Hour && Timer1.Value.Minute < DateTime.Now.Minute && Timer1.Value.Second <= DateTime.Now.Second)
+            if (Timer25.Value.Hour < DateTime.Now.Hour || Timer25.Value.Minute < DateTime.Now.Minute || Timer25.Value.Second <= DateTime.Now.Second)
             {
                 MessageBox.Show("Horario Inválido, Tente novamente!!", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -2458,7 +2467,7 @@ namespace Notas
         }
         private void btnMarcar26_Click(object sender, EventArgs e)
         {
-            if (Timer1.Value.Hour < DateTime.Now.Hour && Timer1.Value.Minute < DateTime.Now.Minute && Timer1.Value.Second <= DateTime.Now.Second)
+            if (Timer26.Value.Hour < DateTime.Now.Hour || Timer26.Value.Minute < DateTime.Now.Minute || Timer26.Value.Second <= DateTime.Now.Second)
             {
                 MessageBox.Show("Horario Inválido, Tente novamente!!", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -2473,7 +2482,7 @@ namespace Notas
         }
         private void btnMarcar27_Click(object sender, EventArgs e)
         {
-            if (Timer1.Value.Hour < DateTime.Now.Hour && Timer1.Value.Minute < DateTime.Now.Minute && Timer1.Value.Second <= DateTime.Now.Second)
+            if (Timer27.Value.Hour < DateTime.Now.Hour || Timer27.Value.Minute < DateTime.Now.Minute || Timer27.Value.Second <= DateTime.Now.Second)
             {
                 MessageBox.Show("Horario Inválido, Tente novamente!!", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -2488,7 +2497,7 @@ namespace Notas
         }
         private void btnMarcar28_Click(object sender, EventArgs e)
         {
-            if (Timer1.Value.Hour < DateTime.Now.Hour && Timer1.Value.Minute < DateTime.Now.Minute && Timer1.Value.Second <= DateTime.Now.Second)
+            if (Timer28.Value.Hour < DateTime.Now.Hour || Timer28.Value.Minute < DateTime.Now.Minute || Timer28.Value.Second <= DateTime.Now.Second)
             {
                 MessageBox.Show("Horario Inválido, Tente novamente!!", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -2503,7 +2512,7 @@ namespace Notas
         }
         private void btnMarcar29_Click(object sender, EventArgs e)
         {
-            if (Timer1.Value.Hour < DateTime.Now.Hour && Timer1.Value.Minute < DateTime.Now.Minute && Timer1.Value.Second <= DateTime.Now.Second)
+            if (Timer29.Value.Hour < DateTime.Now.Hour || Timer29.Value.Minute < DateTime.Now.Minute || Timer29.Value.Second <= DateTime.Now.Second)
             {
                 MessageBox.Show("Horario Inválido, Tente novamente!!", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -2518,7 +2527,7 @@ namespace Notas
         }
         private void btnMarcar30_Click(object sender, EventArgs e)
         {
-            if (Timer1.Value.Hour < DateTime.Now.Hour && Timer1.Value.Minute < DateTime.Now.Minute && Timer1.Value.Second <= DateTime.Now.Second)
+            if (Timer30.Value.Hour < DateTime.Now.Hour || Timer30.Value.Minute < DateTime.Now.Minute || Timer30.Value.Second <= DateTime.Now.Second)
             {
                 MessageBox.Show("Horario Inválido, Tente novamente!!", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -2533,7 +2542,7 @@ namespace Notas
         }
         private void btnMarcar31_Click(object sender, EventArgs e)
         {
-            if (Timer1.Value.Hour <= DateTime.Now.Hour && Timer1.Value.Minute <= DateTime.Now.Minute && Timer1.Value.Second <= DateTime.Now.Second)
+            if (Timer31.Value.Hour <= DateTime.Now.Hour || Timer31.Value.Minute <= DateTime.Now.Minute || Timer31.Value.Second <= DateTime.Now.Second)
             {
                 MessageBox.Show("Horario Inválido, Tente novamente!!", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -2548,7 +2557,7 @@ namespace Notas
         }
         private void btnMarcar32_Click(object sender, EventArgs e)
         {
-            if (Timer1.Value.Hour < DateTime.Now.Hour && Timer1.Value.Minute < DateTime.Now.Minute && Timer1.Value.Second <= DateTime.Now.Second)
+            if (Timer32.Value.Hour < DateTime.Now.Hour || Timer32.Value.Minute < DateTime.Now.Minute || Timer32.Value.Second <= DateTime.Now.Second)
             {
                 MessageBox.Show("Horario Inválido, Tente novamente!!", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -2563,7 +2572,7 @@ namespace Notas
         }
         private void btnMarcar33_Click(object sender, EventArgs e)
         {
-            if (Timer1.Value.Hour < DateTime.Now.Hour && Timer1.Value.Minute < DateTime.Now.Minute && Timer1.Value.Second <= DateTime.Now.Second)
+            if (Timer33.Value.Hour < DateTime.Now.Hour || Timer33.Value.Minute < DateTime.Now.Minute || Timer33.Value.Second <= DateTime.Now.Second)
             {
                 MessageBox.Show("Horario Inválido, Tente novamente!!", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -2578,7 +2587,7 @@ namespace Notas
         }
         private void btnMarcar34_Click(object sender, EventArgs e)
         {
-            if (Timer1.Value.Hour < DateTime.Now.Hour && Timer1.Value.Minute < DateTime.Now.Minute && Timer1.Value.Second <= DateTime.Now.Second)
+            if (Timer34.Value.Hour < DateTime.Now.Hour || Timer34.Value.Minute < DateTime.Now.Minute || Timer34.Value.Second <= DateTime.Now.Second)
             {
                 MessageBox.Show("Horario Inválido, Tente novamente!!", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
