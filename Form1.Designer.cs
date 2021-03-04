@@ -178,6 +178,76 @@ namespace Notas
             this.checknota34 = new System.Windows.Forms.CheckBox();
             this.label3 = new System.Windows.Forms.Label();
             this.btnAlerta3 = new System.Windows.Forms.Button();
+            this.Timer1 = new System.Windows.Forms.DateTimePicker();
+            this.btnMarcar = new System.Windows.Forms.Button();
+            this.Timer2 = new System.Windows.Forms.DateTimePicker();
+            this.Timer3 = new System.Windows.Forms.DateTimePicker();
+            this.Timer4 = new System.Windows.Forms.DateTimePicker();
+            this.Timer5 = new System.Windows.Forms.DateTimePicker();
+            this.Timer6 = new System.Windows.Forms.DateTimePicker();
+            this.Timer7 = new System.Windows.Forms.DateTimePicker();
+            this.Timer8 = new System.Windows.Forms.DateTimePicker();
+            this.Timer9 = new System.Windows.Forms.DateTimePicker();
+            this.Timer10 = new System.Windows.Forms.DateTimePicker();
+            this.Timer11 = new System.Windows.Forms.DateTimePicker();
+            this.Timer12 = new System.Windows.Forms.DateTimePicker();
+            this.Timer13 = new System.Windows.Forms.DateTimePicker();
+            this.Timer14 = new System.Windows.Forms.DateTimePicker();
+            this.Timer15 = new System.Windows.Forms.DateTimePicker();
+            this.Timer16 = new System.Windows.Forms.DateTimePicker();
+            this.Timer17 = new System.Windows.Forms.DateTimePicker();
+            this.Timer18 = new System.Windows.Forms.DateTimePicker();
+            this.Timer19 = new System.Windows.Forms.DateTimePicker();
+            this.Timer20 = new System.Windows.Forms.DateTimePicker();
+            this.Timer21 = new System.Windows.Forms.DateTimePicker();
+            this.Timer22 = new System.Windows.Forms.DateTimePicker();
+            this.Timer23 = new System.Windows.Forms.DateTimePicker();
+            this.Timer24 = new System.Windows.Forms.DateTimePicker();
+            this.Timer25 = new System.Windows.Forms.DateTimePicker();
+            this.Timer26 = new System.Windows.Forms.DateTimePicker();
+            this.Timer27 = new System.Windows.Forms.DateTimePicker();
+            this.Timer28 = new System.Windows.Forms.DateTimePicker();
+            this.Timer29 = new System.Windows.Forms.DateTimePicker();
+            this.Timer30 = new System.Windows.Forms.DateTimePicker();
+            this.Timer31 = new System.Windows.Forms.DateTimePicker();
+            this.Timer32 = new System.Windows.Forms.DateTimePicker();
+            this.Timer33 = new System.Windows.Forms.DateTimePicker();
+            this.Timer34 = new System.Windows.Forms.DateTimePicker();
+            this.btnMarcar2 = new System.Windows.Forms.Button();
+            this.btnMarcar3 = new System.Windows.Forms.Button();
+            this.btnMarcar4 = new System.Windows.Forms.Button();
+            this.btnMarcar5 = new System.Windows.Forms.Button();
+            this.btnMarcar6 = new System.Windows.Forms.Button();
+            this.btnMarcar7 = new System.Windows.Forms.Button();
+            this.btnMarcar8 = new System.Windows.Forms.Button();
+            this.btnMarcar10 = new System.Windows.Forms.Button();
+            this.btnMarcar9 = new System.Windows.Forms.Button();
+            this.btnMarcar11 = new System.Windows.Forms.Button();
+            this.btnMarcar12 = new System.Windows.Forms.Button();
+            this.btnMarcar13 = new System.Windows.Forms.Button();
+            this.btnMarcar14 = new System.Windows.Forms.Button();
+            this.btnMarcar15 = new System.Windows.Forms.Button();
+            this.btnMarcar16 = new System.Windows.Forms.Button();
+            this.btnMarcar19 = new System.Windows.Forms.Button();
+            this.btnMarcar17 = new System.Windows.Forms.Button();
+            this.btnMarcar18 = new System.Windows.Forms.Button();
+            this.btnMarcar20 = new System.Windows.Forms.Button();
+            this.btnMarcar21 = new System.Windows.Forms.Button();
+            this.btnMarcar22 = new System.Windows.Forms.Button();
+            this.btnMarcar23 = new System.Windows.Forms.Button();
+            this.btnMarcar24 = new System.Windows.Forms.Button();
+            this.btnMarcar25 = new System.Windows.Forms.Button();
+            this.btnMarcar26 = new System.Windows.Forms.Button();
+            this.btnMarcar27 = new System.Windows.Forms.Button();
+            this.btnMarcar28 = new System.Windows.Forms.Button();
+            this.btnMarcar29 = new System.Windows.Forms.Button();
+            this.btnMarcar30 = new System.Windows.Forms.Button();
+            this.btnMarcar31 = new System.Windows.Forms.Button();
+            this.btnMarcar32 = new System.Windows.Forms.Button();
+            this.btnMarcar33 = new System.Windows.Forms.Button();
+            this.btnMarcar34 = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.btnAlerta4 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -351,7 +421,7 @@ namespace Notas
             this.Nota29.BackColor = System.Drawing.Color.Orange;
             this.Nota29.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nota29.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.Nota29.Location = new System.Drawing.Point(418, 426);
+            this.Nota29.Location = new System.Drawing.Point(545, 424);
             this.Nota29.Name = "Nota29";
             this.Nota29.Size = new System.Drawing.Size(313, 22);
             this.Nota29.TabIndex = 20;
@@ -362,7 +432,7 @@ namespace Notas
             this.Nota19.BackColor = System.Drawing.Color.Orange;
             this.Nota19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nota19.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.Nota19.Location = new System.Drawing.Point(418, 162);
+            this.Nota19.Location = new System.Drawing.Point(545, 160);
             this.Nota19.Name = "Nota19";
             this.Nota19.Size = new System.Drawing.Size(313, 22);
             this.Nota19.TabIndex = 21;
@@ -373,7 +443,7 @@ namespace Notas
             this.Nota23.BackColor = System.Drawing.Color.Orange;
             this.Nota23.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nota23.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.Nota23.Location = new System.Drawing.Point(418, 269);
+            this.Nota23.Location = new System.Drawing.Point(545, 267);
             this.Nota23.Name = "Nota23";
             this.Nota23.Size = new System.Drawing.Size(313, 22);
             this.Nota23.TabIndex = 23;
@@ -384,7 +454,7 @@ namespace Notas
             this.Nota22.BackColor = System.Drawing.Color.Orange;
             this.Nota22.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nota22.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.Nota22.Location = new System.Drawing.Point(418, 241);
+            this.Nota22.Location = new System.Drawing.Point(545, 239);
             this.Nota22.Name = "Nota22";
             this.Nota22.Size = new System.Drawing.Size(313, 22);
             this.Nota22.TabIndex = 25;
@@ -406,7 +476,7 @@ namespace Notas
             this.Nota21.BackColor = System.Drawing.Color.Orange;
             this.Nota21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nota21.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.Nota21.Location = new System.Drawing.Point(418, 215);
+            this.Nota21.Location = new System.Drawing.Point(545, 213);
             this.Nota21.Name = "Nota21";
             this.Nota21.Size = new System.Drawing.Size(313, 22);
             this.Nota21.TabIndex = 27;
@@ -417,7 +487,7 @@ namespace Notas
             this.Nota34.BackColor = System.Drawing.Color.Orange;
             this.Nota34.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nota34.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.Nota34.Location = new System.Drawing.Point(418, 552);
+            this.Nota34.Location = new System.Drawing.Point(545, 550);
             this.Nota34.Name = "Nota34";
             this.Nota34.Size = new System.Drawing.Size(313, 22);
             this.Nota34.TabIndex = 28;
@@ -428,7 +498,7 @@ namespace Notas
             this.Nota31.BackColor = System.Drawing.Color.Orange;
             this.Nota31.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nota31.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.Nota31.Location = new System.Drawing.Point(418, 475);
+            this.Nota31.Location = new System.Drawing.Point(545, 473);
             this.Nota31.Name = "Nota31";
             this.Nota31.Size = new System.Drawing.Size(313, 22);
             this.Nota31.TabIndex = 29;
@@ -439,7 +509,7 @@ namespace Notas
             this.Nota33.BackColor = System.Drawing.Color.Orange;
             this.Nota33.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nota33.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.Nota33.Location = new System.Drawing.Point(418, 526);
+            this.Nota33.Location = new System.Drawing.Point(545, 524);
             this.Nota33.Name = "Nota33";
             this.Nota33.Size = new System.Drawing.Size(313, 22);
             this.Nota33.TabIndex = 30;
@@ -450,7 +520,7 @@ namespace Notas
             this.Nota26.BackColor = System.Drawing.Color.Orange;
             this.Nota26.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nota26.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.Nota26.Location = new System.Drawing.Point(418, 346);
+            this.Nota26.Location = new System.Drawing.Point(545, 344);
             this.Nota26.Name = "Nota26";
             this.Nota26.Size = new System.Drawing.Size(313, 22);
             this.Nota26.TabIndex = 31;
@@ -461,7 +531,7 @@ namespace Notas
             this.Nota28.BackColor = System.Drawing.Color.Orange;
             this.Nota28.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nota28.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.Nota28.Location = new System.Drawing.Point(418, 399);
+            this.Nota28.Location = new System.Drawing.Point(545, 397);
             this.Nota28.Name = "Nota28";
             this.Nota28.Size = new System.Drawing.Size(313, 22);
             this.Nota28.TabIndex = 33;
@@ -472,7 +542,7 @@ namespace Notas
             this.Nota25.BackColor = System.Drawing.Color.Orange;
             this.Nota25.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nota25.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.Nota25.Location = new System.Drawing.Point(418, 319);
+            this.Nota25.Location = new System.Drawing.Point(545, 317);
             this.Nota25.Name = "Nota25";
             this.Nota25.Size = new System.Drawing.Size(313, 22);
             this.Nota25.TabIndex = 34;
@@ -483,7 +553,7 @@ namespace Notas
             this.Nota24.BackColor = System.Drawing.Color.Orange;
             this.Nota24.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nota24.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.Nota24.Location = new System.Drawing.Point(418, 294);
+            this.Nota24.Location = new System.Drawing.Point(545, 292);
             this.Nota24.Name = "Nota24";
             this.Nota24.Size = new System.Drawing.Size(313, 22);
             this.Nota24.TabIndex = 36;
@@ -494,7 +564,7 @@ namespace Notas
             this.Nota20.BackColor = System.Drawing.Color.Orange;
             this.Nota20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nota20.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.Nota20.Location = new System.Drawing.Point(418, 187);
+            this.Nota20.Location = new System.Drawing.Point(545, 185);
             this.Nota20.Name = "Nota20";
             this.Nota20.Size = new System.Drawing.Size(313, 22);
             this.Nota20.TabIndex = 37;
@@ -505,7 +575,7 @@ namespace Notas
             this.Nota27.BackColor = System.Drawing.Color.Orange;
             this.Nota27.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nota27.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.Nota27.Location = new System.Drawing.Point(418, 373);
+            this.Nota27.Location = new System.Drawing.Point(545, 371);
             this.Nota27.Name = "Nota27";
             this.Nota27.Size = new System.Drawing.Size(313, 22);
             this.Nota27.TabIndex = 38;
@@ -516,7 +586,7 @@ namespace Notas
             this.Nota32.BackColor = System.Drawing.Color.Orange;
             this.Nota32.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nota32.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.Nota32.Location = new System.Drawing.Point(418, 501);
+            this.Nota32.Location = new System.Drawing.Point(545, 499);
             this.Nota32.Name = "Nota32";
             this.Nota32.Size = new System.Drawing.Size(313, 22);
             this.Nota32.TabIndex = 39;
@@ -527,7 +597,7 @@ namespace Notas
             this.Nota30.BackColor = System.Drawing.Color.Orange;
             this.Nota30.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nota30.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.Nota30.Location = new System.Drawing.Point(418, 451);
+            this.Nota30.Location = new System.Drawing.Point(545, 449);
             this.Nota30.Name = "Nota30";
             this.Nota30.Size = new System.Drawing.Size(313, 22);
             this.Nota30.TabIndex = 42;
@@ -536,10 +606,10 @@ namespace Notas
             // btnAlerta
             // 
             this.btnAlerta.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnAlerta.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAlerta.Location = new System.Drawing.Point(55, 61);
+            this.btnAlerta.Font = new System.Drawing.Font("Arial Narrow", 8.25F);
+            this.btnAlerta.Location = new System.Drawing.Point(28, 26);
             this.btnAlerta.Name = "btnAlerta";
-            this.btnAlerta.Size = new System.Drawing.Size(34, 33);
+            this.btnAlerta.Size = new System.Drawing.Size(34, 32);
             this.btnAlerta.TabIndex = 0;
             this.btnAlerta.Text = "+";
             this.btnAlerta.UseVisualStyleBackColor = true;
@@ -549,26 +619,26 @@ namespace Notas
             // 
             this.lbl_texto.AutoSize = true;
             this.lbl_texto.Font = new System.Drawing.Font("Allura", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_texto.Location = new System.Drawing.Point(327, 9);
+            this.lbl_texto.Location = new System.Drawing.Point(324, 2);
             this.lbl_texto.Name = "lbl_texto";
-            this.lbl_texto.Size = new System.Drawing.Size(98, 44);
+            this.lbl_texto.Size = new System.Drawing.Size(290, 44);
             this.lbl_texto.TabIndex = 1;
-            this.lbl_texto.Text = "Notas";
+            this.lbl_texto.Text = "Bloco De Atividades";
             // 
             // lbl_textadd
             // 
             this.lbl_textadd.AutoSize = true;
-            this.lbl_textadd.Font = new System.Drawing.Font("Bahnschrift Condensed", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_textadd.Location = new System.Drawing.Point(24, 35);
+            this.lbl_textadd.Font = new System.Drawing.Font("Bahnschrift Condensed", 12.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_textadd.Location = new System.Drawing.Point(2, 2);
             this.lbl_textadd.Name = "lbl_textadd";
-            this.lbl_textadd.Size = new System.Drawing.Size(102, 23);
+            this.lbl_textadd.Size = new System.Drawing.Size(90, 21);
             this.lbl_textadd.TabIndex = 2;
             this.lbl_textadd.Text = "Adicionar Nota";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(322, 46);
+            this.pictureBox1.Location = new System.Drawing.Point(417, 46);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(94, 84);
             this.pictureBox1.TabIndex = 3;
@@ -754,7 +824,7 @@ namespace Notas
             // button19
             // 
             this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button19.Location = new System.Drawing.Point(396, 163);
+            this.button19.Location = new System.Drawing.Point(523, 161);
             this.button19.Name = "button19";
             this.button19.Size = new System.Drawing.Size(16, 21);
             this.button19.TabIndex = 61;
@@ -765,7 +835,7 @@ namespace Notas
             // button20
             // 
             this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button20.Location = new System.Drawing.Point(396, 188);
+            this.button20.Location = new System.Drawing.Point(523, 186);
             this.button20.Name = "button20";
             this.button20.Size = new System.Drawing.Size(16, 21);
             this.button20.TabIndex = 62;
@@ -776,7 +846,7 @@ namespace Notas
             // button22
             // 
             this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button22.Location = new System.Drawing.Point(396, 243);
+            this.button22.Location = new System.Drawing.Point(523, 241);
             this.button22.Name = "button22";
             this.button22.Size = new System.Drawing.Size(16, 21);
             this.button22.TabIndex = 63;
@@ -787,7 +857,7 @@ namespace Notas
             // button21
             // 
             this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button21.Location = new System.Drawing.Point(396, 216);
+            this.button21.Location = new System.Drawing.Point(523, 214);
             this.button21.Name = "button21";
             this.button21.Size = new System.Drawing.Size(16, 21);
             this.button21.TabIndex = 64;
@@ -798,7 +868,7 @@ namespace Notas
             // button23
             // 
             this.button23.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button23.Location = new System.Drawing.Point(396, 269);
+            this.button23.Location = new System.Drawing.Point(523, 267);
             this.button23.Name = "button23";
             this.button23.Size = new System.Drawing.Size(16, 21);
             this.button23.TabIndex = 65;
@@ -809,7 +879,7 @@ namespace Notas
             // button24
             // 
             this.button24.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button24.Location = new System.Drawing.Point(396, 294);
+            this.button24.Location = new System.Drawing.Point(523, 292);
             this.button24.Name = "button24";
             this.button24.Size = new System.Drawing.Size(16, 21);
             this.button24.TabIndex = 66;
@@ -820,7 +890,7 @@ namespace Notas
             // button25
             // 
             this.button25.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button25.Location = new System.Drawing.Point(396, 320);
+            this.button25.Location = new System.Drawing.Point(523, 318);
             this.button25.Name = "button25";
             this.button25.Size = new System.Drawing.Size(16, 21);
             this.button25.TabIndex = 67;
@@ -831,7 +901,7 @@ namespace Notas
             // button33
             // 
             this.button33.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button33.Location = new System.Drawing.Point(396, 528);
+            this.button33.Location = new System.Drawing.Point(523, 526);
             this.button33.Name = "button33";
             this.button33.Size = new System.Drawing.Size(16, 21);
             this.button33.TabIndex = 68;
@@ -842,7 +912,7 @@ namespace Notas
             // button32
             // 
             this.button32.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button32.Location = new System.Drawing.Point(396, 500);
+            this.button32.Location = new System.Drawing.Point(523, 498);
             this.button32.Name = "button32";
             this.button32.Size = new System.Drawing.Size(16, 21);
             this.button32.TabIndex = 69;
@@ -853,7 +923,7 @@ namespace Notas
             // button26
             // 
             this.button26.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button26.Location = new System.Drawing.Point(396, 346);
+            this.button26.Location = new System.Drawing.Point(523, 344);
             this.button26.Name = "button26";
             this.button26.Size = new System.Drawing.Size(16, 21);
             this.button26.TabIndex = 70;
@@ -864,7 +934,7 @@ namespace Notas
             // button31
             // 
             this.button31.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button31.Location = new System.Drawing.Point(396, 474);
+            this.button31.Location = new System.Drawing.Point(523, 472);
             this.button31.Name = "button31";
             this.button31.Size = new System.Drawing.Size(16, 21);
             this.button31.TabIndex = 71;
@@ -875,7 +945,7 @@ namespace Notas
             // button30
             // 
             this.button30.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button30.Location = new System.Drawing.Point(396, 451);
+            this.button30.Location = new System.Drawing.Point(523, 449);
             this.button30.Name = "button30";
             this.button30.Size = new System.Drawing.Size(16, 21);
             this.button30.TabIndex = 72;
@@ -886,7 +956,7 @@ namespace Notas
             // button29
             // 
             this.button29.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button29.Location = new System.Drawing.Point(396, 428);
+            this.button29.Location = new System.Drawing.Point(523, 426);
             this.button29.Name = "button29";
             this.button29.Size = new System.Drawing.Size(16, 21);
             this.button29.TabIndex = 73;
@@ -897,7 +967,7 @@ namespace Notas
             // button28
             // 
             this.button28.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button28.Location = new System.Drawing.Point(396, 401);
+            this.button28.Location = new System.Drawing.Point(523, 399);
             this.button28.Name = "button28";
             this.button28.Size = new System.Drawing.Size(16, 21);
             this.button28.TabIndex = 74;
@@ -908,7 +978,7 @@ namespace Notas
             // button27
             // 
             this.button27.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button27.Location = new System.Drawing.Point(396, 374);
+            this.button27.Location = new System.Drawing.Point(523, 372);
             this.button27.Name = "button27";
             this.button27.Size = new System.Drawing.Size(16, 21);
             this.button27.TabIndex = 75;
@@ -919,7 +989,7 @@ namespace Notas
             // button34
             // 
             this.button34.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button34.Location = new System.Drawing.Point(396, 553);
+            this.button34.Location = new System.Drawing.Point(523, 551);
             this.button34.Name = "button34";
             this.button34.Size = new System.Drawing.Size(16, 21);
             this.button34.TabIndex = 77;
@@ -930,20 +1000,20 @@ namespace Notas
             // lbltextRemove
             // 
             this.lbltextRemove.AutoSize = true;
-            this.lbltextRemove.Font = new System.Drawing.Font("Bahnschrift Condensed", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbltextRemove.Location = new System.Drawing.Point(121, 35);
+            this.lbltextRemove.Font = new System.Drawing.Font("Bahnschrift Condensed", 12.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbltextRemove.Location = new System.Drawing.Point(87, 2);
             this.lbltextRemove.Name = "lbltextRemove";
-            this.lbltextRemove.Size = new System.Drawing.Size(97, 23);
+            this.lbltextRemove.Size = new System.Drawing.Size(89, 21);
             this.lbltextRemove.TabIndex = 78;
             this.lbltextRemove.Text = "Remover Nota";
             // 
             // btnAlerta2
             // 
             this.btnAlerta2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnAlerta2.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAlerta2.Location = new System.Drawing.Point(153, 61);
+            this.btnAlerta2.Font = new System.Drawing.Font("Arial Narrow", 8.25F);
+            this.btnAlerta2.Location = new System.Drawing.Point(113, 26);
             this.btnAlerta2.Name = "btnAlerta2";
-            this.btnAlerta2.Size = new System.Drawing.Size(34, 33);
+            this.btnAlerta2.Size = new System.Drawing.Size(35, 32);
             this.btnAlerta2.TabIndex = 79;
             this.btnAlerta2.Text = "-";
             this.btnAlerta2.UseVisualStyleBackColor = true;
@@ -1144,7 +1214,7 @@ namespace Notas
             // buttonExcluir19
             // 
             this.buttonExcluir19.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonExcluir19.Location = new System.Drawing.Point(737, 161);
+            this.buttonExcluir19.Location = new System.Drawing.Point(864, 159);
             this.buttonExcluir19.Name = "buttonExcluir19";
             this.buttonExcluir19.Size = new System.Drawing.Size(16, 21);
             this.buttonExcluir19.TabIndex = 100;
@@ -1156,7 +1226,7 @@ namespace Notas
             // buttonExcluir20
             // 
             this.buttonExcluir20.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonExcluir20.Location = new System.Drawing.Point(737, 187);
+            this.buttonExcluir20.Location = new System.Drawing.Point(864, 185);
             this.buttonExcluir20.Name = "buttonExcluir20";
             this.buttonExcluir20.Size = new System.Drawing.Size(16, 21);
             this.buttonExcluir20.TabIndex = 101;
@@ -1168,7 +1238,7 @@ namespace Notas
             // buttonExcluir21
             // 
             this.buttonExcluir21.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonExcluir21.Location = new System.Drawing.Point(737, 214);
+            this.buttonExcluir21.Location = new System.Drawing.Point(864, 212);
             this.buttonExcluir21.Name = "buttonExcluir21";
             this.buttonExcluir21.Size = new System.Drawing.Size(16, 21);
             this.buttonExcluir21.TabIndex = 102;
@@ -1180,7 +1250,7 @@ namespace Notas
             // buttonExcluir22
             // 
             this.buttonExcluir22.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonExcluir22.Location = new System.Drawing.Point(737, 242);
+            this.buttonExcluir22.Location = new System.Drawing.Point(864, 240);
             this.buttonExcluir22.Name = "buttonExcluir22";
             this.buttonExcluir22.Size = new System.Drawing.Size(16, 21);
             this.buttonExcluir22.TabIndex = 103;
@@ -1192,7 +1262,7 @@ namespace Notas
             // buttonExcluir23
             // 
             this.buttonExcluir23.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonExcluir23.Location = new System.Drawing.Point(737, 267);
+            this.buttonExcluir23.Location = new System.Drawing.Point(864, 265);
             this.buttonExcluir23.Name = "buttonExcluir23";
             this.buttonExcluir23.Size = new System.Drawing.Size(16, 21);
             this.buttonExcluir23.TabIndex = 104;
@@ -1204,7 +1274,7 @@ namespace Notas
             // buttonExcluir24
             // 
             this.buttonExcluir24.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonExcluir24.Location = new System.Drawing.Point(737, 295);
+            this.buttonExcluir24.Location = new System.Drawing.Point(864, 293);
             this.buttonExcluir24.Name = "buttonExcluir24";
             this.buttonExcluir24.Size = new System.Drawing.Size(16, 21);
             this.buttonExcluir24.TabIndex = 105;
@@ -1216,7 +1286,7 @@ namespace Notas
             // buttonExcluir25
             // 
             this.buttonExcluir25.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonExcluir25.Location = new System.Drawing.Point(737, 319);
+            this.buttonExcluir25.Location = new System.Drawing.Point(864, 317);
             this.buttonExcluir25.Name = "buttonExcluir25";
             this.buttonExcluir25.Size = new System.Drawing.Size(16, 21);
             this.buttonExcluir25.TabIndex = 106;
@@ -1228,7 +1298,7 @@ namespace Notas
             // buttonExcluir26
             // 
             this.buttonExcluir26.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonExcluir26.Location = new System.Drawing.Point(737, 346);
+            this.buttonExcluir26.Location = new System.Drawing.Point(864, 344);
             this.buttonExcluir26.Name = "buttonExcluir26";
             this.buttonExcluir26.Size = new System.Drawing.Size(16, 21);
             this.buttonExcluir26.TabIndex = 107;
@@ -1240,7 +1310,7 @@ namespace Notas
             // buttonExcluir27
             // 
             this.buttonExcluir27.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonExcluir27.Location = new System.Drawing.Point(737, 373);
+            this.buttonExcluir27.Location = new System.Drawing.Point(864, 371);
             this.buttonExcluir27.Name = "buttonExcluir27";
             this.buttonExcluir27.Size = new System.Drawing.Size(16, 21);
             this.buttonExcluir27.TabIndex = 108;
@@ -1252,7 +1322,7 @@ namespace Notas
             // buttonExcluir28
             // 
             this.buttonExcluir28.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonExcluir28.Location = new System.Drawing.Point(737, 400);
+            this.buttonExcluir28.Location = new System.Drawing.Point(864, 398);
             this.buttonExcluir28.Name = "buttonExcluir28";
             this.buttonExcluir28.Size = new System.Drawing.Size(16, 21);
             this.buttonExcluir28.TabIndex = 109;
@@ -1264,7 +1334,7 @@ namespace Notas
             // buttonExcluir29
             // 
             this.buttonExcluir29.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonExcluir29.Location = new System.Drawing.Point(737, 426);
+            this.buttonExcluir29.Location = new System.Drawing.Point(864, 424);
             this.buttonExcluir29.Name = "buttonExcluir29";
             this.buttonExcluir29.Size = new System.Drawing.Size(16, 21);
             this.buttonExcluir29.TabIndex = 110;
@@ -1276,7 +1346,7 @@ namespace Notas
             // buttonExcluir30
             // 
             this.buttonExcluir30.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonExcluir30.Location = new System.Drawing.Point(737, 453);
+            this.buttonExcluir30.Location = new System.Drawing.Point(864, 451);
             this.buttonExcluir30.Name = "buttonExcluir30";
             this.buttonExcluir30.Size = new System.Drawing.Size(16, 21);
             this.buttonExcluir30.TabIndex = 111;
@@ -1288,7 +1358,7 @@ namespace Notas
             // buttonExcluir31
             // 
             this.buttonExcluir31.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonExcluir31.Location = new System.Drawing.Point(737, 480);
+            this.buttonExcluir31.Location = new System.Drawing.Point(864, 478);
             this.buttonExcluir31.Name = "buttonExcluir31";
             this.buttonExcluir31.Size = new System.Drawing.Size(16, 21);
             this.buttonExcluir31.TabIndex = 112;
@@ -1300,7 +1370,7 @@ namespace Notas
             // buttonExcluir32
             // 
             this.buttonExcluir32.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonExcluir32.Location = new System.Drawing.Point(737, 502);
+            this.buttonExcluir32.Location = new System.Drawing.Point(864, 500);
             this.buttonExcluir32.Name = "buttonExcluir32";
             this.buttonExcluir32.Size = new System.Drawing.Size(16, 21);
             this.buttonExcluir32.TabIndex = 113;
@@ -1312,7 +1382,7 @@ namespace Notas
             // buttonExcluir33
             // 
             this.buttonExcluir33.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonExcluir33.Location = new System.Drawing.Point(737, 526);
+            this.buttonExcluir33.Location = new System.Drawing.Point(864, 524);
             this.buttonExcluir33.Name = "buttonExcluir33";
             this.buttonExcluir33.Size = new System.Drawing.Size(16, 21);
             this.buttonExcluir33.TabIndex = 114;
@@ -1324,7 +1394,7 @@ namespace Notas
             // buttonExcluir34
             // 
             this.buttonExcluir34.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonExcluir34.Location = new System.Drawing.Point(737, 551);
+            this.buttonExcluir34.Location = new System.Drawing.Point(864, 549);
             this.buttonExcluir34.Name = "buttonExcluir34";
             this.buttonExcluir34.Size = new System.Drawing.Size(16, 21);
             this.buttonExcluir34.TabIndex = 116;
@@ -1337,7 +1407,7 @@ namespace Notas
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Bahnschrift Condensed", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(554, 35);
+            this.label1.Location = new System.Drawing.Point(702, 35);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(36, 23);
             this.label1.TabIndex = 117;
@@ -1348,7 +1418,7 @@ namespace Notas
             this.btnSair.BackColor = System.Drawing.Color.Firebrick;
             this.btnSair.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnSair.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSair.Location = new System.Drawing.Point(545, 61);
+            this.btnSair.Location = new System.Drawing.Point(693, 61);
             this.btnSair.Name = "btnSair";
             this.btnSair.Size = new System.Drawing.Size(55, 33);
             this.btnSair.TabIndex = 118;
@@ -1360,7 +1430,7 @@ namespace Notas
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(555, 1);
+            this.label2.Location = new System.Drawing.Point(839, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(121, 15);
             this.label2.TabIndex = 119;
@@ -1370,7 +1440,7 @@ namespace Notas
             // 
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel1.Location = new System.Drawing.Point(672, 3);
+            this.linkLabel1.Location = new System.Drawing.Point(956, 2);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(81, 13);
             this.linkLabel1.TabIndex = 120;
@@ -1417,7 +1487,7 @@ namespace Notas
             this.Nota18.BackColor = System.Drawing.Color.Orange;
             this.Nota18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nota18.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.Nota18.Location = new System.Drawing.Point(418, 138);
+            this.Nota18.Location = new System.Drawing.Point(545, 136);
             this.Nota18.Name = "Nota18";
             this.Nota18.Size = new System.Drawing.Size(313, 22);
             this.Nota18.TabIndex = 124;
@@ -1426,7 +1496,7 @@ namespace Notas
             // button18
             // 
             this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button18.Location = new System.Drawing.Point(396, 138);
+            this.button18.Location = new System.Drawing.Point(523, 136);
             this.button18.Name = "button18";
             this.button18.Size = new System.Drawing.Size(16, 21);
             this.button18.TabIndex = 125;
@@ -1437,7 +1507,7 @@ namespace Notas
             // buttonExcluir18
             // 
             this.buttonExcluir18.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonExcluir18.Location = new System.Drawing.Point(737, 136);
+            this.buttonExcluir18.Location = new System.Drawing.Point(864, 134);
             this.buttonExcluir18.Name = "buttonExcluir18";
             this.buttonExcluir18.Size = new System.Drawing.Size(16, 21);
             this.buttonExcluir18.TabIndex = 126;
@@ -1636,7 +1706,7 @@ namespace Notas
             // checknota18
             // 
             this.checknota18.AutoSize = true;
-            this.checknota18.Location = new System.Drawing.Point(759, 140);
+            this.checknota18.Location = new System.Drawing.Point(886, 138);
             this.checknota18.Name = "checknota18";
             this.checknota18.Size = new System.Drawing.Size(15, 14);
             this.checknota18.TabIndex = 144;
@@ -1647,7 +1717,7 @@ namespace Notas
             // checknota19
             // 
             this.checknota19.AutoSize = true;
-            this.checknota19.Location = new System.Drawing.Point(759, 165);
+            this.checknota19.Location = new System.Drawing.Point(886, 163);
             this.checknota19.Name = "checknota19";
             this.checknota19.Size = new System.Drawing.Size(15, 14);
             this.checknota19.TabIndex = 145;
@@ -1658,7 +1728,7 @@ namespace Notas
             // checknota20
             // 
             this.checknota20.AutoSize = true;
-            this.checknota20.Location = new System.Drawing.Point(759, 192);
+            this.checknota20.Location = new System.Drawing.Point(886, 190);
             this.checknota20.Name = "checknota20";
             this.checknota20.Size = new System.Drawing.Size(15, 14);
             this.checknota20.TabIndex = 146;
@@ -1669,7 +1739,7 @@ namespace Notas
             // checknota21
             // 
             this.checknota21.AutoSize = true;
-            this.checknota21.Location = new System.Drawing.Point(759, 218);
+            this.checknota21.Location = new System.Drawing.Point(886, 216);
             this.checknota21.Name = "checknota21";
             this.checknota21.Size = new System.Drawing.Size(15, 14);
             this.checknota21.TabIndex = 147;
@@ -1680,7 +1750,7 @@ namespace Notas
             // checknota22
             // 
             this.checknota22.AutoSize = true;
-            this.checknota22.Location = new System.Drawing.Point(759, 245);
+            this.checknota22.Location = new System.Drawing.Point(886, 243);
             this.checknota22.Name = "checknota22";
             this.checknota22.Size = new System.Drawing.Size(15, 14);
             this.checknota22.TabIndex = 148;
@@ -1691,7 +1761,7 @@ namespace Notas
             // checknota23
             // 
             this.checknota23.AutoSize = true;
-            this.checknota23.Location = new System.Drawing.Point(759, 269);
+            this.checknota23.Location = new System.Drawing.Point(886, 267);
             this.checknota23.Name = "checknota23";
             this.checknota23.Size = new System.Drawing.Size(15, 14);
             this.checknota23.TabIndex = 149;
@@ -1702,7 +1772,7 @@ namespace Notas
             // checknota24
             // 
             this.checknota24.AutoSize = true;
-            this.checknota24.Location = new System.Drawing.Point(759, 298);
+            this.checknota24.Location = new System.Drawing.Point(886, 296);
             this.checknota24.Name = "checknota24";
             this.checknota24.Size = new System.Drawing.Size(15, 14);
             this.checknota24.TabIndex = 150;
@@ -1713,7 +1783,7 @@ namespace Notas
             // checknota25
             // 
             this.checknota25.AutoSize = true;
-            this.checknota25.Location = new System.Drawing.Point(759, 322);
+            this.checknota25.Location = new System.Drawing.Point(886, 320);
             this.checknota25.Name = "checknota25";
             this.checknota25.Size = new System.Drawing.Size(15, 14);
             this.checknota25.TabIndex = 151;
@@ -1724,7 +1794,7 @@ namespace Notas
             // checknota26
             // 
             this.checknota26.AutoSize = true;
-            this.checknota26.Location = new System.Drawing.Point(759, 349);
+            this.checknota26.Location = new System.Drawing.Point(886, 347);
             this.checknota26.Name = "checknota26";
             this.checknota26.Size = new System.Drawing.Size(15, 14);
             this.checknota26.TabIndex = 152;
@@ -1735,7 +1805,7 @@ namespace Notas
             // checknota27
             // 
             this.checknota27.AutoSize = true;
-            this.checknota27.Location = new System.Drawing.Point(759, 376);
+            this.checknota27.Location = new System.Drawing.Point(886, 374);
             this.checknota27.Name = "checknota27";
             this.checknota27.Size = new System.Drawing.Size(15, 14);
             this.checknota27.TabIndex = 153;
@@ -1746,7 +1816,7 @@ namespace Notas
             // checknota28
             // 
             this.checknota28.AutoSize = true;
-            this.checknota28.Location = new System.Drawing.Point(759, 402);
+            this.checknota28.Location = new System.Drawing.Point(886, 400);
             this.checknota28.Name = "checknota28";
             this.checknota28.Size = new System.Drawing.Size(15, 14);
             this.checknota28.TabIndex = 154;
@@ -1757,7 +1827,7 @@ namespace Notas
             // checknota29
             // 
             this.checknota29.AutoSize = true;
-            this.checknota29.Location = new System.Drawing.Point(759, 429);
+            this.checknota29.Location = new System.Drawing.Point(886, 427);
             this.checknota29.Name = "checknota29";
             this.checknota29.Size = new System.Drawing.Size(15, 14);
             this.checknota29.TabIndex = 155;
@@ -1768,7 +1838,7 @@ namespace Notas
             // checknota30
             // 
             this.checknota30.AutoSize = true;
-            this.checknota30.Location = new System.Drawing.Point(759, 457);
+            this.checknota30.Location = new System.Drawing.Point(886, 455);
             this.checknota30.Name = "checknota30";
             this.checknota30.Size = new System.Drawing.Size(15, 14);
             this.checknota30.TabIndex = 156;
@@ -1779,7 +1849,7 @@ namespace Notas
             // checknota31
             // 
             this.checknota31.AutoSize = true;
-            this.checknota31.Location = new System.Drawing.Point(759, 483);
+            this.checknota31.Location = new System.Drawing.Point(886, 481);
             this.checknota31.Name = "checknota31";
             this.checknota31.Size = new System.Drawing.Size(15, 14);
             this.checknota31.TabIndex = 157;
@@ -1790,7 +1860,7 @@ namespace Notas
             // checknota32
             // 
             this.checknota32.AutoSize = true;
-            this.checknota32.Location = new System.Drawing.Point(759, 506);
+            this.checknota32.Location = new System.Drawing.Point(886, 504);
             this.checknota32.Name = "checknota32";
             this.checknota32.Size = new System.Drawing.Size(15, 14);
             this.checknota32.TabIndex = 158;
@@ -1801,7 +1871,7 @@ namespace Notas
             // checknota33
             // 
             this.checknota33.AutoSize = true;
-            this.checknota33.Location = new System.Drawing.Point(759, 528);
+            this.checknota33.Location = new System.Drawing.Point(886, 526);
             this.checknota33.Name = "checknota33";
             this.checknota33.Size = new System.Drawing.Size(15, 14);
             this.checknota33.TabIndex = 159;
@@ -1812,7 +1882,7 @@ namespace Notas
             // checknota34
             // 
             this.checknota34.AutoSize = true;
-            this.checknota34.Location = new System.Drawing.Point(759, 553);
+            this.checknota34.Location = new System.Drawing.Point(886, 551);
             this.checknota34.Name = "checknota34";
             this.checknota34.Size = new System.Drawing.Size(15, 14);
             this.checknota34.TabIndex = 160;
@@ -1823,23 +1893,760 @@ namespace Notas
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Bahnschrift Condensed", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(213, 35);
+            this.label3.Font = new System.Drawing.Font("Bahnschrift Condensed", 12.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(173, 2);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(94, 23);
+            this.label3.Size = new System.Drawing.Size(83, 21);
             this.label3.TabIndex = 161;
             this.label3.Text = "Concluir Nota";
             // 
             // btnAlerta3
             // 
             this.btnAlerta3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnAlerta3.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAlerta3.Location = new System.Drawing.Point(242, 61);
+            this.btnAlerta3.Font = new System.Drawing.Font("Arial Narrow", 8.25F);
+            this.btnAlerta3.Location = new System.Drawing.Point(198, 26);
             this.btnAlerta3.Name = "btnAlerta3";
-            this.btnAlerta3.Size = new System.Drawing.Size(34, 33);
+            this.btnAlerta3.Size = new System.Drawing.Size(33, 32);
             this.btnAlerta3.TabIndex = 162;
+            this.btnAlerta3.Text = "[   ]";
             this.btnAlerta3.UseVisualStyleBackColor = true;
             this.btnAlerta3.Click += new System.EventHandler(this.btnAlerta3_Click);
+            // 
+            // Timer1
+            // 
+            this.Timer1.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.Timer1.Location = new System.Drawing.Point(390, 136);
+            this.Timer1.Name = "Timer1";
+            this.Timer1.Size = new System.Drawing.Size(65, 20);
+            this.Timer1.TabIndex = 163;
+            this.Timer1.Visible = false;
+            this.Timer1.EnabledChanged += new System.EventHandler(this.Timer1_EnabledChanged);
+            // 
+            // btnMarcar
+            // 
+            this.btnMarcar.Location = new System.Drawing.Point(461, 134);
+            this.btnMarcar.Name = "btnMarcar";
+            this.btnMarcar.Size = new System.Drawing.Size(59, 23);
+            this.btnMarcar.TabIndex = 164;
+            this.btnMarcar.Text = "Marcar";
+            this.btnMarcar.UseVisualStyleBackColor = true;
+            this.btnMarcar.Visible = false;
+            this.btnMarcar.Click += new System.EventHandler(this.btnMarcar1_Click);
+            // 
+            // Timer2
+            // 
+            this.Timer2.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.Timer2.Location = new System.Drawing.Point(390, 163);
+            this.Timer2.Name = "Timer2";
+            this.Timer2.Size = new System.Drawing.Size(65, 20);
+            this.Timer2.TabIndex = 165;
+            this.Timer2.Visible = false;
+            this.Timer2.EnabledChanged += new System.EventHandler(this.Timer2_EnabledChanged);
+            // 
+            // Timer3
+            // 
+            this.Timer3.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.Timer3.Location = new System.Drawing.Point(390, 188);
+            this.Timer3.Name = "Timer3";
+            this.Timer3.Size = new System.Drawing.Size(65, 20);
+            this.Timer3.TabIndex = 166;
+            this.Timer3.Visible = false;
+            this.Timer3.EnabledChanged += new System.EventHandler(this.Timer3_EnabledChanged);
+            // 
+            // Timer4
+            // 
+            this.Timer4.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.Timer4.Location = new System.Drawing.Point(390, 215);
+            this.Timer4.Name = "Timer4";
+            this.Timer4.Size = new System.Drawing.Size(65, 20);
+            this.Timer4.TabIndex = 167;
+            this.Timer4.Visible = false;
+            this.Timer4.EnabledChanged += new System.EventHandler(this.Timer4_EnabledChanged);
+            // 
+            // Timer5
+            // 
+            this.Timer5.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.Timer5.Location = new System.Drawing.Point(390, 242);
+            this.Timer5.Name = "Timer5";
+            this.Timer5.Size = new System.Drawing.Size(65, 20);
+            this.Timer5.TabIndex = 168;
+            this.Timer5.Visible = false;
+            this.Timer5.EnabledChanged += new System.EventHandler(this.Timer5_EnabledChanged);
+            // 
+            // Timer6
+            // 
+            this.Timer6.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.Timer6.Location = new System.Drawing.Point(390, 268);
+            this.Timer6.Name = "Timer6";
+            this.Timer6.Size = new System.Drawing.Size(65, 20);
+            this.Timer6.TabIndex = 169;
+            this.Timer6.Visible = false;
+            this.Timer6.EnabledChanged += new System.EventHandler(this.Timer6_EnabledChanged);
+            // 
+            // Timer7
+            // 
+            this.Timer7.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.Timer7.Location = new System.Drawing.Point(390, 293);
+            this.Timer7.Name = "Timer7";
+            this.Timer7.Size = new System.Drawing.Size(65, 20);
+            this.Timer7.TabIndex = 170;
+            this.Timer7.Visible = false;
+            this.Timer7.EnabledChanged += new System.EventHandler(this.Timer7_EnabledChanged);
+            // 
+            // Timer8
+            // 
+            this.Timer8.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.Timer8.Location = new System.Drawing.Point(390, 319);
+            this.Timer8.Name = "Timer8";
+            this.Timer8.Size = new System.Drawing.Size(65, 20);
+            this.Timer8.TabIndex = 171;
+            this.Timer8.Visible = false;
+            this.Timer8.EnabledChanged += new System.EventHandler(this.Timer8_EnabledChanged);
+            // 
+            // Timer9
+            // 
+            this.Timer9.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.Timer9.Location = new System.Drawing.Point(390, 346);
+            this.Timer9.Name = "Timer9";
+            this.Timer9.Size = new System.Drawing.Size(65, 20);
+            this.Timer9.TabIndex = 172;
+            this.Timer9.Visible = false;
+            this.Timer9.EnabledChanged += new System.EventHandler(this.Timer9_EnabledChanged);
+            // 
+            // Timer10
+            // 
+            this.Timer10.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.Timer10.Location = new System.Drawing.Point(390, 372);
+            this.Timer10.Name = "Timer10";
+            this.Timer10.Size = new System.Drawing.Size(65, 20);
+            this.Timer10.TabIndex = 173;
+            this.Timer10.Visible = false;
+            this.Timer10.EnabledChanged += new System.EventHandler(this.Timer10_EnabledChanged);
+            // 
+            // Timer11
+            // 
+            this.Timer11.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.Timer11.Location = new System.Drawing.Point(390, 397);
+            this.Timer11.Name = "Timer11";
+            this.Timer11.Size = new System.Drawing.Size(65, 20);
+            this.Timer11.TabIndex = 174;
+            this.Timer11.Visible = false;
+            this.Timer11.EnabledChanged += new System.EventHandler(this.Timer11_EnabledChanged);
+            // 
+            // Timer12
+            // 
+            this.Timer12.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.Timer12.Location = new System.Drawing.Point(390, 422);
+            this.Timer12.Name = "Timer12";
+            this.Timer12.Size = new System.Drawing.Size(65, 20);
+            this.Timer12.TabIndex = 175;
+            this.Timer12.Visible = false;
+            this.Timer12.EnabledChanged += new System.EventHandler(this.Timer12_EnabledChanged);
+            // 
+            // Timer13
+            // 
+            this.Timer13.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.Timer13.Location = new System.Drawing.Point(390, 448);
+            this.Timer13.Name = "Timer13";
+            this.Timer13.Size = new System.Drawing.Size(65, 20);
+            this.Timer13.TabIndex = 176;
+            this.Timer13.Visible = false;
+            this.Timer13.EnabledChanged += new System.EventHandler(this.Timer13_EnabledChanged);
+            // 
+            // Timer14
+            // 
+            this.Timer14.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.Timer14.Location = new System.Drawing.Point(390, 473);
+            this.Timer14.Name = "Timer14";
+            this.Timer14.Size = new System.Drawing.Size(65, 20);
+            this.Timer14.TabIndex = 177;
+            this.Timer14.Visible = false;
+            this.Timer14.EnabledChanged += new System.EventHandler(this.Timer14_EnabledChanged);
+            // 
+            // Timer15
+            // 
+            this.Timer15.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.Timer15.Location = new System.Drawing.Point(390, 501);
+            this.Timer15.Name = "Timer15";
+            this.Timer15.Size = new System.Drawing.Size(65, 20);
+            this.Timer15.TabIndex = 178;
+            this.Timer15.Visible = false;
+            this.Timer15.EnabledChanged += new System.EventHandler(this.Timer15_EnabledChanged);
+            // 
+            // Timer16
+            // 
+            this.Timer16.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.Timer16.Location = new System.Drawing.Point(390, 526);
+            this.Timer16.Name = "Timer16";
+            this.Timer16.Size = new System.Drawing.Size(65, 20);
+            this.Timer16.TabIndex = 179;
+            this.Timer16.Visible = false;
+            this.Timer16.EnabledChanged += new System.EventHandler(this.Timer16_EnabledChanged);
+            // 
+            // Timer17
+            // 
+            this.Timer17.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.Timer17.Location = new System.Drawing.Point(390, 553);
+            this.Timer17.Name = "Timer17";
+            this.Timer17.Size = new System.Drawing.Size(65, 20);
+            this.Timer17.TabIndex = 180;
+            this.Timer17.Visible = false;
+            this.Timer17.EnabledChanged += new System.EventHandler(this.Timer17_EnabledChanged);
+            // 
+            // Timer18
+            // 
+            this.Timer18.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.Timer18.Location = new System.Drawing.Point(907, 135);
+            this.Timer18.Name = "Timer18";
+            this.Timer18.Size = new System.Drawing.Size(65, 20);
+            this.Timer18.TabIndex = 181;
+            this.Timer18.Visible = false;
+            this.Timer18.EnabledChanged += new System.EventHandler(this.Timer18_EnabledChanged);
+            // 
+            // Timer19
+            // 
+            this.Timer19.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.Timer19.Location = new System.Drawing.Point(907, 160);
+            this.Timer19.Name = "Timer19";
+            this.Timer19.Size = new System.Drawing.Size(65, 20);
+            this.Timer19.TabIndex = 182;
+            this.Timer19.Visible = false;
+            this.Timer19.EnabledChanged += new System.EventHandler(this.Timer19_EnabledChanged);
+            // 
+            // Timer20
+            // 
+            this.Timer20.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.Timer20.Location = new System.Drawing.Point(907, 185);
+            this.Timer20.Name = "Timer20";
+            this.Timer20.Size = new System.Drawing.Size(65, 20);
+            this.Timer20.TabIndex = 183;
+            this.Timer20.Visible = false;
+            this.Timer20.EnabledChanged += new System.EventHandler(this.Timer20_EnabledChanged);
+            // 
+            // Timer21
+            // 
+            this.Timer21.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.Timer21.Location = new System.Drawing.Point(907, 212);
+            this.Timer21.Name = "Timer21";
+            this.Timer21.Size = new System.Drawing.Size(65, 20);
+            this.Timer21.TabIndex = 184;
+            this.Timer21.Visible = false;
+            this.Timer21.EnabledChanged += new System.EventHandler(this.Timer21_EnabledChanged);
+            // 
+            // Timer22
+            // 
+            this.Timer22.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.Timer22.Location = new System.Drawing.Point(907, 239);
+            this.Timer22.Name = "Timer22";
+            this.Timer22.Size = new System.Drawing.Size(65, 20);
+            this.Timer22.TabIndex = 185;
+            this.Timer22.Visible = false;
+            this.Timer22.EnabledChanged += new System.EventHandler(this.Timer22_EnabledChanged);
+            // 
+            // Timer23
+            // 
+            this.Timer23.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.Timer23.Location = new System.Drawing.Point(907, 263);
+            this.Timer23.Name = "Timer23";
+            this.Timer23.Size = new System.Drawing.Size(65, 20);
+            this.Timer23.TabIndex = 186;
+            this.Timer23.Visible = false;
+            this.Timer23.EnabledChanged += new System.EventHandler(this.Timer23_EnabledChanged);
+            // 
+            // Timer24
+            // 
+            this.Timer24.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.Timer24.Location = new System.Drawing.Point(907, 292);
+            this.Timer24.Name = "Timer24";
+            this.Timer24.Size = new System.Drawing.Size(65, 20);
+            this.Timer24.TabIndex = 187;
+            this.Timer24.Visible = false;
+            this.Timer24.EnabledChanged += new System.EventHandler(this.Timer24_EnabledChanged);
+            // 
+            // Timer25
+            // 
+            this.Timer25.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.Timer25.Location = new System.Drawing.Point(907, 316);
+            this.Timer25.Name = "Timer25";
+            this.Timer25.Size = new System.Drawing.Size(65, 20);
+            this.Timer25.TabIndex = 188;
+            this.Timer25.Visible = false;
+            this.Timer25.EnabledChanged += new System.EventHandler(this.Timer25_EnabledChanged);
+            // 
+            // Timer26
+            // 
+            this.Timer26.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.Timer26.Location = new System.Drawing.Point(907, 344);
+            this.Timer26.Name = "Timer26";
+            this.Timer26.Size = new System.Drawing.Size(65, 20);
+            this.Timer26.TabIndex = 189;
+            this.Timer26.Visible = false;
+            this.Timer26.EnabledChanged += new System.EventHandler(this.Timer26_EnabledChanged);
+            // 
+            // Timer27
+            // 
+            this.Timer27.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.Timer27.Location = new System.Drawing.Point(907, 370);
+            this.Timer27.Name = "Timer27";
+            this.Timer27.Size = new System.Drawing.Size(65, 20);
+            this.Timer27.TabIndex = 190;
+            this.Timer27.Visible = false;
+            this.Timer27.EnabledChanged += new System.EventHandler(this.Timer27_EnabledChanged);
+            // 
+            // Timer28
+            // 
+            this.Timer28.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.Timer28.Location = new System.Drawing.Point(907, 396);
+            this.Timer28.Name = "Timer28";
+            this.Timer28.Size = new System.Drawing.Size(65, 20);
+            this.Timer28.TabIndex = 191;
+            this.Timer28.Visible = false;
+            this.Timer28.EnabledChanged += new System.EventHandler(this.Timer28_EnabledChanged);
+            // 
+            // Timer29
+            // 
+            this.Timer29.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.Timer29.Location = new System.Drawing.Point(907, 422);
+            this.Timer29.Name = "Timer29";
+            this.Timer29.Size = new System.Drawing.Size(65, 20);
+            this.Timer29.TabIndex = 192;
+            this.Timer29.Visible = false;
+            this.Timer29.EnabledChanged += new System.EventHandler(this.Timer29_EnabledChanged);
+            // 
+            // Timer30
+            // 
+            this.Timer30.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.Timer30.Location = new System.Drawing.Point(907, 450);
+            this.Timer30.Name = "Timer30";
+            this.Timer30.Size = new System.Drawing.Size(65, 20);
+            this.Timer30.TabIndex = 193;
+            this.Timer30.Visible = false;
+            this.Timer30.EnabledChanged += new System.EventHandler(this.Timer30_EnabledChanged);
+            // 
+            // Timer31
+            // 
+            this.Timer31.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.Timer31.Location = new System.Drawing.Point(907, 476);
+            this.Timer31.Name = "Timer31";
+            this.Timer31.Size = new System.Drawing.Size(65, 20);
+            this.Timer31.TabIndex = 194;
+            this.Timer31.Visible = false;
+            this.Timer31.EnabledChanged += new System.EventHandler(this.Timer31_EnabledChanged);
+            // 
+            // Timer32
+            // 
+            this.Timer32.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.Timer32.Location = new System.Drawing.Point(907, 499);
+            this.Timer32.Name = "Timer32";
+            this.Timer32.Size = new System.Drawing.Size(65, 20);
+            this.Timer32.TabIndex = 195;
+            this.Timer32.Visible = false;
+            this.Timer32.EnabledChanged += new System.EventHandler(this.Timer32_EnabledChanged);
+            // 
+            // Timer33
+            // 
+            this.Timer33.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.Timer33.Location = new System.Drawing.Point(907, 523);
+            this.Timer33.Name = "Timer33";
+            this.Timer33.Size = new System.Drawing.Size(65, 20);
+            this.Timer33.TabIndex = 196;
+            this.Timer33.Visible = false;
+            this.Timer33.EnabledChanged += new System.EventHandler(this.Timer33_EnabledChanged);
+            // 
+            // Timer34
+            // 
+            this.Timer34.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.Timer34.Location = new System.Drawing.Point(907, 547);
+            this.Timer34.Name = "Timer34";
+            this.Timer34.Size = new System.Drawing.Size(65, 20);
+            this.Timer34.TabIndex = 197;
+            this.Timer34.Visible = false;
+            this.Timer34.EnabledChanged += new System.EventHandler(this.Timer34_EnabledChanged);
+            // 
+            // btnMarcar2
+            // 
+            this.btnMarcar2.Location = new System.Drawing.Point(461, 160);
+            this.btnMarcar2.Name = "btnMarcar2";
+            this.btnMarcar2.Size = new System.Drawing.Size(59, 23);
+            this.btnMarcar2.TabIndex = 198;
+            this.btnMarcar2.Text = "Marcar";
+            this.btnMarcar2.UseVisualStyleBackColor = true;
+            this.btnMarcar2.Visible = false;
+            this.btnMarcar2.Click += new System.EventHandler(this.btnMarcar2_Click);
+            // 
+            // btnMarcar3
+            // 
+            this.btnMarcar3.Location = new System.Drawing.Point(461, 188);
+            this.btnMarcar3.Name = "btnMarcar3";
+            this.btnMarcar3.Size = new System.Drawing.Size(59, 23);
+            this.btnMarcar3.TabIndex = 199;
+            this.btnMarcar3.Text = "Marcar";
+            this.btnMarcar3.UseVisualStyleBackColor = true;
+            this.btnMarcar3.Visible = false;
+            this.btnMarcar3.Click += new System.EventHandler(this.btnMarcar3_Click);
+            // 
+            // btnMarcar4
+            // 
+            this.btnMarcar4.Location = new System.Drawing.Point(461, 214);
+            this.btnMarcar4.Name = "btnMarcar4";
+            this.btnMarcar4.Size = new System.Drawing.Size(59, 23);
+            this.btnMarcar4.TabIndex = 200;
+            this.btnMarcar4.Text = "Marcar";
+            this.btnMarcar4.UseVisualStyleBackColor = true;
+            this.btnMarcar4.Visible = false;
+            this.btnMarcar4.Click += new System.EventHandler(this.btnMarcar4_Click);
+            // 
+            // btnMarcar5
+            // 
+            this.btnMarcar5.Location = new System.Drawing.Point(461, 242);
+            this.btnMarcar5.Name = "btnMarcar5";
+            this.btnMarcar5.Size = new System.Drawing.Size(59, 23);
+            this.btnMarcar5.TabIndex = 201;
+            this.btnMarcar5.Text = "Marcar";
+            this.btnMarcar5.UseVisualStyleBackColor = true;
+            this.btnMarcar5.Visible = false;
+            this.btnMarcar5.Click += new System.EventHandler(this.btnMarcar5_Click);
+            // 
+            // btnMarcar6
+            // 
+            this.btnMarcar6.Location = new System.Drawing.Point(461, 269);
+            this.btnMarcar6.Name = "btnMarcar6";
+            this.btnMarcar6.Size = new System.Drawing.Size(59, 23);
+            this.btnMarcar6.TabIndex = 202;
+            this.btnMarcar6.Text = "Marcar";
+            this.btnMarcar6.UseVisualStyleBackColor = true;
+            this.btnMarcar6.Visible = false;
+            this.btnMarcar6.Click += new System.EventHandler(this.btnMarcar6_Click);
+            // 
+            // btnMarcar7
+            // 
+            this.btnMarcar7.Location = new System.Drawing.Point(461, 293);
+            this.btnMarcar7.Name = "btnMarcar7";
+            this.btnMarcar7.Size = new System.Drawing.Size(59, 23);
+            this.btnMarcar7.TabIndex = 203;
+            this.btnMarcar7.Text = "Marcar";
+            this.btnMarcar7.UseVisualStyleBackColor = true;
+            this.btnMarcar7.Visible = false;
+            this.btnMarcar7.Click += new System.EventHandler(this.btnMarcar7_Click);
+            // 
+            // btnMarcar8
+            // 
+            this.btnMarcar8.Location = new System.Drawing.Point(461, 318);
+            this.btnMarcar8.Name = "btnMarcar8";
+            this.btnMarcar8.Size = new System.Drawing.Size(59, 23);
+            this.btnMarcar8.TabIndex = 204;
+            this.btnMarcar8.Text = "Marcar";
+            this.btnMarcar8.UseVisualStyleBackColor = true;
+            this.btnMarcar8.Visible = false;
+            this.btnMarcar8.Click += new System.EventHandler(this.btnMarcar8_Click);
+            // 
+            // btnMarcar10
+            // 
+            this.btnMarcar10.Location = new System.Drawing.Point(461, 372);
+            this.btnMarcar10.Name = "btnMarcar10";
+            this.btnMarcar10.Size = new System.Drawing.Size(59, 23);
+            this.btnMarcar10.TabIndex = 205;
+            this.btnMarcar10.Text = "Marcar";
+            this.btnMarcar10.UseVisualStyleBackColor = true;
+            this.btnMarcar10.Visible = false;
+            this.btnMarcar10.Click += new System.EventHandler(this.btnMarcar10_Click);
+            // 
+            // btnMarcar9
+            // 
+            this.btnMarcar9.Location = new System.Drawing.Point(461, 345);
+            this.btnMarcar9.Name = "btnMarcar9";
+            this.btnMarcar9.Size = new System.Drawing.Size(59, 23);
+            this.btnMarcar9.TabIndex = 206;
+            this.btnMarcar9.Text = "Marcar";
+            this.btnMarcar9.UseVisualStyleBackColor = true;
+            this.btnMarcar9.Visible = false;
+            this.btnMarcar9.Click += new System.EventHandler(this.btnMarcar9_Click);
+            // 
+            // btnMarcar11
+            // 
+            this.btnMarcar11.Location = new System.Drawing.Point(461, 397);
+            this.btnMarcar11.Name = "btnMarcar11";
+            this.btnMarcar11.Size = new System.Drawing.Size(59, 23);
+            this.btnMarcar11.TabIndex = 207;
+            this.btnMarcar11.Text = "Marcar";
+            this.btnMarcar11.UseVisualStyleBackColor = true;
+            this.btnMarcar11.Visible = false;
+            this.btnMarcar11.Click += new System.EventHandler(this.btnMarcar11_Click);
+            // 
+            // btnMarcar12
+            // 
+            this.btnMarcar12.Location = new System.Drawing.Point(461, 422);
+            this.btnMarcar12.Name = "btnMarcar12";
+            this.btnMarcar12.Size = new System.Drawing.Size(59, 23);
+            this.btnMarcar12.TabIndex = 208;
+            this.btnMarcar12.Text = "Marcar";
+            this.btnMarcar12.UseVisualStyleBackColor = true;
+            this.btnMarcar12.Visible = false;
+            this.btnMarcar12.Click += new System.EventHandler(this.btnMarcar12_Click);
+            // 
+            // btnMarcar13
+            // 
+            this.btnMarcar13.Location = new System.Drawing.Point(461, 447);
+            this.btnMarcar13.Name = "btnMarcar13";
+            this.btnMarcar13.Size = new System.Drawing.Size(59, 23);
+            this.btnMarcar13.TabIndex = 209;
+            this.btnMarcar13.Text = "Marcar";
+            this.btnMarcar13.UseVisualStyleBackColor = true;
+            this.btnMarcar13.Visible = false;
+            this.btnMarcar13.Click += new System.EventHandler(this.btnMarcar13_Click);
+            // 
+            // btnMarcar14
+            // 
+            this.btnMarcar14.Location = new System.Drawing.Point(461, 473);
+            this.btnMarcar14.Name = "btnMarcar14";
+            this.btnMarcar14.Size = new System.Drawing.Size(59, 23);
+            this.btnMarcar14.TabIndex = 210;
+            this.btnMarcar14.Text = "Marcar";
+            this.btnMarcar14.UseVisualStyleBackColor = true;
+            this.btnMarcar14.Visible = false;
+            this.btnMarcar14.Click += new System.EventHandler(this.btnMarcar14_Click);
+            // 
+            // btnMarcar15
+            // 
+            this.btnMarcar15.Location = new System.Drawing.Point(461, 499);
+            this.btnMarcar15.Name = "btnMarcar15";
+            this.btnMarcar15.Size = new System.Drawing.Size(59, 23);
+            this.btnMarcar15.TabIndex = 211;
+            this.btnMarcar15.Text = "Marcar";
+            this.btnMarcar15.UseVisualStyleBackColor = true;
+            this.btnMarcar15.Visible = false;
+            this.btnMarcar15.Click += new System.EventHandler(this.btnMarcar15_Click);
+            // 
+            // btnMarcar16
+            // 
+            this.btnMarcar16.Location = new System.Drawing.Point(461, 525);
+            this.btnMarcar16.Name = "btnMarcar16";
+            this.btnMarcar16.Size = new System.Drawing.Size(59, 23);
+            this.btnMarcar16.TabIndex = 212;
+            this.btnMarcar16.Text = "Marcar";
+            this.btnMarcar16.UseVisualStyleBackColor = true;
+            this.btnMarcar16.Visible = false;
+            this.btnMarcar16.Click += new System.EventHandler(this.btnMarcar16_Click);
+            // 
+            // btnMarcar19
+            // 
+            this.btnMarcar19.Location = new System.Drawing.Point(978, 159);
+            this.btnMarcar19.Name = "btnMarcar19";
+            this.btnMarcar19.Size = new System.Drawing.Size(59, 23);
+            this.btnMarcar19.TabIndex = 213;
+            this.btnMarcar19.Text = "Marcar";
+            this.btnMarcar19.UseVisualStyleBackColor = true;
+            this.btnMarcar19.Visible = false;
+            this.btnMarcar19.Click += new System.EventHandler(this.btnMarcar19_Click);
+            // 
+            // btnMarcar17
+            // 
+            this.btnMarcar17.Location = new System.Drawing.Point(461, 552);
+            this.btnMarcar17.Name = "btnMarcar17";
+            this.btnMarcar17.Size = new System.Drawing.Size(59, 23);
+            this.btnMarcar17.TabIndex = 214;
+            this.btnMarcar17.Text = "Marcar";
+            this.btnMarcar17.UseVisualStyleBackColor = true;
+            this.btnMarcar17.Visible = false;
+            this.btnMarcar17.Click += new System.EventHandler(this.btnMarcar17_Click);
+            // 
+            // btnMarcar18
+            // 
+            this.btnMarcar18.Location = new System.Drawing.Point(978, 133);
+            this.btnMarcar18.Name = "btnMarcar18";
+            this.btnMarcar18.Size = new System.Drawing.Size(59, 23);
+            this.btnMarcar18.TabIndex = 215;
+            this.btnMarcar18.Text = "Marcar";
+            this.btnMarcar18.UseVisualStyleBackColor = true;
+            this.btnMarcar18.Visible = false;
+            this.btnMarcar18.Click += new System.EventHandler(this.btnMarcar18_Click);
+            // 
+            // btnMarcar20
+            // 
+            this.btnMarcar20.Location = new System.Drawing.Point(978, 184);
+            this.btnMarcar20.Name = "btnMarcar20";
+            this.btnMarcar20.Size = new System.Drawing.Size(59, 23);
+            this.btnMarcar20.TabIndex = 216;
+            this.btnMarcar20.Text = "Marcar";
+            this.btnMarcar20.UseVisualStyleBackColor = true;
+            this.btnMarcar20.Visible = false;
+            this.btnMarcar20.Click += new System.EventHandler(this.btnMarcar20_Click);
+            // 
+            // btnMarcar21
+            // 
+            this.btnMarcar21.Location = new System.Drawing.Point(978, 210);
+            this.btnMarcar21.Name = "btnMarcar21";
+            this.btnMarcar21.Size = new System.Drawing.Size(59, 23);
+            this.btnMarcar21.TabIndex = 217;
+            this.btnMarcar21.Text = "Marcar";
+            this.btnMarcar21.UseVisualStyleBackColor = true;
+            this.btnMarcar21.Visible = false;
+            this.btnMarcar21.Click += new System.EventHandler(this.btnMarcar21_Click);
+            // 
+            // btnMarcar22
+            // 
+            this.btnMarcar22.Location = new System.Drawing.Point(978, 238);
+            this.btnMarcar22.Name = "btnMarcar22";
+            this.btnMarcar22.Size = new System.Drawing.Size(59, 23);
+            this.btnMarcar22.TabIndex = 218;
+            this.btnMarcar22.Text = "Marcar";
+            this.btnMarcar22.UseVisualStyleBackColor = true;
+            this.btnMarcar22.Visible = false;
+            this.btnMarcar22.Click += new System.EventHandler(this.btnMarcar22_Click);
+            // 
+            // btnMarcar23
+            // 
+            this.btnMarcar23.Location = new System.Drawing.Point(978, 265);
+            this.btnMarcar23.Name = "btnMarcar23";
+            this.btnMarcar23.Size = new System.Drawing.Size(59, 23);
+            this.btnMarcar23.TabIndex = 219;
+            this.btnMarcar23.Text = "Marcar";
+            this.btnMarcar23.UseVisualStyleBackColor = true;
+            this.btnMarcar23.Visible = false;
+            this.btnMarcar23.Click += new System.EventHandler(this.btnMarcar23_Click);
+            // 
+            // btnMarcar24
+            // 
+            this.btnMarcar24.Location = new System.Drawing.Point(978, 291);
+            this.btnMarcar24.Name = "btnMarcar24";
+            this.btnMarcar24.Size = new System.Drawing.Size(59, 23);
+            this.btnMarcar24.TabIndex = 220;
+            this.btnMarcar24.Text = "Marcar";
+            this.btnMarcar24.UseVisualStyleBackColor = true;
+            this.btnMarcar24.Visible = false;
+            this.btnMarcar24.Click += new System.EventHandler(this.btnMarcar24_Click);
+            // 
+            // btnMarcar25
+            // 
+            this.btnMarcar25.Location = new System.Drawing.Point(978, 315);
+            this.btnMarcar25.Name = "btnMarcar25";
+            this.btnMarcar25.Size = new System.Drawing.Size(59, 23);
+            this.btnMarcar25.TabIndex = 221;
+            this.btnMarcar25.Text = "Marcar";
+            this.btnMarcar25.UseVisualStyleBackColor = true;
+            this.btnMarcar25.Visible = false;
+            this.btnMarcar25.Click += new System.EventHandler(this.btnMarcar25_Click);
+            // 
+            // btnMarcar26
+            // 
+            this.btnMarcar26.Location = new System.Drawing.Point(978, 343);
+            this.btnMarcar26.Name = "btnMarcar26";
+            this.btnMarcar26.Size = new System.Drawing.Size(59, 23);
+            this.btnMarcar26.TabIndex = 222;
+            this.btnMarcar26.Text = "Marcar";
+            this.btnMarcar26.UseVisualStyleBackColor = true;
+            this.btnMarcar26.Visible = false;
+            this.btnMarcar26.Click += new System.EventHandler(this.btnMarcar26_Click);
+            // 
+            // btnMarcar27
+            // 
+            this.btnMarcar27.Location = new System.Drawing.Point(978, 370);
+            this.btnMarcar27.Name = "btnMarcar27";
+            this.btnMarcar27.Size = new System.Drawing.Size(59, 23);
+            this.btnMarcar27.TabIndex = 223;
+            this.btnMarcar27.Text = "Marcar";
+            this.btnMarcar27.UseVisualStyleBackColor = true;
+            this.btnMarcar27.Visible = false;
+            this.btnMarcar27.Click += new System.EventHandler(this.btnMarcar27_Click);
+            // 
+            // btnMarcar28
+            // 
+            this.btnMarcar28.Location = new System.Drawing.Point(978, 396);
+            this.btnMarcar28.Name = "btnMarcar28";
+            this.btnMarcar28.Size = new System.Drawing.Size(59, 23);
+            this.btnMarcar28.TabIndex = 224;
+            this.btnMarcar28.Text = "Marcar";
+            this.btnMarcar28.UseVisualStyleBackColor = true;
+            this.btnMarcar28.Visible = false;
+            this.btnMarcar28.Click += new System.EventHandler(this.btnMarcar28_Click);
+            // 
+            // btnMarcar29
+            // 
+            this.btnMarcar29.Location = new System.Drawing.Point(978, 422);
+            this.btnMarcar29.Name = "btnMarcar29";
+            this.btnMarcar29.Size = new System.Drawing.Size(59, 23);
+            this.btnMarcar29.TabIndex = 225;
+            this.btnMarcar29.Text = "Marcar";
+            this.btnMarcar29.UseVisualStyleBackColor = true;
+            this.btnMarcar29.Visible = false;
+            this.btnMarcar29.Click += new System.EventHandler(this.btnMarcar29_Click);
+            // 
+            // btnMarcar30
+            // 
+            this.btnMarcar30.Location = new System.Drawing.Point(978, 448);
+            this.btnMarcar30.Name = "btnMarcar30";
+            this.btnMarcar30.Size = new System.Drawing.Size(59, 23);
+            this.btnMarcar30.TabIndex = 226;
+            this.btnMarcar30.Text = "Marcar";
+            this.btnMarcar30.UseVisualStyleBackColor = true;
+            this.btnMarcar30.Visible = false;
+            this.btnMarcar30.Click += new System.EventHandler(this.btnMarcar30_Click);
+            // 
+            // btnMarcar31
+            // 
+            this.btnMarcar31.Location = new System.Drawing.Point(978, 476);
+            this.btnMarcar31.Name = "btnMarcar31";
+            this.btnMarcar31.Size = new System.Drawing.Size(59, 23);
+            this.btnMarcar31.TabIndex = 227;
+            this.btnMarcar31.Text = "Marcar";
+            this.btnMarcar31.UseVisualStyleBackColor = true;
+            this.btnMarcar31.Visible = false;
+            this.btnMarcar31.Click += new System.EventHandler(this.btnMarcar31_Click);
+            // 
+            // btnMarcar32
+            // 
+            this.btnMarcar32.Location = new System.Drawing.Point(978, 499);
+            this.btnMarcar32.Name = "btnMarcar32";
+            this.btnMarcar32.Size = new System.Drawing.Size(59, 24);
+            this.btnMarcar32.TabIndex = 228;
+            this.btnMarcar32.Text = "Marcar";
+            this.btnMarcar32.UseVisualStyleBackColor = true;
+            this.btnMarcar32.Visible = false;
+            this.btnMarcar32.Click += new System.EventHandler(this.btnMarcar32_Click);
+            // 
+            // btnMarcar33
+            // 
+            this.btnMarcar33.Location = new System.Drawing.Point(978, 522);
+            this.btnMarcar33.Name = "btnMarcar33";
+            this.btnMarcar33.Size = new System.Drawing.Size(59, 23);
+            this.btnMarcar33.TabIndex = 229;
+            this.btnMarcar33.Text = "Marcar";
+            this.btnMarcar33.UseVisualStyleBackColor = true;
+            this.btnMarcar33.Visible = false;
+            this.btnMarcar33.Click += new System.EventHandler(this.btnMarcar33_Click);
+            // 
+            // btnMarcar34
+            // 
+            this.btnMarcar34.Location = new System.Drawing.Point(978, 547);
+            this.btnMarcar34.Name = "btnMarcar34";
+            this.btnMarcar34.Size = new System.Drawing.Size(59, 23);
+            this.btnMarcar34.TabIndex = 230;
+            this.btnMarcar34.Text = "Marcar";
+            this.btnMarcar34.UseVisualStyleBackColor = true;
+            this.btnMarcar34.Visible = false;
+            this.btnMarcar34.Click += new System.EventHandler(this.btnMarcar34_Click);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Bahnschrift Condensed", 12.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
+            this.label4.Location = new System.Drawing.Point(73, 61);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(103, 21);
+            this.label4.TabIndex = 231;
+            this.label4.Text = "Agendar Alarme";
+            // 
+            // btnAlerta4
+            // 
+            this.btnAlerta4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnAlerta4.Font = new System.Drawing.Font("Cooper Black", 7.25F);
+            this.btnAlerta4.Location = new System.Drawing.Point(103, 85);
+            this.btnAlerta4.Name = "btnAlerta4";
+            this.btnAlerta4.Size = new System.Drawing.Size(54, 22);
+            this.btnAlerta4.TabIndex = 232;
+            this.btnAlerta4.Text = "Marcar";
+            this.btnAlerta4.UseVisualStyleBackColor = true;
+            this.btnAlerta4.Click += new System.EventHandler(this.btnAlerta4_Click);
             // 
             // Notas
             // 
@@ -1847,7 +2654,77 @@ namespace Notas
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.Orange;
-            this.ClientSize = new System.Drawing.Size(788, 584);
+            this.ClientSize = new System.Drawing.Size(1047, 584);
+            this.Controls.Add(this.btnAlerta4);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.btnMarcar34);
+            this.Controls.Add(this.btnMarcar33);
+            this.Controls.Add(this.btnMarcar32);
+            this.Controls.Add(this.btnMarcar31);
+            this.Controls.Add(this.btnMarcar30);
+            this.Controls.Add(this.btnMarcar29);
+            this.Controls.Add(this.btnMarcar28);
+            this.Controls.Add(this.btnMarcar27);
+            this.Controls.Add(this.btnMarcar26);
+            this.Controls.Add(this.btnMarcar25);
+            this.Controls.Add(this.btnMarcar24);
+            this.Controls.Add(this.btnMarcar23);
+            this.Controls.Add(this.btnMarcar22);
+            this.Controls.Add(this.btnMarcar21);
+            this.Controls.Add(this.btnMarcar20);
+            this.Controls.Add(this.btnMarcar18);
+            this.Controls.Add(this.btnMarcar17);
+            this.Controls.Add(this.btnMarcar19);
+            this.Controls.Add(this.btnMarcar16);
+            this.Controls.Add(this.btnMarcar15);
+            this.Controls.Add(this.btnMarcar14);
+            this.Controls.Add(this.btnMarcar13);
+            this.Controls.Add(this.btnMarcar12);
+            this.Controls.Add(this.btnMarcar11);
+            this.Controls.Add(this.btnMarcar9);
+            this.Controls.Add(this.btnMarcar10);
+            this.Controls.Add(this.btnMarcar8);
+            this.Controls.Add(this.btnMarcar7);
+            this.Controls.Add(this.btnMarcar6);
+            this.Controls.Add(this.btnMarcar5);
+            this.Controls.Add(this.btnMarcar4);
+            this.Controls.Add(this.btnMarcar3);
+            this.Controls.Add(this.btnMarcar2);
+            this.Controls.Add(this.Timer34);
+            this.Controls.Add(this.Timer33);
+            this.Controls.Add(this.Timer32);
+            this.Controls.Add(this.Timer31);
+            this.Controls.Add(this.Timer30);
+            this.Controls.Add(this.Timer29);
+            this.Controls.Add(this.Timer28);
+            this.Controls.Add(this.Timer27);
+            this.Controls.Add(this.Timer26);
+            this.Controls.Add(this.Timer25);
+            this.Controls.Add(this.Timer24);
+            this.Controls.Add(this.Timer23);
+            this.Controls.Add(this.Timer22);
+            this.Controls.Add(this.Timer21);
+            this.Controls.Add(this.Timer20);
+            this.Controls.Add(this.Timer19);
+            this.Controls.Add(this.Timer18);
+            this.Controls.Add(this.Timer17);
+            this.Controls.Add(this.Timer16);
+            this.Controls.Add(this.Timer15);
+            this.Controls.Add(this.Timer14);
+            this.Controls.Add(this.Timer13);
+            this.Controls.Add(this.Timer12);
+            this.Controls.Add(this.Timer11);
+            this.Controls.Add(this.Timer10);
+            this.Controls.Add(this.Timer9);
+            this.Controls.Add(this.Timer8);
+            this.Controls.Add(this.Timer7);
+            this.Controls.Add(this.Timer6);
+            this.Controls.Add(this.Timer5);
+            this.Controls.Add(this.Timer4);
+            this.Controls.Add(this.Timer3);
+            this.Controls.Add(this.Timer2);
+            this.Controls.Add(this.btnMarcar);
+            this.Controls.Add(this.Timer1);
             this.Controls.Add(this.btnAlerta3);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.checknota34);
@@ -2158,6 +3035,76 @@ namespace Notas
         private System.Windows.Forms.CheckBox checknota34;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnAlerta3;
+        private System.Windows.Forms.DateTimePicker Timer1;
+        private System.Windows.Forms.Button btnMarcar;
+        private System.Windows.Forms.DateTimePicker Timer2;
+        private System.Windows.Forms.DateTimePicker Timer3;
+        private System.Windows.Forms.DateTimePicker Timer4;
+        private System.Windows.Forms.DateTimePicker Timer5;
+        private System.Windows.Forms.DateTimePicker Timer6;
+        private System.Windows.Forms.DateTimePicker Timer7;
+        private System.Windows.Forms.DateTimePicker Timer8;
+        private System.Windows.Forms.DateTimePicker Timer9;
+        private System.Windows.Forms.DateTimePicker Timer10;
+        private System.Windows.Forms.DateTimePicker Timer11;
+        private System.Windows.Forms.DateTimePicker Timer12;
+        private System.Windows.Forms.DateTimePicker Timer13;
+        private System.Windows.Forms.DateTimePicker Timer14;
+        private System.Windows.Forms.DateTimePicker Timer15;
+        private System.Windows.Forms.DateTimePicker Timer16;
+        private System.Windows.Forms.DateTimePicker Timer17;
+        private System.Windows.Forms.DateTimePicker Timer18;
+        private System.Windows.Forms.DateTimePicker Timer19;
+        private System.Windows.Forms.DateTimePicker Timer20;
+        private System.Windows.Forms.DateTimePicker Timer21;
+        private System.Windows.Forms.DateTimePicker Timer22;
+        private System.Windows.Forms.DateTimePicker Timer23;
+        private System.Windows.Forms.DateTimePicker Timer24;
+        private System.Windows.Forms.DateTimePicker Timer25;
+        private System.Windows.Forms.DateTimePicker Timer26;
+        private System.Windows.Forms.DateTimePicker Timer27;
+        private System.Windows.Forms.DateTimePicker Timer28;
+        private System.Windows.Forms.DateTimePicker Timer29;
+        private System.Windows.Forms.DateTimePicker Timer30;
+        private System.Windows.Forms.DateTimePicker Timer31;
+        private System.Windows.Forms.DateTimePicker Timer32;
+        private System.Windows.Forms.DateTimePicker Timer33;
+        private System.Windows.Forms.DateTimePicker Timer34;
+        private System.Windows.Forms.Button btnMarcar2;
+        private System.Windows.Forms.Button btnMarcar3;
+        private System.Windows.Forms.Button btnMarcar4;
+        private System.Windows.Forms.Button btnMarcar5;
+        private System.Windows.Forms.Button btnMarcar6;
+        private System.Windows.Forms.Button btnMarcar7;
+        private System.Windows.Forms.Button btnMarcar8;
+        private System.Windows.Forms.Button btnMarcar10;
+        private System.Windows.Forms.Button btnMarcar9;
+        private System.Windows.Forms.Button btnMarcar11;
+        private System.Windows.Forms.Button btnMarcar12;
+        private System.Windows.Forms.Button btnMarcar13;
+        private System.Windows.Forms.Button btnMarcar14;
+        private System.Windows.Forms.Button btnMarcar15;
+        private System.Windows.Forms.Button btnMarcar16;
+        private System.Windows.Forms.Button btnMarcar19;
+        private System.Windows.Forms.Button btnMarcar17;
+        private System.Windows.Forms.Button btnMarcar18;
+        private System.Windows.Forms.Button btnMarcar20;
+        private System.Windows.Forms.Button btnMarcar21;
+        private System.Windows.Forms.Button btnMarcar22;
+        private System.Windows.Forms.Button btnMarcar23;
+        private System.Windows.Forms.Button btnMarcar24;
+        private System.Windows.Forms.Button btnMarcar25;
+        private System.Windows.Forms.Button btnMarcar26;
+        private System.Windows.Forms.Button btnMarcar27;
+        private System.Windows.Forms.Button btnMarcar28;
+        private System.Windows.Forms.Button btnMarcar29;
+        private System.Windows.Forms.Button btnMarcar30;
+        private System.Windows.Forms.Button btnMarcar31;
+        private System.Windows.Forms.Button btnMarcar32;
+        private System.Windows.Forms.Button btnMarcar33;
+        private System.Windows.Forms.Button btnMarcar34;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button btnAlerta4;
     }
 }
 
